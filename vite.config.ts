@@ -11,11 +11,19 @@ export default defineConfig({
       '@/data': path.resolve(__dirname, './data')
     }
   },
-  base: '/aurora-sagrada/',
+  base: './',
   build: {
     outDir: 'dist',
     assetsDir: 'assets',
-    sourcemap: false
+    sourcemap: false,
+    rollupOptions: {
+      output: {
+        manualChunks: undefined
+      }
+    }
+  },
+  define: {
+    global: 'globalThis'
   }
 })
 
