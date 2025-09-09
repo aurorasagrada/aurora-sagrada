@@ -1,0 +1,170 @@
+{
+  "naturezas_planetarias": {
+    "sol": {
+      "qualidades": ["quente", "seco"],
+      "temperamento": "colérico",
+      "elemento_primario": "fogo",
+      "humor": "bílis amarela",
+      "estacao": "verão",
+      "hora_dia": "meio-dia",
+      "idade": "juventude",
+      "genero": "masculino",
+      "polaridade": "ativo"
+    },
+    "lua": {
+      "qualidades": ["fria", "úmida"],
+      "temperamento": "fleumático",
+      "elemento_primario": "água",
+      "humor": "fleuma",
+      "estacao": "inverno",
+      "hora_dia": "meia-noite",
+      "idade": "infância",
+      "genero": "feminino",
+      "polaridade": "passivo"
+    },
+    "mercurio": {
+      "qualidades": ["variável", "adaptável"],
+      "temperamento": "variável",
+      "elemento_primario": "ar",
+      "humor": "misto",
+      "estacao": "todas",
+      "hora_dia": "aurora/crepúsculo",
+      "idade": "adolescência",
+      "genero": "neutro",
+      "polaridade": "neutro"
+    },
+    "venus": {
+      "qualidades": ["úmida", "temperada"],
+      "temperamento": "sanguíneo",
+      "elemento_primario": "terra",
+      "humor": "sangue",
+      "estacao": "primavera",
+      "hora_dia": "manhã",
+      "idade": "juventude",
+      "genero": "feminino",
+      "polaridade": "passivo"
+    },
+    "marte": {
+      "qualidades": ["quente", "seco"],
+      "temperamento": "colérico",
+      "elemento_primario": "fogo",
+      "humor": "bílis amarela",
+      "estacao": "verão",
+      "hora_dia": "tarde",
+      "idade": "maturidade",
+      "genero": "masculino",
+      "polaridade": "ativo"
+    },
+    "jupiter": {
+      "qualidades": ["quente", "úmida"],
+      "temperamento": "sanguíneo",
+      "elemento_primario": "ar",
+      "humor": "sangue",
+      "estacao": "primavera",
+      "hora_dia": "manhã",
+      "idade": "maturidade",
+      "genero": "masculino",
+      "polaridade": "ativo"
+    },
+    "saturno": {
+      "qualidades": ["fria", "seca"],
+      "temperamento": "melancólico",
+      "elemento_primario": "terra",
+      "humor": "bílis negra",
+      "estacao": "outono",
+      "hora_dia": "noite",
+      "idade": "velhice",
+      "genero": "masculino",
+      "polaridade": "passivo"
+    }
+  },
+  "compatibilidades_elementais": {
+    "fogo": {
+      "harmoniza": ["ar"],
+      "conflita": ["água"],
+      "neutro": ["terra"],
+      "planetas": ["sol", "marte"]
+    },
+    "terra": {
+      "harmoniza": ["água"],
+      "conflita": ["ar"],
+      "neutro": ["fogo"],
+      "planetas": ["venus", "saturno"]
+    },
+    "ar": {
+      "harmoniza": ["fogo"],
+      "conflita": ["terra"],
+      "neutro": ["água"],
+      "planetas": ["mercurio", "jupiter"]
+    },
+    "água": {
+      "harmoniza": ["terra"],
+      "conflita": ["fogo"],
+      "neutro": ["ar"],
+      "planetas": ["lua"]
+    }
+  },
+  "temperamentos": {
+    "colérico": {
+      "qualidades": ["quente", "seco"],
+      "planetas": ["sol", "marte"],
+      "características": ["ativo", "impulsivo", "energético", "dominante"],
+      "desequilibrios": ["raiva", "impaciência", "agressividade"],
+      "equilibrio": "Usar planetas frios e úmidos (Lua, Vênus)"
+    },
+    "sanguíneo": {
+      "qualidades": ["quente", "úmido"],
+      "planetas": ["venus", "jupiter"],
+      "características": ["otimista", "sociável", "expansivo", "alegre"],
+      "desequilibrios": ["excesso", "superficialidade", "dispersão"],
+      "equilibrio": "Usar planetas frios e secos (Saturno)"
+    },
+    "fleumático": {
+      "qualidades": ["frio", "úmido"],
+      "planetas": ["lua"],
+      "características": ["calmo", "receptivo", "intuitivo", "passivo"],
+      "desequilibrios": ["letargia", "depressão", "estagnação"],
+      "equilibrio": "Usar planetas quentes e secos (Sol, Marte)"
+    },
+    "melancólico": {
+      "qualidades": ["frio", "seco"],
+      "planetas": ["saturno"],
+      "características": ["reflexivo", "profundo", "disciplinado", "sério"],
+      "desequilibrios": ["pessimismo", "isolamento", "rigidez"],
+      "equilibrio": "Usar planetas quentes e úmidos (Júpiter, Vênus)"
+    }
+  },
+  "aplicacoes_magicas": {
+    "equilibrio_temperamental": {
+      "excesso_fogo": "Usar Lua ou Vênus para esfriar",
+      "excesso_agua": "Usar Sol ou Marte para aquecer",
+      "excesso_ar": "Usar Saturno ou Vênus para estabilizar",
+      "excesso_terra": "Usar Júpiter ou Mercúrio para dinamizar"
+    },
+    "escolha_ervas": {
+      "quente_seco": ["Pimenta", "Gengibre", "Canela", "Alho"],
+      "quente_umido": ["Manjericão", "Tomilho", "Alecrim"],
+      "frio_umido": ["Pepino", "Alface", "Violeta", "Rosa"],
+      "frio_seco": ["Valeriana", "Confrei", "Musgo"]
+    },
+    "timing_ritual": {
+      "fogo": "Meio-dia, verão, lua crescente/cheia",
+      "terra": "Meia-noite, outono/inverno, lua minguante/nova",
+      "ar": "Aurora/crepúsculo, primavera, qualquer fase lunar",
+      "água": "Noite, inverno, lua cheia/nova"
+    }
+  },
+  "medicina_tradicional": {
+    "diagnostico": "Excesso de um temperamento causa doenças específicas",
+    "tratamento": "Usar plantas/minerais de natureza oposta para equilibrar",
+    "prevencao": "Manter equilíbrio entre as quatro qualidades",
+    "estacoes": "Ajustar dieta e práticas conforme a estação"
+  },
+  "configuracao": {
+    "usar_naturezas": true,
+    "peso_compatibilidade": 0.2,
+    "alertar_desequilibrios": true,
+    "sugerir_equilibrio": true
+  }
+}
+

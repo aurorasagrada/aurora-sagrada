@@ -1,0 +1,144 @@
+{
+  "dignidades_essenciais": {
+    "sol": {
+      "domicilio": ["Leão"],
+      "exaltacao": ["Áries"],
+      "detrimento": ["Aquário"],
+      "queda": ["Libra"],
+      "triplicidade": {
+        "fogo": "diurno",
+        "terra": null,
+        "ar": null,
+        "agua": null
+      }
+    },
+    "lua": {
+      "domicilio": ["Câncer"],
+      "exaltacao": ["Touro"],
+      "detrimento": ["Capricórnio"],
+      "queda": ["Escorpião"],
+      "triplicidade": {
+        "fogo": null,
+        "terra": null,
+        "ar": null,
+        "agua": "noturno"
+      }
+    },
+    "mercurio": {
+      "domicilio": ["Gêmeos", "Virgem"],
+      "exaltacao": ["Virgem"],
+      "detrimento": ["Sagitário", "Peixes"],
+      "queda": ["Peixes"],
+      "triplicidade": {
+        "fogo": null,
+        "terra": "diurno",
+        "ar": "diurno",
+        "agua": null
+      }
+    },
+    "venus": {
+      "domicilio": ["Touro", "Libra"],
+      "exaltacao": ["Peixes"],
+      "detrimento": ["Escorpião", "Áries"],
+      "queda": ["Virgem"],
+      "triplicidade": {
+        "fogo": null,
+        "terra": "noturno",
+        "ar": "noturno",
+        "agua": null
+      }
+    },
+    "marte": {
+      "domicilio": ["Áries", "Escorpião"],
+      "exaltacao": ["Capricórnio"],
+      "detrimento": ["Libra", "Touro"],
+      "queda": ["Câncer"],
+      "triplicidade": {
+        "fogo": "noturno",
+        "terra": null,
+        "ar": null,
+        "agua": "diurno"
+      }
+    },
+    "jupiter": {
+      "domicilio": ["Sagitário", "Peixes"],
+      "exaltacao": ["Câncer"],
+      "detrimento": ["Gêmeos", "Virgem"],
+      "queda": ["Capricórnio"],
+      "triplicidade": {
+        "fogo": "diurno",
+        "terra": null,
+        "ar": null,
+        "agua": "diurno"
+      }
+    },
+    "saturno": {
+      "domicilio": ["Capricórnio", "Aquário"],
+      "exaltacao": ["Libra"],
+      "detrimento": ["Câncer", "Leão"],
+      "queda": ["Áries"],
+      "triplicidade": {
+        "fogo": null,
+        "terra": "noturno",
+        "ar": "noturno",
+        "agua": "noturno"
+      }
+    }
+  },
+  "pontuacao_dignidades": {
+    "domicilio": 5,
+    "exaltacao": 4,
+    "triplicidade": 3,
+    "termo": 2,
+    "face": 1,
+    "detrimento": -5,
+    "queda": -4
+  },
+  "interpretacao_pontos": {
+    "muito_forte": { "min": 4, "max": 5, "descricao": "Planeta em máxima dignidade" },
+    "forte": { "min": 2, "max": 3, "descricao": "Planeta bem dignificado" },
+    "neutro": { "min": -1, "max": 1, "descricao": "Planeta em estado neutro" },
+    "fraco": { "min": -3, "max": -2, "descricao": "Planeta debilitado" },
+    "muito_fraco": { "min": -5, "max": -4, "descricao": "Planeta em máxima debilidade" }
+  },
+  "efeitos_magicos": {
+    "muito_forte": {
+      "eleicoes": "Excelente para magias regidas por este planeta",
+      "talismãs": "Poder máximo em talismãs planetários",
+      "timing": "Momento ideal para invocações"
+    },
+    "forte": {
+      "eleicoes": "Bom para magias regidas por este planeta",
+      "talismãs": "Boa eficácia em talismãs",
+      "timing": "Momento favorável"
+    },
+    "neutro": {
+      "eleicoes": "Efeito neutro, depende de outros fatores",
+      "talismãs": "Eficácia moderada",
+      "timing": "Momento comum"
+    },
+    "fraco": {
+      "eleicoes": "Evitar magias regidas por este planeta",
+      "talismãs": "Baixa eficácia, pode falhar",
+      "timing": "Momento desfavorável"
+    },
+    "muito_fraco": {
+      "eleicoes": "Fortemente desencorajado",
+      "talismãs": "Pode ter efeito contrário",
+      "timing": "Momento muito desfavorável"
+    }
+  },
+  "correspondencias_alquimicas": {
+    "domicilio": "Metal em estado puro, máxima potência",
+    "exaltacao": "Metal refinado, energia elevada",
+    "detrimento": "Metal impuro, energia bloqueada",
+    "queda": "Metal corrompido, energia invertida"
+  },
+  "configuracao": {
+    "usar_dignidades": true,
+    "peso_dignidade": 0.4,
+    "alertar_debilidades": true,
+    "sugerir_alternativas": true
+  }
+}
+

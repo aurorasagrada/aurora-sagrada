@@ -1,0 +1,419 @@
+{
+  "correspondencias_expandidas": {
+    "planetarias_avancadas": {
+      "termos_egipcios": {
+        "aries": {
+          "0-6": "Jupiter",
+          "6-12": "Venus", 
+          "12-20": "Mercurio",
+          "20-25": "Marte",
+          "25-30": "Saturno"
+        },
+        "touro": {
+          "0-8": "Venus",
+          "8-14": "Mercurio",
+          "14-22": "Jupiter",
+          "22-27": "Saturno",
+          "27-30": "Marte"
+        }
+      },
+      "faces_caldeus": {
+        "aries": {
+          "0-10": "Marte",
+          "10-20": "Sol",
+          "20-30": "Venus"
+        },
+        "touro": {
+          "0-10": "Mercurio",
+          "10-20": "Lua",
+          "20-30": "Saturno"
+        }
+      },
+      "partes_arabes": {
+        "parte_fortuna": {
+          "formula": "Ascendente + Lua - Sol",
+          "significado": "Prosperidade material e espiritual",
+          "usos_magicos": ["Abundância", "Sorte", "Prosperidade"]
+        },
+        "parte_espirito": {
+          "formula": "Ascendente + Sol - Lua",
+          "significado": "Força vital e propósito espiritual",
+          "usos_magicos": ["Vitalidade", "Propósito", "Força interior"]
+        },
+        "parte_amor": {
+          "formula": "Ascendente + Venus - Sol",
+          "significado": "Relacionamentos e harmonia",
+          "usos_magicos": ["Amor", "Relacionamentos", "Harmonia"]
+        }
+      },
+      "secta_planetaria": {
+        "diurnos": {
+          "planetas": ["Sol", "Jupiter", "Saturno"],
+          "qualidade": "Quente e seco",
+          "melhor_horario": "Dia",
+          "usos_magicos": ["Autoridade", "Expansão", "Estrutura"]
+        },
+        "noturnos": {
+          "planetas": ["Lua", "Venus", "Marte"],
+          "qualidade": "Frio e úmido",
+          "melhor_horario": "Noite", 
+          "usos_magicos": ["Intuição", "Amor", "Transformação"]
+        }
+      }
+    },
+    "lunares_expandidas": {
+      "deusas_por_fase": {
+        "nova": {
+          "nomes": ["Hécate", "Kali", "Morrigan", "Nyx"],
+          "aspectos": ["Mistério", "Transformação", "Magia negra", "Renovação"],
+          "usos_magicos": ["Banimento", "Novos começos", "Magia sombria", "Proteção"]
+        },
+        "crescente": {
+          "nomes": ["Ártemis", "Diana", "Brigid", "Perséfone"],
+          "aspectos": ["Crescimento", "Caça", "Inspiração", "Juventude"],
+          "usos_magicos": ["Crescimento", "Manifestação", "Criatividade", "Energia"]
+        },
+        "cheia": {
+          "nomes": ["Selene", "Luna", "Ísis", "Freya"],
+          "aspectos": ["Plenitude", "Poder máximo", "Fertilidade", "Iluminação"],
+          "usos_magicos": ["Poder máximo", "Cura", "Divinação", "Fertilidade"]
+        },
+        "minguante": {
+          "nomes": ["Hécate anciã", "Cailleach", "Baba Yaga", "Cerridwen"],
+          "aspectos": ["Sabedoria", "Liberação", "Transformação", "Morte"],
+          "usos_magicos": ["Banimento", "Limpeza", "Sabedoria", "Liberação"]
+        }
+      },
+      "animais_lunares": {
+        "coelho": {
+          "simbolismo": "Fertilidade, ciclos, renovação",
+          "usos_magicos": ["Fertilidade", "Abundância", "Sorte"]
+        },
+        "lobo": {
+          "simbolismo": "Instinto, matilha, lua cheia",
+          "usos_magicos": ["Proteção", "Instinto", "Liderança"]
+        },
+        "coruja": {
+          "simbolismo": "Sabedoria noturna, mistério, magia",
+          "usos_magicos": ["Sabedoria", "Divinação", "Mistérios"]
+        },
+        "caranguejo": {
+          "simbolismo": "Proteção, lar, emoções",
+          "usos_magicos": ["Proteção do lar", "Emoções", "Família"]
+        }
+      },
+      "selos_mansoes": {
+        "1_al_sharatain": {
+          "selo": "Círculo com duas linhas paralelas",
+          "poder": "Destruição e ruína de inimigos",
+          "uso": "Proteção contra inimigos"
+        },
+        "2_al_butain": {
+          "selo": "Triângulo com ponto central",
+          "poder": "Descoberta de tesouros",
+          "uso": "Prosperidade e descobertas"
+        }
+      }
+    },
+    "alquimicas_expandidas": {
+      "tria_prima": {
+        "sal": {
+          "principio": "Corpo",
+          "qualidade": "Fixidez, cristalização",
+          "planeta": "Saturno",
+          "cor": "Branco",
+          "operacao": "Coagulação",
+          "correspondencias": {
+            "metal": "Chumbo",
+            "mineral": "Sal marinho",
+            "parte_corpo": "Ossos",
+            "temperamento": "Melancólico"
+          }
+        },
+        "enxofre": {
+          "principio": "Alma",
+          "qualidade": "Combustão, energia",
+          "planeta": "Sol",
+          "cor": "Vermelho",
+          "operacao": "Calcinação",
+          "correspondencias": {
+            "metal": "Ouro",
+            "mineral": "Enxofre nativo",
+            "parte_corpo": "Coração",
+            "temperamento": "Colérico"
+          }
+        },
+        "mercurio": {
+          "principio": "Espírito",
+          "qualidade": "Volatilidade, mediação",
+          "planeta": "Mercúrio",
+          "cor": "Prateado",
+          "operacao": "Sublimação",
+          "correspondencias": {
+            "metal": "Mercúrio",
+            "mineral": "Cinábrio",
+            "parte_corpo": "Pulmões",
+            "temperamento": "Sanguíneo"
+          }
+        }
+      },
+      "cores_alquimicas": {
+        "nigredo": {
+          "cor": "Preto",
+          "fase": "Putrefação",
+          "planeta": "Saturno",
+          "significado": "Morte, dissolução, caos primordial",
+          "duracao": "40 dias",
+          "simbolos": ["Corvo", "Caveira", "Eclipse"]
+        },
+        "albedo": {
+          "cor": "Branco",
+          "fase": "Purificação",
+          "planeta": "Lua",
+          "significado": "Pureza, clareza, renascimento",
+          "duracao": "Variável",
+          "simbolos": ["Cisne", "Pérola", "Lua cheia"]
+        },
+        "citrinitas": {
+          "cor": "Amarelo",
+          "fase": "Iluminação",
+          "planeta": "Sol nascente",
+          "significado": "Sabedoria, despertar, aurora",
+          "duracao": "Breve",
+          "simbolos": ["Águia", "Aurora", "Ouro jovem"]
+        },
+        "rubedo": {
+          "cor": "Vermelho",
+          "fase": "Perfeição",
+          "planeta": "Sol pleno",
+          "significado": "Pedra filosofal, união dos opostos",
+          "duracao": "Eterna",
+          "simbolos": ["Fênix", "Rei coroado", "Rosa vermelha"]
+        }
+      }
+    },
+    "naturais_expandidas": {
+      "animais_planetarios": {
+        "sol": {
+          "animais": ["Leão", "Galo", "Águia", "Falcão", "Cisne"],
+          "qualidades": ["Nobreza", "Coragem", "Liderança", "Vitalidade"],
+          "usos_magicos": ["Autoridade", "Sucesso", "Vitalidade", "Liderança"]
+        },
+        "lua": {
+          "animais": ["Coruja", "Gato", "Coelho", "Caranguejo", "Sapo"],
+          "qualidades": ["Intuição", "Mistério", "Fertilidade", "Proteção"],
+          "usos_magicos": ["Divinação", "Sonhos", "Fertilidade", "Proteção"]
+        },
+        "mercurio": {
+          "animais": ["Íbis", "Macaco", "Serpente", "Raposa", "Andorinha"],
+          "qualidades": ["Inteligência", "Comunicação", "Agilidade", "Astúcia"],
+          "usos_magicos": ["Comunicação", "Viagem", "Conhecimento", "Comércio"]
+        },
+        "venus": {
+          "animais": ["Pomba", "Cisne", "Golfinho", "Veado", "Borboleta"],
+          "qualidades": ["Beleza", "Amor", "Harmonia", "Graça"],
+          "usos_magicos": ["Amor", "Beleza", "Arte", "Harmonia"]
+        },
+        "marte": {
+          "animais": ["Lobo", "Cavalo", "Escorpião", "Águia", "Carneiro"],
+          "qualidades": ["Força", "Coragem", "Agressividade", "Proteção"],
+          "usos_magicos": ["Coragem", "Proteção", "Guerra", "Energia"]
+        },
+        "jupiter": {
+          "animais": ["Águia", "Elefante", "Cavalo", "Baleia", "Pavão"],
+          "qualidades": ["Majestade", "Sabedoria", "Abundância", "Justiça"],
+          "usos_magicos": ["Prosperidade", "Justiça", "Sabedoria", "Expansão"]
+        },
+        "saturno": {
+          "animais": ["Corvo", "Cabra", "Tartaruga", "Morcego", "Serpente"],
+          "qualidades": ["Paciência", "Disciplina", "Limitação", "Tempo"],
+          "usos_magicos": ["Disciplina", "Proteção", "Banimento", "Tempo"]
+        }
+      },
+      "incensos_planetarios": {
+        "sol": {
+          "principais": ["Olíbano", "Canela", "Louro", "Heliotropo"],
+          "receita_tradicional": "Olíbano (3 partes) + Canela (1 parte) + Louro (1 parte)",
+          "horario_ideal": "Meio-dia, domingo",
+          "efeitos": ["Sucesso", "Autoridade", "Vitalidade", "Purificação"]
+        },
+        "lua": {
+          "principais": ["Sândalo branco", "Jasmim", "Mirra", "Eucalipto"],
+          "receita_tradicional": "Sândalo (2 partes) + Jasmim (1 parte) + Mirra (1 parte)",
+          "horario_ideal": "Lua cheia, segunda-feira",
+          "efeitos": ["Intuição", "Sonhos", "Purificação", "Proteção"]
+        },
+        "mercurio": {
+          "principais": ["Lavanda", "Erva-doce", "Menta", "Eucalipto"],
+          "receita_tradicional": "Lavanda (2 partes) + Erva-doce (1 parte) + Menta (1 parte)",
+          "horario_ideal": "Aurora, quarta-feira",
+          "efeitos": ["Comunicação", "Estudo", "Viagem", "Agilidade mental"]
+        }
+      }
+    },
+    "culturais_mitologicas": {
+      "deuses_planetarios": {
+        "sol": {
+          "greco_romano": ["Hélio", "Apolo", "Sol Invictus"],
+          "egipcio": ["Rá", "Atum", "Khepri"],
+          "mesopotamico": ["Shamash", "Utu"],
+          "vedico": ["Surya", "Aditya"],
+          "nordico": ["Balder", "Freyr"],
+          "celta": ["Lugh", "Belenus"]
+        },
+        "lua": {
+          "greco_romano": ["Selene", "Diana", "Luna"],
+          "egipcio": ["Thoth", "Khonsu", "Ísis"],
+          "mesopotamico": ["Sin", "Nanna"],
+          "vedico": ["Chandra", "Soma"],
+          "nordico": ["Mani", "Frigg"],
+          "celta": ["Brigid", "Cerridwen"]
+        }
+      },
+      "festivais_historicos": {
+        "solares": {
+          "solsticio_inverno": {
+            "nomes": ["Yule", "Saturnália", "Sol Invictus"],
+            "culturas": ["Nórdica", "Romana", "Romana"],
+            "praticas": ["Fogueiras", "Banquetes", "Renovação"]
+          },
+          "solsticio_verao": {
+            "nomes": ["Litha", "Midsummer", "Festa de São João"],
+            "culturas": ["Celta", "Germânica", "Cristã"],
+            "praticas": ["Fogueiras", "Ervas mágicas", "Água benta"]
+          }
+        },
+        "lunares": {
+          "esbats_tradicionais": {
+            "lua_lobo": "Janeiro - Sobrevivência, proteção",
+            "lua_neve": "Fevereiro - Purificação, renovação",
+            "lua_verme": "Março - Crescimento, fertilidade",
+            "lua_rosa": "Abril - Amor, beleza",
+            "lua_flor": "Maio - Abundância, fertilidade",
+            "lua_morango": "Junho - Colheita, gratidão"
+          }
+        }
+      }
+    },
+    "rituais_praticas": {
+      "dias_criticos": {
+        "lua_fora_curso": {
+          "evitar": ["Novos projetos", "Decisões importantes", "Cirurgias"],
+          "favoravel": ["Meditação", "Limpeza", "Descanso"]
+        },
+        "eclipses": {
+          "solar": {
+            "evitar": ["Rituais solares", "Novos começos", "Autoridade"],
+            "favoravel": ["Banimento", "Transformação", "Sombra"]
+          },
+          "lunar": {
+            "evitar": ["Rituais lunares", "Divinação", "Emoções"],
+            "favoravel": ["Liberação", "Cura profunda", "Transformação"]
+          }
+        }
+      },
+      "magia_simpatica": {
+        "objetos_planetarios": {
+          "sol": ["Coroa", "Ouro", "Espelho", "Cristal", "Vela amarela"],
+          "lua": ["Taça", "Prata", "Espelho", "Concha", "Vela branca"],
+          "mercurio": ["Pena", "Livro", "Caduceu", "Ágata", "Vela laranja"],
+          "venus": ["Rosa", "Cobre", "Espelho", "Esmeralda", "Vela verde"],
+          "marte": ["Espada", "Ferro", "Ímã", "Rubi", "Vela vermelha"],
+          "jupiter": ["Cetro", "Estanho", "Safira", "Coroa", "Vela azul"],
+          "saturno": ["Foice", "Chumbo", "Ônix", "Ampulheta", "Vela preta"]
+        }
+      },
+      "correspondencias_cabalisticas": {
+        "arvore_da_vida": {
+          "kether": {
+            "planeta": "Netuno/Plutão",
+            "numero": 1,
+            "qualidade": "Coroa, unidade primordial"
+          },
+          "chokmah": {
+            "planeta": "Urano",
+            "numero": 2,
+            "qualidade": "Sabedoria, força criativa masculina"
+          },
+          "binah": {
+            "planeta": "Saturno",
+            "numero": 3,
+            "qualidade": "Entendimento, força receptiva feminina"
+          },
+          "chesed": {
+            "planeta": "Júpiter",
+            "numero": 4,
+            "qualidade": "Misericórdia, abundância"
+          },
+          "geburah": {
+            "planeta": "Marte",
+            "numero": 5,
+            "qualidade": "Severidade, força"
+          },
+          "tiphereth": {
+            "planeta": "Sol",
+            "numero": 6,
+            "qualidade": "Beleza, harmonia, centro"
+          },
+          "netzach": {
+            "planeta": "Vênus",
+            "numero": 7,
+            "qualidade": "Vitória, amor, arte"
+          },
+          "hod": {
+            "planeta": "Mercúrio",
+            "numero": 8,
+            "qualidade": "Esplendor, intelecto"
+          },
+          "yesod": {
+            "planeta": "Lua",
+            "numero": 9,
+            "qualidade": "Fundação, imaginação, sonhos"
+          },
+          "malkuth": {
+            "planeta": "Terra",
+            "numero": 10,
+            "qualidade": "Reino, manifestação física"
+          }
+        }
+      },
+      "entidades_planetarias": {
+        "arcanjos": {
+          "sol": "Miguel",
+          "lua": "Gabriel",
+          "mercurio": "Rafael",
+          "venus": "Anael",
+          "marte": "Camael",
+          "jupiter": "Sachiel",
+          "saturno": "Cassiel"
+        },
+        "inteligencias": {
+          "sol": "Nakhiel",
+          "lua": "Malka be-Tarshishim",
+          "mercurio": "Tiriel",
+          "venus": "Hagiel",
+          "marte": "Graphiel",
+          "jupiter": "Iophiel",
+          "saturno": "Agiel"
+        },
+        "espiritos": {
+          "sol": "Sorath",
+          "lua": "Chasmodai",
+          "mercurio": "Taphthartharath",
+          "venus": "Kedemel",
+          "marte": "Bartzabel",
+          "jupiter": "Hismael",
+          "saturno": "Zazel"
+        }
+      }
+    }
+  },
+  "configuracao": {
+    "usar_correspondencias_expandidas": true,
+    "nivel_detalhamento": "avancado",
+    "incluir_entidades": false,
+    "modo_historico": true,
+    "alertas_dias_criticos": true
+  }
+}
+

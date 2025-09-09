@@ -1,0 +1,81 @@
+{
+  "asteroides": {
+    "ceres": {
+      "nome": "Ceres",
+      "numero": 1,
+      "simbolo": "⚳",
+      "dominio": "Nutrição, maternidade, agricultura, ciclos naturais",
+      "palavras_chave": ["nutrição", "cuidado", "fertilidade", "colheita", "sustento"],
+      "usos_magicos": "Magias de fertilidade, abundância na agricultura, cura através da alimentação, conexão com a Terra Mãe",
+      "correspondencias": {
+        "elemento": "Terra",
+        "ervas": ["Trigo", "Milho", "Aveia", "Cevada"],
+        "cristais": ["Quartzo Verde", "Aventurina", "Jade"],
+        "cores": ["Verde", "Dourado", "Marrom"]
+      }
+    },
+    "pallas": {
+      "nome": "Pallas Athena",
+      "numero": 2,
+      "simbolo": "⚴",
+      "dominio": "Sabedoria, estratégia, justiça, artes",
+      "palavras_chave": ["sabedoria", "estratégia", "justiça", "criatividade", "proteção"],
+      "usos_magicos": "Magias de sabedoria, proteção em batalhas legais, inspiração artística, desenvolvimento de estratégias",
+      "correspondencias": {
+        "elemento": "Ar",
+        "ervas": ["Oliveira", "Sálvia", "Louro", "Artemísia"],
+        "cristais": ["Lápis-lazúli", "Sodalita", "Ametista"],
+        "cores": ["Azul", "Prata", "Branco"]
+      }
+    },
+    "juno": {
+      "nome": "Juno",
+      "numero": 3,
+      "simbolo": "⚵",
+      "dominio": "Casamento, compromisso, parcerias, fidelidade",
+      "palavras_chave": ["casamento", "compromisso", "lealdade", "parcerias", "união"],
+      "usos_magicos": "Magias de união, fortalecimento de relacionamentos, fidelidade, proteção do lar",
+      "correspondencias": {
+        "elemento": "Água",
+        "ervas": ["Rosa", "Jasmim", "Murta", "Verbena"],
+        "cristais": ["Quartzo Rosa", "Esmeralda", "Pérola"],
+        "cores": ["Rosa", "Verde", "Branco"]
+      }
+    },
+    "vesta": {
+      "nome": "Vesta",
+      "numero": 4,
+      "simbolo": "⚶",
+      "dominio": "Fogo sagrado, devoção, pureza, lar",
+      "palavras_chave": ["devoção", "pureza", "foco", "sacralidade", "lar"],
+      "usos_magicos": "Magias de purificação, consagração de espaços, devoção espiritual, proteção do lar",
+      "correspondencias": {
+        "elemento": "Fogo",
+        "ervas": ["Alecrim", "Sálvia Branca", "Cedro", "Junípero"],
+        "cristais": ["Quartzo Claro", "Selenita", "Diamante"],
+        "cores": ["Branco", "Dourado", "Prata"]
+      }
+    },
+    "chiron": {
+      "nome": "Chiron",
+      "numero": 2060,
+      "simbolo": "⚷",
+      "dominio": "Cura, feridas, sabedoria através da dor, ensino",
+      "palavras_chave": ["cura", "feridas", "sabedoria", "ensino", "transformação"],
+      "usos_magicos": "Magias de cura profunda, transformação de traumas, desenvolvimento de sabedoria, ensino espiritual",
+      "correspondencias": {
+        "elemento": "Água/Terra",
+        "ervas": ["Calêndula", "Confrei", "Equinácea", "Hipérico"],
+        "cristais": ["Ametista", "Quartzo Rosa", "Turmalina Verde"],
+        "cores": ["Violeta", "Verde", "Azul"]
+      }
+    }
+  },
+  "configuracao": {
+    "orbe_padrao": 2,
+    "mostrar_por_padrao": ["ceres", "pallas", "juno", "vesta", "chiron"],
+    "calcular_aspectos": true,
+    "incluir_em_transitos": false
+  }
+}
+

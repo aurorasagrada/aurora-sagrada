@@ -1,0 +1,42 @@
+{
+  "timezone": "America/Sao_Paulo",
+  "ignoreDST": false,
+  "language": "pt-BR",
+  "theme": "dark",
+  "orbs": {
+    "conjunction": 8,
+    "opposition": 8,
+    "trine": 6,
+    "square": 6,
+    "sextile": 4,
+    "sun": 10,
+    "moon": 12,
+    "mercury": 6,
+    "venus": 6,
+    "mars": 6,
+    "jupiter": 8,
+    "saturn": 8,
+    "uranus": 4,
+    "neptune": 4,
+    "pluto": 4
+  },
+  "modules": {
+    "asteroids": true,
+    "fixedStars": true,
+    "planetaryHours": false,
+    "voidOfCourse": true,
+    "eclipses": true,
+    "elections": true
+  },
+  "calendar": {
+    "defaultView": "month",
+    "showWeekNumbers": false,
+    "highlightToday": true
+  },
+  "elections": {
+    "maxDaysAhead": 30,
+    "minScore": 0.3,
+    "showScoreDetails": false
+  }
+}
+

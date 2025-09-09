@@ -1,0 +1,177 @@
+{
+  "amizades_inimizades": {
+    "sol": { 
+      "amigos": ["jupiter", "venus"], 
+      "inimigos": ["saturno", "marte"],
+      "correspondencias": {
+        "metal": "Ouro",
+        "qualidade": "Calor equilibrado, incorruptível",
+        "elemento_alquimico": "Fogo",
+        "usos_magicos": ["Sucesso", "Liderança", "Vitalidade", "Cura", "Proteção"]
+      }
+    },
+    "lua": { 
+      "amigos": ["venus", "jupiter"], 
+      "inimigos": ["saturno", "marte"],
+      "correspondencias": {
+        "metal": "Prata",
+        "qualidade": "Frio úmido, reflexivo",
+        "elemento_alquimico": "Água",
+        "usos_magicos": ["Intuição", "Sonhos", "Psiquismo", "Fertilidade", "Purificação"]
+      }
+    },
+    "mercurio": { 
+      "amigos": ["venus", "saturno"], 
+      "inimigos": ["marte", "jupiter"],
+      "correspondencias": {
+        "metal": "Mercúrio/Argento Vivo",
+        "qualidade": "Volatilidade, mediação",
+        "elemento_alquimico": "Ar",
+        "usos_magicos": ["Comunicação", "Viagem", "Sabedoria", "Negócios", "Estudos"]
+      }
+    },
+    "venus": { 
+      "amigos": ["lua", "jupiter"], 
+      "inimigos": ["marte", "saturno"],
+      "correspondencias": {
+        "metal": "Cobre",
+        "qualidade": "Beleza, maleabilidade",
+        "elemento_alquimico": "Terra",
+        "usos_magicos": ["Amor", "Beleza", "Arte", "Harmonia", "Fertilidade"]
+      }
+    },
+    "marte": { 
+      "amigos": ["sol", "jupiter"], 
+      "inimigos": ["lua", "venus", "mercurio"],
+      "correspondencias": {
+        "metal": "Ferro",
+        "qualidade": "Força, destruição",
+        "elemento_alquimico": "Fogo",
+        "usos_magicos": ["Coragem", "Força", "Proteção", "Energia", "Guerra"]
+      }
+    },
+    "jupiter": { 
+      "amigos": ["sol", "lua", "venus"], 
+      "inimigos": ["mercurio", "marte"],
+      "correspondencias": {
+        "metal": "Estanho",
+        "qualidade": "Expansão, leveza",
+        "elemento_alquimico": "Fogo",
+        "usos_magicos": ["Prosperidade", "Justiça", "Honra", "Liderança", "Expansão"]
+      }
+    },
+    "saturno": { 
+      "amigos": ["mercurio", "marte"], 
+      "inimigos": ["sol", "lua", "venus"],
+      "correspondencias": {
+        "metal": "Chumbo",
+        "qualidade": "Peso, limitação, morte",
+        "elemento_alquimico": "Terra",
+        "usos_magicos": ["Proteção", "Banimento", "Disciplina", "Tempo", "Karma"]
+      }
+    }
+  },
+  "combinacoes_favoraveis": {
+    "venus_jupiter": {
+      "nome": "Riqueza e Prosperidade Amorosa",
+      "efeito": "Abundância em amor e recursos materiais",
+      "usos": ["Casamento", "Prosperidade", "Abundância", "Harmonia"]
+    },
+    "sol_jupiter": {
+      "nome": "Autoridade e Sucesso",
+      "efeito": "Liderança natural, reconhecimento, realeza",
+      "usos": ["Liderança", "Sucesso", "Autoridade", "Honra"]
+    },
+    "marte_sol": {
+      "nome": "Força e Coragem",
+      "efeito": "Energia vital, coragem para enfrentar desafios",
+      "usos": ["Coragem", "Força", "Vitalidade", "Proteção"]
+    },
+    "lua_venus": {
+      "nome": "Fertilidade e Harmonia",
+      "efeito": "Fertilidade, harmonia emocional, beleza natural",
+      "usos": ["Fertilidade", "Harmonia", "Beleza", "Amor maternal"]
+    },
+    "mercurio_venus": {
+      "nome": "Eloquência e Charme",
+      "efeito": "Comunicação harmoniosa, charme pessoal",
+      "usos": ["Eloquência", "Charme", "Comunicação", "Arte"]
+    },
+    "saturno_mercurio": {
+      "nome": "Profundidade Mental",
+      "efeito": "Pensamento profundo, disciplina mental",
+      "usos": ["Estudos", "Disciplina", "Concentração", "Sabedoria"]
+    }
+  },
+  "combinacoes_desfavoraveis": {
+    "marte_venus": {
+      "nome": "Amor Conflituoso",
+      "efeito": "Paixão destrutiva, conflitos amorosos",
+      "evitar": ["Casamento", "Relacionamentos", "Harmonia"]
+    },
+    "sol_saturno": {
+      "nome": "Vitalidade Drenada",
+      "efeito": "Energia bloqueada, pessimismo, limitações",
+      "evitar": ["Vitalidade", "Sucesso", "Liderança"]
+    },
+    "lua_saturno": {
+      "nome": "Infertilidade e Frieza",
+      "efeito": "Bloqueios emocionais, esterilidade, frieza",
+      "evitar": ["Fertilidade", "Emoções", "Intuição"]
+    },
+    "marte_mercurio": {
+      "nome": "Discussões e Agressividade",
+      "efeito": "Comunicação agressiva, discussões, conflitos mentais",
+      "evitar": ["Comunicação", "Negociação", "Estudos"]
+    },
+    "venus_saturno": {
+      "nome": "Amor Restrito",
+      "efeito": "Frieza emocional, relacionamentos limitados",
+      "evitar": ["Amor", "Beleza", "Harmonia"]
+    }
+  },
+  "usos_alquimicos": {
+    "metais_aliados": {
+      "ouro_cobre": "Beleza e vitalidade (Sol + Vênus)",
+      "prata_cobre": "Harmonia emocional (Lua + Vênus)",
+      "ouro_estanho": "Autoridade justa (Sol + Júpiter)",
+      "ferro_estanho": "Coragem equilibrada (Marte + Júpiter)"
+    },
+    "metais_inimigos": {
+      "ouro_chumbo": "Incorruptível vs. corruptível - evitar mistura direta",
+      "prata_ferro": "Suavidade vs. dureza - requer mediação",
+      "cobre_ferro": "Harmonia vs. guerra - só via mercúrio filosófico",
+      "cobre_chumbo": "Beleza vs. limitação - combinação destrutiva"
+    },
+    "mediacao_mercurial": {
+      "descricao": "Mercúrio pode unir metais inimigos quando fixado",
+      "processo": "Usar mercúrio filosófico para reconciliar opostos",
+      "cuidados": "Mercúrio instável pode corromper a obra"
+    }
+  },
+  "aplicacoes_magicas": {
+    "talismãs": {
+      "favoraveis": "Usar metais de planetas aliados para harmonia",
+      "desfavoraveis": "Evitar incrustar metais de planetas inimigos",
+      "neutralizacao": "Usar planeta inimigo para quebrar malefício (Vênus contra Marte)"
+    },
+    "elixires": {
+      "regra": "Nunca misturar ervas de planetas inimigos sem mediação",
+      "harmonizacao": "Escolher ervas de planetas aliados para sinergia",
+      "antidotos": "Usar erva de planeta inimigo para neutralizar excesso"
+    },
+    "eleicoes": {
+      "potencializacao": "Escolher momentos com planetas aliados em aspecto",
+      "evitar": "Não fazer magia quando planetas inimigos estão em conjunção",
+      "equilibrio": "Usar tensão entre inimigos para transformação controlada"
+    }
+  },
+  "configuracao": {
+    "considerar_amizades": true,
+    "peso_amizade": 0.3,
+    "peso_inimizade": -0.4,
+    "usar_em_eleicoes": true,
+    "alertar_combinacoes_ruins": true
+  }
+}
+

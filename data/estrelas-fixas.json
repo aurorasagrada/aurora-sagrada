@@ -1,0 +1,82 @@
+{
+  "estrelas_fixas": {
+    "regulus": {
+      "nome": "Regulus",
+      "nome_tradicional": "Cor Leonis",
+      "constelacao": "Leão",
+      "longitude_2000": "29°50' Leão",
+      "longitude_atual": "0°10' Virgem",
+      "magnitude": 1.35,
+      "natureza": "Marte/Júpiter",
+      "orbe": 2.5,
+      "palavras_chave": ["realeza", "liderança", "honra", "sucesso", "poder"],
+      "significado": "Estrela real, confere honra, sucesso e posições de liderança quando bem aspectada",
+      "usos_magicos": "Magias de liderança, conquista de posições de poder, honra e reconhecimento",
+      "cuidados": "Pode trazer queda se houver desonra ou abuso de poder"
+    },
+    "spica": {
+      "nome": "Spica",
+      "nome_tradicional": "Azimech",
+      "constelacao": "Virgem",
+      "longitude_2000": "23°50' Libra",
+      "longitude_atual": "24°10' Libra",
+      "magnitude": 0.97,
+      "natureza": "Vênus/Mercúrio",
+      "orbe": 2,
+      "palavras_chave": ["talento", "arte", "ciência", "proteção", "sucesso"],
+      "significado": "Estrela benéfica, confere talentos artísticos, científicos e proteção divina",
+      "usos_magicos": "Magias de desenvolvimento de talentos, proteção, sucesso em artes e ciências",
+      "cuidados": "Geralmente benéfica, mas pode trazer excesso de perfeccionismo"
+    },
+    "antares": {
+      "nome": "Antares",
+      "nome_tradicional": "Rival de Marte",
+      "constelacao": "Escorpião",
+      "longitude_2000": "9°46' Sagitário",
+      "longitude_atual": "10°06' Sagitário",
+      "magnitude": 1.09,
+      "natureza": "Marte/Júpiter",
+      "orbe": 2.5,
+      "palavras_chave": ["coragem", "conflito", "transformação", "intensidade", "paixão"],
+      "significado": "Estrela de natureza marcial, confere coragem mas pode trazer conflitos",
+      "usos_magicos": "Magias de coragem, transformação profunda, superação de obstáculos",
+      "cuidados": "Pode trazer conflitos, acidentes ou comportamento impulsivo"
+    },
+    "aldebaran": {
+      "nome": "Aldebaran",
+      "nome_tradicional": "Olho do Touro",
+      "constelacao": "Touro",
+      "longitude_2000": "9°47' Gêmeos",
+      "longitude_atual": "10°07' Gêmeos",
+      "magnitude": 0.85,
+      "natureza": "Marte",
+      "orbe": 2.5,
+      "palavras_chave": ["integridade", "honra", "coragem", "liderança", "eloquência"],
+      "significado": "Estrela real, confere honra e sucesso através da integridade",
+      "usos_magicos": "Magias de honra, integridade, liderança justa, eloquência",
+      "cuidados": "Exige integridade absoluta, pode trazer queda se houver desonestidade"
+    },
+    "algol": {
+      "nome": "Algol",
+      "nome_tradicional": "Cabeça do Demônio",
+      "constelacao": "Perseus",
+      "longitude_2000": "26°10' Touro",
+      "longitude_atual": "26°30' Touro",
+      "magnitude": 2.12,
+      "natureza": "Saturno/Júpiter",
+      "orbe": 1.5,
+      "palavras_chave": ["transformação", "morte", "renascimento", "magia", "mistério"],
+      "significado": "Estrela de transformação profunda, associada à magia e aos mistérios",
+      "usos_magicos": "Magias de transformação, banimento, proteção contra magia negativa",
+      "cuidados": "Energia intensa, requer experiência em magia para trabalhar com segurança"
+    }
+  },
+  "configuracao": {
+    "orbe_padrao": 2,
+    "mostrar_por_padrao": ["regulus", "spica", "antares", "aldebaran"],
+    "incluir_algol": false,
+    "calcular_aspectos": true,
+    "mostrar_apenas_conjuncoes": true
+  }
+}
+

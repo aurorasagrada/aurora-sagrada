@@ -1,0 +1,195 @@
+{
+  "version": "1.0.0",
+  "description": "Hinos Órficos para Magia Planetária e Lunar - Traduzidos e Adaptados",
+  "fonte": "Orphic Hymns Grimoire - Sara Mastros & Tradições Órficas Antigas",
+  "hinos": {
+    "planetarios": {
+      "sol": {
+        "numero": 8,
+        "titulo": "Para Hélio (Sol)",
+        "invocacao": "Escuta, ó Hélio de olhos dourados, rei etéreo da luz",
+        "hino": "Escuta, ó Hélio de olhos dourados, rei etéreo da luz,\nTitã de fogo, condutor do dia brilhante,\nQue cavalgas através dos céus em carruagem flamejante,\nIluminando mortais com raios sagrados.\nSenhor da estação, pai do tempo que flui,\nQue trazes vida e morte com tua luz,\nGuardião dos juramentos, testemunha divina,\nQue vês todas as coisas sob tua luz cristalina.\nConcede-nos saúde, força e visão clara,\nQue tua luz dourada nossa alma ilumine,\nAfasta as trevas, traz prosperidade,\nÓ rei solar de eterna majestade.",
+        "pedido": "Vem, ó bem-aventurado, com luz benéfica,\nIlumina nossa vida com tua presença magnífica.",
+        "correspondencias": {
+          "dia": "Domingo",
+          "hora": "Meio-dia",
+          "incenso": "Olíbano, copal dourado",
+          "cor": "#FFD700",
+          "metal": "Ouro",
+          "pedra": "Topázio, citrino"
+        }
+      },
+      "lua": {
+        "numero": 9,
+        "titulo": "Para Selene (Lua)",
+        "invocacao": "Escuta, deusa de chifres dourados, Selene de luz variável",
+        "hino": "Escuta, deusa de chifres dourados, Selene de luz variável,\nTitânia, inimiga da noite, portadora de luz amável,\nAmante da solidão, que brilhas na escuridão,\nMãe do tempo, senhora da transformação.\nQue percorres os céus em carruagem prateada,\nIluminando a terra com luz encantada,\nRainha das marés, das emoções profundas,\nGuardiã dos mistérios, das magias fecundas.\nCrescente e minguante, sempre em mudança,\nEspelho da alma em eterna dança,\nConcede-nos intuição e sabedoria,\nÓ lua sagrada de luz fria.",
+        "pedido": "Vem, ó deusa da noite estrelada,\nAbençoa nossa jornada com tua luz prateada.",
+        "correspondencias": {
+          "dia": "Segunda-feira",
+          "hora": "Meia-noite",
+          "incenso": "Jasmim, sândalo branco",
+          "cor": "#C0C0C0",
+          "metal": "Prata",
+          "pedra": "Pedra da lua, pérola"
+        }
+      },
+      "mercurio": {
+        "numero": 28,
+        "titulo": "Para Hermes (Mercúrio)",
+        "invocacao": "Escuta, ó Hermes, mensageiro dos deuses imortais",
+        "hino": "Escuta, ó Hermes, mensageiro dos deuses imortais,\nFilho de Maia, de sandálias aladas celestiais,\nSenhor das encruzilhadas, guia dos viajantes,\nIntérprete divino, mestre dos comerciantes.\nPortador do caduceu, serpentes entrelaçadas,\nQue unes os opostos em danças sagradas,\nPsicopompo, condutor das almas perdidas,\nEntre mundos transitando em jornadas infinitas.\nConcede-nos eloquência, mente ágil e clara,\nQue tua sabedoria em nós se declare,\nAbre os caminhos, remove obstáculos,\nÓ Hermes divino de poderes miraculosos.",
+        "pedido": "Vem, ó benéfico, com dons de comunicação,\nGuia nossa mente na busca da iluminação.",
+        "correspondencias": {
+          "dia": "Quarta-feira",
+          "hora": "Aurora e crepúsculo",
+          "incenso": "Estoraque, mástique",
+          "cor": "#FF8C00",
+          "metal": "Mercúrio, prata",
+          "pedra": "Ágata, cornalina"
+        }
+      },
+      "venus": {
+        "numero": 55,
+        "titulo": "Para Afrodite (Vênus)",
+        "invocacao": "Escuta, ó Afrodite, deusa nascida da espuma",
+        "hino": "Escuta, ó Afrodite, deusa nascida da espuma,\nMãe do amor, de beleza que tudo perfuma,\nCipris dourada, rainha dos prazeres,\nQue unes os corações de homens e mulheres.\nSenhora das rosas, das pombas sagradas,\nQue trazes harmonia às almas cansadas,\nDeusa do riso, da dança e do canto,\nQue dissolves a dor com teu doce encanto.\nConcede-nos amor, beleza e alegria,\nQue tua graça em nossos corações se crie,\nUne os opostos em doce harmonia,\nÓ Afrodite de eterna melodia.",
+        "pedido": "Vem, ó deusa do amor divino,\nAbençoa nossa vida com teu poder feminino.",
+        "correspondencias": {
+          "dia": "Sexta-feira",
+          "hora": "Manhã e tarde",
+          "incenso": "Rosa, sândalo, benjoim",
+          "cor": "#FF69B4",
+          "metal": "Cobre",
+          "pedra": "Esmeralda, quartzo rosa"
+        }
+      },
+      "marte": {
+        "numero": 65,
+        "titulo": "Para Ares (Marte)",
+        "invocacao": "Escuta, ó Ares, senhor da guerra sagrada",
+        "hino": "Escuta, ó Ares, senhor da guerra sagrada,\nDeus de força, de lança afiada,\nGuardião dos guerreiros, protetor dos justos,\nQue defendes a verdade com golpes robustos.\nSenhor do ferro, da coragem e do fogo,\nQue quebras as correntes, vences o jogo,\nDeus da ação, da vontade férrea,\nQue transformas o medo em força etérea.\nConcede-nos coragem para enfrentar,\nOs desafios que vierem nos encontrar,\nFortalece nossa vontade, nossa determinação,\nÓ Ares divino, deus da ação.",
+        "pedido": "Vem, ó poderoso, com força e valor,\nDefende-nos na batalha com teu ardor.",
+        "correspondencias": {
+          "dia": "Terça-feira",
+          "hora": "Meio-dia",
+          "incenso": "Sangue de dragão, canela",
+          "cor": "#DC143C",
+          "metal": "Ferro",
+          "pedra": "Rubi, hematita"
+        }
+      },
+      "jupiter": {
+        "numero": 20,
+        "titulo": "Para Zeus (Júpiter)",
+        "invocacao": "Escuta, ó Zeus, rei dos deuses imortais",
+        "hino": "Escuta, ó Zeus, rei dos deuses imortais,\nSenhor do raio, dos céus celestiais,\nPai de todos, juiz supremo e justo,\nQue governas o cosmos com poder augusto.\nSenhor da justiça, da lei e da ordem,\nQue trazes prosperidade onde tudo se perde,\nRei dos reis, protetor dos suplicantes,\nQue abençoas os justos com dons abundantes.\nConcede-nos sabedoria, justiça e poder,\nQue tua proteção possamos ter,\nExpande nossa visão, nossa compreensão,\nÓ Zeus divino, fonte da expansão.",
+        "pedido": "Vem, ó rei supremo, com bênçãos divinas,\nGuia nosso destino com mãos paternas.",
+        "correspondencias": {
+          "dia": "Quinta-feira",
+          "hora": "Meio-dia",
+          "incenso": "Cedro, sândalo",
+          "cor": "#4169E1",
+          "metal": "Estanho",
+          "pedra": "Safira, lápis-lazúli"
+        }
+      },
+      "saturno": {
+        "numero": 13,
+        "titulo": "Para Kronos (Saturno)",
+        "invocacao": "Escuta, ó Kronos, pai do tempo sagrado",
+        "hino": "Escuta, ó Kronos, pai do tempo sagrado,\nSenhor dos ciclos, do destino traçado,\nGuardião da sabedoria ancestral,\nQue ensinas através da prova e do mal.\nMestre da paciência, da disciplina,\nQue moldas a alma com mão divina,\nSenhor dos limites, das estruturas,\nQue trazes ordem às aventuras.\nConcede-nos perseverança e constância,\nQue tua sabedoria em nós se instancie,\nEnsina-nos as lições do tempo,\nÓ Kronos sábio, mestre do momento.",
+        "pedido": "Vem, ó ancião, com sabedoria profunda,\nGuia nossos passos na jornada fecunda.",
+        "correspondencias": {
+          "dia": "Sábado",
+          "hora": "Meia-noite",
+          "incenso": "Mirra, cipreste",
+          "cor": "#2F4F4F",
+          "metal": "Chumbo",
+          "pedra": "Ônix, obsidiana"
+        }
+      }
+    },
+    "lunares": {
+      "artemis": {
+        "numero": 36,
+        "titulo": "Para Ártemis",
+        "invocacao": "Escuta, ó rainha, difusora de luz",
+        "hino": "Escuta, ó rainha, difusora de luz,\nÁrtemis louvável, que Zeus produz,\nVirgem caçadora de cervos ligeiros,\nQue se regozija com arcos certeiros.\nSenhora das feras, das florestas densas,\nGuardiã das donzelas, das almas imensas,\nDeusa da caça, da lua crescente,\nQue proteges os jovens com amor ardente.\nConcede-nos pureza, força e coragem,\nQue tua proteção seja nossa bagagem,\nGuarda nossa castidade, nossa intenção,\nÓ Ártemis pura, fonte de proteção.",
+        "pedido": "Vem, ó virgem caçadora divina,\nProtege nossa alma com luz cristalina."
+      },
+      "hecate": {
+        "numero": 1,
+        "titulo": "Para Hécate",
+        "invocacao": "Invoco Hécate das encruzilhadas",
+        "hino": "Invoco Hécate das encruzilhadas,\nGuardiã das chaves, das portas sagradas,\nCelestiais, terrenas e marinhas,\nDe açafrão-túnica, das artes divinas.\nQue dança entre túmulos na escuridão,\nSenhora dos fantasmas, da transformação,\nDeusa tríplice, de três faces,\nQue conheces todos os disfarces.\nConcede-nos visão além do véu,\nQue tua sabedoria seja nosso troféu,\nAbre os caminhos ocultos,\nÓ Hécate sábia, dos mistérios adultos.",
+        "pedido": "Vem, ó deusa das chaves douradas,\nRevela-nos as verdades veladas."
+      },
+      "persephone": {
+        "numero": 29,
+        "titulo": "Para Perséfone",
+        "invocacao": "Escuta, ó Perséfone, rainha sagrada",
+        "hino": "Escuta, ó Perséfone, rainha sagrada,\nFilha de Deméter, esposa amada,\nSenhora dos mortos, do mundo inferior,\nQue reinas nas sombras com poder superior.\nDeusa dos mistérios, da morte e renascer,\nQue ensinas a alma a se transcender,\nPrimavera eterna, renovação,\nQue trazes esperança à escuridão.\nConcede-nos força para transformar,\nAs provas da vida em sabedoria a brilhar,\nGuia nossa alma na jornada profunda,\nÓ Perséfone, rainha fecunda.",
+        "pedido": "Vem, ó rainha dos mistérios profundos,\nTransforma nossa dor em dons fecundos."
+      }
+    },
+    "elementais": {
+      "fogo": {
+        "titulo": "Hino ao Fogo Sagrado",
+        "hino": "Salve, ó Fogo, elemento primordial,\nChama sagrada, força celestial,\nQue purifica e transforma tudo,\nCom teu poder, nada fica mudo.\nEssência do Sol, do raio divino,\nQue desperta a alma do sono matutino,\nConcede-nos paixão, coragem e luz,\nÓ Fogo sagrado que nos conduz."
+      },
+      "agua": {
+        "titulo": "Hino à Água Sagrada",
+        "hino": "Salve, ó Água, fonte da vida,\nEssência pura, sempre fluida,\nQue nutre a terra, limpa a alma,\nCom tua graça, tudo se acalma.\nEssência da Lua, das marés profundas,\nQue cura as feridas mais fecundas,\nConcede-nos intuição e cura,\nÓ Água sagrada, força pura."
+      },
+      "ar": {
+        "titulo": "Hino ao Ar Sagrado",
+        "hino": "Salve, ó Ar, sopro da vida,\nEssência sutil, sempre movida,\nQue carrega as palavras, os pensamentos,\nCom tua leveza, todos os momentos.\nEssência de Mercúrio, da mente clara,\nQue conecta as almas, nada separa,\nConcede-nos sabedoria e comunicação,\nÓ Ar sagrado, fonte da inspiração."
+      },
+      "terra": {
+        "titulo": "Hino à Terra Sagrada",
+        "hino": "Salve, ó Terra, mãe de todos,\nBase sólida, que nos acolhe,\nQue sustenta a vida, dá estrutura,\nCom tua força, tudo perdura.\nEssência de Saturno, da sabedoria,\nQue ensina paciência, dia após dia,\nConcede-nos estabilidade e crescimento,\nÓ Terra sagrada, nosso fundamento."
+      }
+    }
+  },
+  "rituais": {
+    "invocacao_planetaria": {
+      "descricao": "Ritual para invocar a influência de um planeta específico",
+      "preparacao": [
+        "Determine o dia e hora planetária apropriada",
+        "Prepare o incenso correspondente",
+        "Vista roupas da cor planetária",
+        "Coloque a pedra/metal no altar"
+      ],
+      "execucao": [
+        "Acenda o incenso planetário",
+        "Recite o hino órfico 3 vezes",
+        "Faça o pedido específico",
+        "Medite na energia planetária",
+        "Agradeça e encerre"
+      ]
+    },
+    "ritual_lunar": {
+      "descricao": "Ritual para trabalhar com as fases lunares",
+      "lua_nova": "Use hinos de Hécate para novos começos",
+      "lua_crescente": "Use hinos de Ártemis para crescimento",
+      "lua_cheia": "Use hinos de Selene para manifestação",
+      "lua_minguante": "Use hinos de Perséfone para liberação"
+    }
+  },
+  "correspondencias_magicas": {
+    "dias_planetarios": {
+      "domingo": "Sol - Hélio",
+      "segunda": "Lua - Selene",
+      "terca": "Marte - Ares", 
+      "quarta": "Mercúrio - Hermes",
+      "quinta": "Júpiter - Zeus",
+      "sexta": "Vênus - Afrodite",
+      "sabado": "Saturno - Kronos"
+    },
+    "horas_planetarias": {
+      "descricao": "Cada hora do dia é regida por um planeta, começando com o regente do dia ao nascer do sol"
+    }
+  }
+}
+

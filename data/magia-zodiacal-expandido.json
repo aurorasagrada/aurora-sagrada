@@ -1,0 +1,222 @@
+{
+  "metadata": {
+    "version": "2.0.0",
+    "description": "Sistema Expandido de Magia Zodiacal - Decanos e Faces com Correspondências Completas",
+    "fonte": "Picatrix, Três Livros de Filosofia Oculta, Tradições Herméticas Árabes e Medievais",
+    "autor": "Aurora Sagrada - Compilação Tradicional"
+  },
+  "signos": {
+    "aries": {
+      "nome": "Áries",
+      "simbolo": "♈",
+      "elemento": "Fogo",
+      "modalidade": "Cardinal",
+      "regente": "Marte",
+      "exaltacao": "Sol",
+      "detrimento": "Vênus",
+      "queda": "Saturno",
+      "graus": "0°-30°",
+      "natureza_elementar": "Quente e Seco",
+      "decanos": [
+        {
+          "numero": 1,
+          "graus": "0°-10°",
+          "regente": "Marte",
+          "nome_tradicional": "Decano do Guerreiro",
+          "imagem_magica": "Um homem negro de grande estatura, com olhos vermelhos como brasas, segurando uma espada flamejante na mão direita e vestido com roupas brancas bordadas em ouro. Sua face expressa determinação feroz e coragem inabalável.",
+          "poder_principal": "Força, coragem, liderança militar",
+          "talisma": "Para vencer inimigos, obter coragem em batalhas e superar obstáculos",
+          "descricao_completa": "O primeiro decano de Áries representa a força bruta e primitiva do fogo marciano em sua expressão mais pura. Aqui encontramos a energia primordial da criação através da destruição, o impulso inicial que quebra a inércia e inicia novos ciclos. É o guerreiro arquetípico, aquele que abre caminhos através de territórios inexplorados, enfrentando o desconhecido com coragem absoluta. Esta energia é tanto criativa quanto destrutiva, capaz de iniciar grandes empreendimentos mas também de causar conflitos desnecessários se mal direcionada.",
+          "correspondencias": {
+            "cores": ["Vermelho escarlate", "Carmesim", "Bordô", "Vermelho sangue"],
+            "pedras": ["Rubi estrela", "Jaspe vermelho", "Hematita", "Ferro meteórico", "Granada piropo"],
+            "ervas": ["Urtiga maior", "Cardo santo", "Pimenta vermelha", "Gengibre selvagem", "Alho", "Mostarda negra"],
+            "incensos": ["Sangue de dragão", "Pimenta preta", "Canela do Ceilão", "Cravo da Índia", "Benjoim vermelho"],
+            "metais": ["Ferro puro", "Aço temperado", "Ferro meteórico"],
+            "animais": ["Carneiro", "Falcão peregrino", "Lobo", "Escorpião", "Serpente coral"],
+            "anjos": ["Malchidael", "Machidiel", "Camael"],
+            "genios_arabes": ["Senacher", "Asentacer", "Vehuel"],
+            "deuses": ["Ares", "Marte", "Sekhmet", "Durga", "Tyr", "Ogum"]
+          },
+          "usos_magicos": [
+            "Rituais de coragem e bravura em situações extremas",
+            "Superação de medos profundos e fobias",
+            "Proteção contra inimigos físicos e espirituais",
+            "Iniciação em artes marciais e disciplinas guerreiras",
+            "Desenvolvimento de liderança natural",
+            "Quebra de maldições e amarrações pesadas",
+            "Rituais de vingança justa (com extrema cautela)",
+            "Abertura de novos caminhos profissionais"
+          ],
+          "horas_favoraveis": [
+            "Primeira hora após o nascer do sol",
+            "Meio-dia solar (hora de máximo poder)",
+            "Primeira hora da noite",
+            "Hora de Marte (terça-feira)"
+          ],
+          "dias_poder": ["Terça-feira", "Primeiro dia da lua nova", "Equinócio de primavera"],
+          "rituais_especificos": {
+            "talisma_coragem": "Gravar o símbolo de Marte em ferro durante a hora de Marte, consagrar com sangue de dragão",
+            "ritual_lideranca": "Acender vela vermelha ao nascer do sol, meditar sobre a imagem do decano",
+            "protecao_inimigos": "Carregar hematita consagrada durante lua nova em Áries"
+          }
+        },
+        {
+          "numero": 2,
+          "graus": "10°-20°",
+          "regente": "Sol",
+          "nome_tradicional": "Decano do Rei-Guerreiro",
+          "imagem_magica": "Uma mulher majestosa vestida de verde esmeralda e vermelho real, coroada com diadema dourado, segurando um cetro solar na mão direita e um escudo com o símbolo do sol na esquerda. Seus olhos brilham com autoridade divina e sabedoria real.",
+          "poder_principal": "Nobreza, honra, comando legítimo",
+          "talisma": "Para obter posições de autoridade, reconhecimento e respeito",
+          "descricao_completa": "O segundo decano de Áries representa a evolução da força bruta marciana em autoridade solar refinada. Aqui a energia guerreira se transforma em liderança nobre e comando respeitoso. É o arquétipo do rei-guerreiro, aquele que conquista não apenas pela força, mas pela autoridade natural, carisma e sabedoria. Esta energia combina a coragem ariana com a dignidade solar, criando líderes que inspiram lealdade e respeito genuínos.",
+          "correspondencias": {
+            "cores": ["Dourado imperial", "Laranja real", "Amarelo topázio", "Verde esmeralda"],
+            "pedras": ["Topázio imperial", "Citrino", "Olho de tigre", "Âmbar", "Peridoto"],
+            "ervas": ["Louro nobre", "Girassol", "Calêndula", "Camomila romana", "Angélica", "Hipérico"],
+            "incensos": ["Olíbano puro", "Copal dourado", "Sândalo", "Mirra", "Benjoim branco"],
+            "metais": ["Ouro puro", "Bronze dourado", "Electrum"],
+            "animais": ["Leão", "Águia dourada", "Galo", "Pavão", "Falcão real"],
+            "anjos": ["Raphael", "Michael", "Uriel"],
+            "genios_arabes": ["Chontare", "Sagarash", "Daniel"],
+            "deuses": ["Apolo", "Ra", "Helios", "Shamash", "Surya", "Oxalá"]
+          },
+          "usos_magicos": [
+            "Rituais de autoridade e comando legítimo",
+            "Obtenção de cargos de liderança e reconhecimento",
+            "Desenvolvimento do carisma e presença real",
+            "Rituais solares de poder e dignidade",
+            "Proteção de governantes e líderes",
+            "Aumento da dignidade pessoal e autoestima",
+            "Rituais de justiça e equidade",
+            "Consagração de símbolos de poder"
+          ],
+          "horas_favoraveis": [
+            "Hora do meio-dia (máximo poder solar)",
+            "Sexta hora após o nascer do sol",
+            "Primeira hora solar do domingo",
+            "Aurora do solstício de verão"
+          ],
+          "dias_poder": ["Domingo", "Dias de lua crescente", "Solstício de verão"],
+          "rituais_especificos": {
+            "talisma_autoridade": "Gravar símbolo solar em ouro durante domingo ao meio-dia",
+            "ritual_lideranca": "Meditar ao nascer do sol com topázio imperial",
+            "consagracao_poder": "Ungir com óleo de louro durante lua crescente"
+          }
+        },
+        {
+          "numero": 3,
+          "graus": "20°-30°",
+          "regente": "Vênus",
+          "nome_tradicional": "Decano do Artista-Guerreiro",
+          "imagem_magica": "Um homem jovem de cabelos ruivos como fogo, vestido com túnicas brancas bordadas em verde e cobre, segurando uma lira dourada na mão esquerda e uma espada ornamentada na direita. Seu rosto expressa tanto força quanto compaixão, beleza e determinação.",
+          "poder_principal": "Artes, beleza, harmonia criativa",
+          "talisma": "Para sucesso nas artes, relacionamentos harmoniosos e criatividade",
+          "descricao_completa": "O terceiro decano de Áries representa a síntese sublime entre a força marciana e a graça venusiana. Aqui encontramos o guerreiro-artista, aquele que luta pela beleza e harmonia no mundo. É a energia que transforma a agressividade em arte, a competição em criação colaborativa. Este decano governa aqueles que usam sua força para proteger e criar beleza, que transformam conflitos em oportunidades de crescimento mútuo.",
+          "correspondencias": {
+            "cores": ["Rosa coral", "Verde esmeralda", "Cobre polido", "Branco pérola"],
+            "pedras": ["Esmeralda", "Quartzo rosa", "Turmalina verde", "Cobre nativo", "Pérola"],
+            "ervas": ["Rosa damascena", "Verbena", "Artemísia", "Manjericão sagrado", "Tomilho", "Melissa"],
+            "incensos": ["Rosa búlgara", "Sândalo rosa", "Benjoim", "Estoraque", "Jasmim"],
+            "metais": ["Cobre puro", "Bronze venusiano", "Prata rosé"],
+            "animais": ["Pomba", "Cisne", "Veado", "Borboleta", "Rouxinol"],
+            "anjos": ["Haniel", "Anael", "Hagiel"],
+            "genios_arabes": ["Vehuel", "Daniel", "Hahasiah"],
+            "deuses": ["Afrodite", "Vênus", "Freya", "Lakshmi", "Oxum", "Hathor"]
+          },
+          "usos_magicos": [
+            "Rituais de amor e relacionamentos duradouros",
+            "Desenvolvimento artístico e criativo",
+            "Harmonização de conflitos e disputas",
+            "Atração de beleza e elegância",
+            "Rituais de criatividade e inspiração",
+            "Cura através da arte e música",
+            "Rituais de diplomacia e negociação",
+            "Consagração de objetos artísticos"
+          ],
+          "horas_favoraveis": [
+            "Primeira hora de Vênus (sexta-feira)",
+            "Hora do crepúsculo vespertino",
+            "Sexta-feira ao entardecer",
+            "Lua cheia em signos de Terra"
+          ],
+          "dias_poder": ["Sexta-feira", "Lua cheia em Touro", "Equinócio de outono"],
+          "rituais_especificos": {
+            "talisma_amor": "Gravar símbolo de Vênus em cobre durante sexta-feira",
+            "ritual_criatividade": "Meditar com quartzo rosa durante lua crescente",
+            "harmonizacao": "Queimar incenso de rosa durante conflitos"
+          }
+        }
+      ],
+      "faces": [
+        {
+          "numero": 1,
+          "graus": "0°-10°",
+          "regente": "Marte",
+          "nome_tradicional": "Face da Força Bruta",
+          "significado": "Força primitiva, iniciativa pura, pioneirismo",
+          "descricao_detalhada": "A primeira face de Áries representa a energia marciana em sua forma mais pura e primitiva. É a força que rompe a inércia, que inicia movimentos e quebra barreiras. Aqui encontramos o impulso inicial de toda criação, a faísca que acende o fogo da manifestação. Esta face governa os pioneiros, os desbravadores, aqueles que abrem caminhos onde não existiam.",
+          "uso_magico": "Rituais de coragem, iniciação e superação de obstáculos",
+          "correspondencias": {
+            "cores": ["Vermelho puro", "Escarlate"],
+            "pedras": ["Rubi", "Jaspe vermelho"],
+            "ervas": ["Urtiga", "Pimenta"],
+            "incensos": ["Sangue de dragão", "Canela"],
+            "horas": ["Primeira hora de Marte", "Aurora"],
+            "dias": ["Terça-feira", "Lua nova"]
+          },
+          "rituais_especificos": [
+            "Acender vela vermelha ao nascer do sol para coragem",
+            "Carregar jaspe vermelho para proteção",
+            "Queimar sangue de dragão para força"
+          ]
+        },
+        {
+          "numero": 2,
+          "graus": "10°-20°",
+          "regente": "Sol",
+          "nome_tradicional": "Face da Autoridade",
+          "significado": "Liderança natural, dignidade, reconhecimento",
+          "descricao_detalhada": "A segunda face de Áries combina a energia marciana com a dignidade solar, criando líderes naturais que comandam respeito. Aqui a força bruta se refina em autoridade legítima, o impulso primitivo se transforma em liderança consciente. Esta face governa reis, comandantes, todos aqueles que lideram pelo exemplo e pela força moral.",
+          "uso_magico": "Rituais de liderança, autoridade e reconhecimento",
+          "correspondencias": {
+            "cores": ["Dourado", "Laranja imperial"],
+            "pedras": ["Topázio", "Citrino"],
+            "ervas": ["Louro", "Girassol"],
+            "incensos": ["Olíbano", "Copal"],
+            "horas": ["Meio-dia", "Primeira hora solar"],
+            "dias": ["Domingo", "Lua crescente"]
+          },
+          "rituais_especificos": [
+            "Meditar com topázio ao meio-dia para autoridade",
+            "Queimar olíbano para reconhecimento",
+            "Usar coroa de louro em rituais de liderança"
+          ]
+        },
+        {
+          "numero": 3,
+          "graus": "20°-30°",
+          "regente": "Vênus",
+          "nome_tradicional": "Face da Harmonia Criativa",
+          "significado": "Arte, beleza, relacionamentos harmoniosos",
+          "descricao_detalhada": "A terceira face de Áries suaviza a energia marciana com a graça venusiana, criando artistas-guerreiros que lutam pela beleza. Aqui a força se transforma em criatividade, a agressão em arte. Esta face governa aqueles que usam sua energia para criar beleza, harmonizar conflitos e inspirar através da arte.",
+          "uso_magico": "Rituais de amor, criatividade e harmonização",
+          "correspondencias": {
+            "cores": ["Rosa", "Verde suave"],
+            "pedras": ["Quartzo rosa", "Esmeralda"],
+            "ervas": ["Rosa", "Verbena"],
+            "incensos": ["Rosa", "Sândalo"],
+            "horas": ["Crepúsculo", "Primeira hora de Vênus"],
+            "dias": ["Sexta-feira", "Lua cheia"]
+          },
+          "rituais_especificos": [
+            "Meditar com quartzo rosa para amor",
+            "Queimar incenso de rosa para harmonia",
+            "Criar arte durante lua cheia para inspiração"
+          ]
+        }
+      ]
+    }
+  }
+}
+

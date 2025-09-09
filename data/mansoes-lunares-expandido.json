@@ -1,0 +1,281 @@
+{
+  "version": "2.0.0",
+  "description": "Mansões Lunares Expandidas com Espíritos Toscanos, Hinos Órficos e Correspondências Completas",
+  "fonte": "Tradições árabes, toscanas e órficas compiladas",
+  "mansoes": {
+    "1": {
+      "numero": 1,
+      "nome": "Al-Sharatain",
+      "nomeArabico": "الشرطان",
+      "espiritoToscano": "Arisham",
+      "grausInicio": 0,
+      "grausFim": 12.857,
+      "natureza": "Marcial",
+      "regente": "Marte",
+      "significado": "Os Sinais - Início de todas as coisas",
+      "usosMagicos": [
+        "Proteção em viagens",
+        "Novos começos",
+        "Coragem e força",
+        "Quebrar obstáculos",
+        "Rituais de iniciação"
+      ],
+      "favoravel": [
+        "Iniciar jornadas",
+        "Mudanças de residência", 
+        "Novos empreendimentos",
+        "Rituais de proteção",
+        "Trabalhos de coragem"
+      ],
+      "desfavoravel": [
+        "Casamento",
+        "Empréstimos",
+        "Cirurgias",
+        "Reconciliações",
+        "Trabalhos de paz"
+      ],
+      "correspondencias": {
+        "ervas": ["alecrim", "urtiga", "pimenta", "gengibre", "cardamomo"],
+        "pedras": ["rubi", "hematita", "jaspe vermelho", "granada", "ferro"],
+        "cores": ["#DC143C", "#8B0000", "#FF4500"],
+        "incensos": ["sangue de dragão", "canela", "cravo", "pimenta preta"],
+        "metais": ["ferro", "aço"],
+        "animais": ["carneiro", "falcão", "lobo", "serpente"],
+        "deusas": ["Sekhmet", "Durga", "Morrigan", "Bellona"]
+      },
+      "simbolo": "⚔️",
+      "selo": "Dois chifres entrelaçados com espadas",
+      "invocacao": "Arisham, espírito da primeira mansão, guardião dos novos começos, concede-me coragem para iniciar esta jornada sagrada.",
+      "hinoOrfico": "Invoco Ares, deus da guerra sagrada, que rompe as correntes do medo e abre os caminhos da vitória.",
+      "operacaoAlquimica": "Calcinação - Queima do velho para nascer o novo",
+      "parteCorpo": "Cabeça e face",
+      "elementoAssociado": "Fogo"
+    },
+    "2": {
+      "numero": 2,
+      "nome": "Al-Butain",
+      "nomeArabico": "البطين",
+      "espiritoToscano": "Estanacohn",
+      "grausInicio": 12.857,
+      "grausFim": 25.714,
+      "natureza": "Solar",
+      "regente": "Sol",
+      "significado": "O Ventre - Descoberta de tesouros ocultos",
+      "usosMagicos": [
+        "Descoberta de tesouros",
+        "Encontrar objetos perdidos",
+        "Revelações místicas",
+        "Despertar da consciência",
+        "Iluminação interior"
+      ],
+      "favoravel": [
+        "Pesquisas esotéricas",
+        "Estudos ocultos",
+        "Investigações",
+        "Meditação profunda",
+        "Trabalhos de revelação"
+      ],
+      "desfavoravel": [
+        "Navegação",
+        "Viagens marítimas",
+        "Casamento",
+        "Negócios arriscados",
+        "Especulação"
+      ],
+      "correspondencias": {
+        "ervas": ["louro", "girassol", "camomila", "calêndula", "hipérico"],
+        "pedras": ["topázio", "citrino", "âmbar", "olho de tigre", "ouro"],
+        "cores": ["#FFD700", "#FFA500", "#FFFF00"],
+        "incensos": ["olíbano", "copal", "benjoim", "mirra dourada"],
+        "metais": ["ouro"],
+        "animais": ["leão", "galo", "águia", "escaravelho"],
+        "deusas": ["Ísis", "Brigid", "Saraswati", "Atena"]
+      },
+      "simbolo": "☀️",
+      "selo": "Olho solar irradiando luz sobre um baú de tesouros",
+      "invocacao": "Estanacohn, revelador de mistérios, que tua luz dourada ilumine os tesouros ocultos em meu caminho.",
+      "hinoOrfico": "Hélio, condutor da luz divina, revela-me os segredos que jazem nas profundezas da alma.",
+      "operacaoAlquimica": "Dissolução - Revelação da essência oculta",
+      "parteCorpo": "Pescoço e garganta",
+      "elementoAssociado": "Fogo"
+    },
+    "3": {
+      "numero": 3,
+      "nome": "Al-Thurayya",
+      "nomeArabico": "الثريا",
+      "espiritoToscano": "Evonacus",
+      "grausInicio": 25.714,
+      "grausFim": 38.571,
+      "natureza": "Lunar",
+      "regente": "Lua",
+      "significado": "As Plêiades - Navegação e caça mística",
+      "usosMagicos": [
+        "Alquimia lunar",
+        "Caça espiritual",
+        "Navegação astral",
+        "Proteção em viagens",
+        "Conexão com as estrelas"
+      ],
+      "favoravel": [
+        "Viagens espirituais",
+        "Trabalhos alquímicos",
+        "Caça de conhecimento",
+        "Navegação interior",
+        "Rituais estelares"
+      ],
+      "desfavoravel": [
+        "Casamento",
+        "Empréstimos",
+        "Construção",
+        "Negócios terrestres",
+        "Compromissos fixos"
+      ],
+      "correspondencias": {
+        "ervas": ["artemísia", "jasmim", "lírio", "violeta", "murta"],
+        "pedras": ["pérola", "pedra da lua", "opala", "selenita", "prata"],
+        "cores": ["#C0C0C0", "#E6E6FA", "#F0F8FF"],
+        "incensos": ["jasmim", "sândalo branco", "estoraque", "gálbano"],
+        "metais": ["prata"],
+        "animais": ["coruja", "lebre", "gato", "cisne"],
+        "deusas": ["Diana", "Ártemis", "Selene", "Hécate"]
+      },
+      "simbolo": "🌙",
+      "selo": "Sete estrelas dispostas em crescente lunar",
+      "invocacao": "Evonacus, navegador das estrelas, guia-me através dos mares da consciência até os portos da sabedoria.",
+      "hinoOrfico": "Selene, rainha da noite estrelada, que tua luz prateada ilumine os caminhos ocultos do cosmos.",
+      "operacaoAlquimica": "Separação - Distinção entre o sutil e o grosso",
+      "parteCorpo": "Ombros e braços",
+      "elementoAssociado": "Água"
+    },
+    "4": {
+      "numero": 4,
+      "nome": "Al-Dabaran",
+      "nomeArabico": "الدبران",
+      "espiritoToscano": "Miracohn",
+      "grausInicio": 38.571,
+      "grausFim": 51.428,
+      "natureza": "Venusiana",
+      "regente": "Vênus",
+      "significado": "O Seguidor - Amor e harmonia",
+      "usosMagicos": [
+        "Rituais de amor",
+        "Harmonia conjugal",
+        "Beleza e atração",
+        "Artes e criatividade",
+        "Reconciliação"
+      ],
+      "favoravel": [
+        "Casamento",
+        "Artes criativas",
+        "Trabalhos de beleza",
+        "Reconciliações",
+        "Rituais de amor"
+      ],
+      "desfavoravel": [
+        "Guerra",
+        "Conflitos",
+        "Cirurgias",
+        "Destruição",
+        "Trabalhos marciais"
+      ],
+      "correspondencias": {
+        "ervas": ["rosa", "verbena", "mirto", "manjericão", "lavanda"],
+        "pedras": ["esmeralda", "quartzo rosa", "turmalina rosa", "cobre", "jade"],
+        "cores": ["#FF69B4", "#FFB6C1", "#98FB98"],
+        "incensos": ["rosa", "sândalo", "benjoim", "âmbar"],
+        "metais": ["cobre"],
+        "animais": ["pomba", "veado", "borboleta", "cisne"],
+        "deusas": ["Afrodite", "Vênus", "Lakshmi", "Freya"]
+      },
+      "simbolo": "💖",
+      "selo": "Coração entrelaçado com rosas e estrelas",
+      "invocacao": "Miracohn, tecelão do amor, que tua doce influência una os corações em harmonia perfeita.",
+      "hinoOrfico": "Afrodite, deusa do amor sagrado, desperta em nós a beleza divina que une todas as almas.",
+      "operacaoAlquimica": "Conjunção - União dos opostos em harmonia",
+      "parteCorpo": "Peito e coração",
+      "elementoAssociado": "Ar"
+    },
+    "5": {
+      "numero": 5,
+      "nome": "Al-Haq'ah",
+      "nomeArabico": "الهقعة",
+      "espiritoToscano": "Sendomahr",
+      "grausInicio": 51.428,
+      "grausFim": 64.285,
+      "natureza": "Mercurial",
+      "regente": "Mercúrio",
+      "significado": "A Mancha Branca - Comunicação e conhecimento",
+      "usosMagicos": [
+        "Eloquência e comunicação",
+        "Estudos e aprendizado",
+        "Viagens mentais",
+        "Negociação",
+        "Transmissão de conhecimento"
+      ],
+      "favoravel": [
+        "Estudos",
+        "Ensino",
+        "Negociações",
+        "Correspondência",
+        "Trabalhos intelectuais"
+      ],
+      "desfavoravel": [
+        "Silêncio forçado",
+        "Isolamento",
+        "Trabalhos físicos pesados",
+        "Meditação profunda",
+        "Rituais de terra"
+      ],
+      "correspondencias": {
+        "ervas": ["erva-doce", "tomilho", "salvia", "menta", "eucalipto"],
+        "pedras": ["ágata", "cornalina", "citrino", "mercúrio", "topázio"],
+        "cores": ["#FFD700", "#FF8C00", "#32CD32"],
+        "incensos": ["estoraque", "mástique", "copal", "benjoim"],
+        "metais": ["mercúrio", "prata"],
+        "animais": ["íbis", "macaco", "serpente", "golfinho"],
+        "deusas": ["Ísis", "Saraswati", "Atena", "Thoth"]
+      },
+      "simbolo": "📜",
+      "selo": "Caduceu entrelaçado com pergaminhos e penas",
+      "invocacao": "Sendomahr, mensageiro da sabedoria, que tua eloquência divina flua através de minhas palavras.",
+      "hinoOrfico": "Hermes, condutor das almas e das palavras, concede-me a arte da comunicação sagrada.",
+      "operacaoAlquimica": "Fermentação - Transformação através do conhecimento",
+      "parteCorpo": "Mãos e sistema nervoso",
+      "elementoAssociado": "Ar"
+    }
+  },
+  "usos_gerais": {
+    "rituais_lunares": {
+      "lua_nova": "Mansões 1-7 são ideais para novos começos",
+      "lua_crescente": "Mansões 8-14 favorecem crescimento e expansão", 
+      "lua_cheia": "Mansões 15-21 são poderosas para manifestação",
+      "lua_minguante": "Mansões 22-28 auxiliam liberação e purificação"
+    },
+    "correspondencias_elementais": {
+      "fogo": [1, 2, 8, 9, 15, 16, 22, 23],
+      "terra": [3, 4, 10, 11, 17, 18, 24, 25],
+      "ar": [5, 6, 12, 13, 19, 20, 26, 27],
+      "agua": [7, 14, 21, 28]
+    },
+    "operacoes_alquimicas": {
+      "calcinacao": [1, 8, 15, 22],
+      "dissolucao": [2, 9, 16, 23],
+      "separacao": [3, 10, 17, 24],
+      "conjuncao": [4, 11, 18, 25],
+      "fermentacao": [5, 12, 19, 26],
+      "destilacao": [6, 13, 20, 27],
+      "coagulacao": [7, 14, 21, 28]
+    }
+  },
+  "invocacoes_gerais": {
+    "abertura_ritual": "Pelos nomes sagrados dos 28 espíritos que regem as mansões da Lua, invoco a presença divina neste círculo sagrado.",
+    "fechamento_ritual": "Que a bênção dos espíritos lunares permaneça comigo, e que sua sabedoria guie meus passos na luz e na sombra.",
+    "protecao_diaria": "Espírito da mansão atual, protege-me neste dia e concede-me tua sabedoria ancestral."
+  },
+  "hinos_orficos_lunares": {
+    "selene": "Escuta, deusa de chifres dourados, Selene de luz variável, Titânia, inimiga da noite, portadora de luz, amante da solidão, que brilhas na noite.",
+    "artemis": "Escuta, ó rainha, difusora de luz, Ártemis louvável, nascida de Zeus, virgem caçadora de cervos, que se regozija com arcos.",
+    "hecate": "Invoco Hécate das encruzilhadas, guardiã das chaves celestiais, terrenas e marinhas, de açafrão-túnica, que dança entre os túmulos."
+  }
+}
+

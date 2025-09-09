@@ -1,0 +1,75 @@
+{
+  "weights": {
+    "amor": {
+      "venus": 1.0,
+      "lua": 0.6,
+      "trigonos": 0.5,
+      "sextis": 0.3,
+      "lua_crescente": 0.4,
+      "lua_em_touro": 0.3,
+      "lua_em_libra": 0.3,
+      "venus_em_domicilio": 0.5,
+      "evitar": ["lua_vazia", "venus_rx", "marte_quadratura_venus", "saturno_oposicao_venus"]
+    },
+    "trabalho": {
+      "saturno": 0.8,
+      "mercurio": 0.7,
+      "sol": 0.5,
+      "lua_minguante": 0.3,
+      "lua_em_capricornio": 0.4,
+      "lua_em_virgem": 0.3,
+      "mercurio_em_domicilio": 0.4,
+      "evitar": ["mercurio_rx_forte", "saturno_rx", "lua_vazia"]
+    },
+    "beleza": {
+      "venus": 1.0,
+      "lua_crescente": 0.4,
+      "lua_em_touro": 0.3,
+      "lua_em_libra": 0.3,
+      "venus_trigono_lua": 0.5,
+      "evitar": ["lua_vazia", "venus_rx", "marte_oposicao_venus"]
+    },
+    "prosperidade": {
+      "jupiter": 1.0,
+      "lua_crescente": 0.6,
+      "sol": 0.4,
+      "lua_em_sagitario": 0.3,
+      "jupiter_em_domicilio": 0.5,
+      "venus_trigono_jupiter": 0.4,
+      "evitar": ["lua_vazia", "jupiter_rx", "saturno_quadratura_jupiter"]
+    },
+    "justica": {
+      "jupiter": 0.7,
+      "saturno": 0.6,
+      "sol": 0.5,
+      "lua_em_libra": 0.4,
+      "lua_em_capricornio": 0.3,
+      "evitar": ["lua_vazia", "mercurio_rx", "marte_quadratura_saturno"]
+    },
+    "contato": {
+      "netuno": 0.9,
+      "lua": 0.7,
+      "lua_em_agua": 0.5,
+      "lua_em_peixes": 0.4,
+      "lua_em_cancer": 0.3,
+      "lua_em_escorpiao": 0.3,
+      "netuno_trigono_lua": 0.6,
+      "evitar": ["lua_vazia", "mercurio_rx", "saturno_oposicao_netuno"]
+    }
+  },
+  "rules": [
+    "sem_eclipse_exato_para_magias_comuns",
+    "orb_max_graus_3",
+    "lua_vazia_reduz_score_50_porcento",
+    "retrogradacao_planeta_principal_reduz_30_porcento"
+  ],
+  "descriptions": {
+    "amor": "Magias para atrair amor, fortalecer relacionamentos, harmonizar parcerias",
+    "trabalho": "Magias para sucesso profissional, estabilidade financeira, conquista de objetivos",
+    "beleza": "Magias para realçar beleza física, autoestima, charme pessoal",
+    "prosperidade": "Magias para abundância, riqueza, crescimento material e espiritual",
+    "justica": "Magias para equilibrio, resolução de conflitos, proteção legal",
+    "contato": "Magias para comunicação espiritual, intuição, conexão com o divino"
+  }
+}
+

@@ -1,0 +1,194 @@
+{
+  "operacoes_alquimicas": {
+    "marte": {
+      "operacao": "Calcinação",
+      "simbolo": "🔥",
+      "elemento": "Fogo",
+      "processo": "Destruição da matéria pela aplicação de calor intenso",
+      "objetivo": "Reduzir substâncias a cinzas, purificar pelo fogo",
+      "correspondencia_psicologica": "Destruição do ego, purificação através da provação",
+      "timing_favoravel": "Marte forte, aspectos de fogo, lua minguante",
+      "materiais": ["Ferro", "Enxofre", "Salitre", "Carvão"],
+      "cores": ["Vermelho", "Laranja", "Amarelo"],
+      "temperatura": "Alta (calor destrutivo)"
+    },
+    "saturno": {
+      "operacao": "Putrefação",
+      "simbolo": "💀",
+      "elemento": "Terra",
+      "processo": "Decomposição controlada, morte da forma antiga",
+      "objetivo": "Permitir que a matéria se dissolva para renascer purificada",
+      "correspondencia_psicologica": "Morte do ego, enfrentamento da sombra",
+      "timing_favoravel": "Saturno forte, aspectos de terra, lua nova",
+      "materiais": ["Chumbo", "Antimônio", "Terra negra", "Matéria orgânica"],
+      "cores": ["Preto", "Cinza escuro", "Marrom"],
+      "temperatura": "Baixa (frio úmido)"
+    },
+    "lua": {
+      "operacao": "Dissolução",
+      "simbolo": "💧",
+      "elemento": "Água",
+      "processo": "Dissolução suave em meio aquoso",
+      "objetivo": "Separar o puro do impuro através da água",
+      "correspondencia_psicologica": "Dissolução das resistências, receptividade",
+      "timing_favoravel": "Lua forte, aspectos de água, lua cheia",
+      "materiais": ["Prata", "Sal marinho", "Água destilada", "Mercúrio"],
+      "cores": ["Branco", "Prata", "Azul claro"],
+      "temperatura": "Fria (umidade receptiva)"
+    },
+    "sol": {
+      "operacao": "Coagulação",
+      "simbolo": "☀️",
+      "elemento": "Fogo",
+      "processo": "Solidificação e fixação da matéria purificada",
+      "objetivo": "Unir os opostos em uma substância incorruptível",
+      "correspondencia_psicologica": "Integração, realização do Self",
+      "timing_favoravel": "Sol forte, aspectos harmoniosos, meio-dia",
+      "materiais": ["Ouro", "Enxofre filosófico", "Sal fixo"],
+      "cores": ["Dourado", "Amarelo brilhante", "Branco"],
+      "temperatura": "Moderada (calor vivificante)"
+    },
+    "mercurio": {
+      "operacao": "Sublimação",
+      "simbolo": "🌪️",
+      "elemento": "Ar",
+      "processo": "Elevação do volátil, passagem direto do sólido ao gasoso",
+      "objetivo": "Purificar separando o sutil do grosseiro",
+      "correspondencia_psicologica": "Elevação da consciência, transcendência",
+      "timing_favoravel": "Mercúrio forte, aspectos de ar, aurora",
+      "materiais": ["Mercúrio", "Sal amoníaco", "Substâncias voláteis"],
+      "cores": ["Multicolor", "Iridescente", "Transparente"],
+      "temperatura": "Variável (movimento constante)"
+    },
+    "jupiter": {
+      "operacao": "Fermentação",
+      "simbolo": "🍇",
+      "elemento": "Ar",
+      "processo": "Introdução de vida nova na matéria morta",
+      "objetivo": "Multiplicar e expandir as virtudes da substância",
+      "correspondencia_psicologica": "Crescimento espiritual, expansão da consciência",
+      "timing_favoravel": "Júpiter forte, aspectos benéficos, lua crescente",
+      "materiais": ["Estanho", "Fermento filosófico", "Substâncias orgânicas"],
+      "cores": ["Azul", "Púrpura", "Verde"],
+      "temperatura": "Morna (calor vivificante)"
+    },
+    "venus": {
+      "operacao": "Destilação",
+      "simbolo": "🌹",
+      "elemento": "Água",
+      "processo": "Purificação através da evaporação e condensação",
+      "objetivo": "Obter a essência pura e harmoniosa",
+      "correspondencia_psicologica": "Refinamento, purificação do amor",
+      "timing_favoravel": "Vênus forte, aspectos harmoniosos, manhã",
+      "materiais": ["Cobre", "Águas florais", "Óleos essenciais"],
+      "cores": ["Verde", "Rosa", "Azul suave"],
+      "temperatura": "Suave (calor moderado)"
+    }
+  },
+  "sequencia_tradicional": [
+    {
+      "ordem": 1,
+      "operacao": "Calcinação",
+      "planeta": "Marte",
+      "descricao": "Destruição inicial da matéria bruta"
+    },
+    {
+      "ordem": 2,
+      "operacao": "Dissolução",
+      "planeta": "Lua",
+      "descricao": "Dissolução das cinzas em meio aquoso"
+    },
+    {
+      "ordem": 3,
+      "operacao": "Separação",
+      "planeta": "Mercúrio",
+      "descricao": "Separação dos elementos puros dos impuros"
+    },
+    {
+      "ordem": 4,
+      "operacao": "Conjunção",
+      "planeta": "Vênus",
+      "descricao": "União harmoniosa dos elementos purificados"
+    },
+    {
+      "ordem": 5,
+      "operacao": "Putrefação",
+      "planeta": "Saturno",
+      "descricao": "Morte da forma para permitir renascimento"
+    },
+    {
+      "ordem": 6,
+      "operacao": "Coagulação",
+      "planeta": "Sol",
+      "descricao": "Fixação final da Pedra Filosofal"
+    },
+    {
+      "ordem": 7,
+      "operacao": "Sublimação",
+      "planeta": "Júpiter",
+      "descricao": "Elevação e multiplicação das virtudes"
+    }
+  ],
+  "correspondencias_cores": {
+    "nigredo": {
+      "cor": "Preto",
+      "planetas": ["Saturno"],
+      "operacoes": ["Putrefação", "Calcinação"],
+      "significado": "Morte, dissolução, caos primordial"
+    },
+    "albedo": {
+      "cor": "Branco",
+      "planetas": ["Lua"],
+      "operacoes": ["Dissolução", "Destilação"],
+      "significado": "Purificação, clareza, renascimento"
+    },
+    "citrinitas": {
+      "cor": "Amarelo",
+      "planetas": ["Mercúrio"],
+      "operacoes": ["Sublimação"],
+      "significado": "Iluminação, sabedoria, transmutação"
+    },
+    "rubedo": {
+      "cor": "Vermelho",
+      "planetas": ["Sol"],
+      "operacoes": ["Coagulação"],
+      "significado": "Perfeição, união dos opostos, Pedra Filosofal"
+    }
+  },
+  "aplicacoes_praticas": {
+    "timing_operacoes": {
+      "calcinacao": "Marte forte, aspectos de fogo, terça-feira",
+      "dissolucao": "Lua cheia, aspectos de água, segunda-feira",
+      "sublimacao": "Mercúrio direto, aspectos de ar, quarta-feira",
+      "destilacao": "Vênus forte, aspectos harmoniosos, sexta-feira",
+      "fermentacao": "Júpiter bem aspectado, quinta-feira",
+      "coagulacao": "Sol forte, meio-dia, domingo",
+      "putrefacao": "Saturno forte, lua nova, sábado"
+    },
+    "materiais_planetarios": {
+      "sol": ["Ouro", "Heliotropo", "Diamante", "Girassol"],
+      "lua": ["Prata", "Pérola", "Selenita", "Jasmim"],
+      "mercurio": ["Mercúrio", "Ágata", "Lavanda", "Erva-doce"],
+      "venus": ["Cobre", "Esmeralda", "Rosa", "Verbena"],
+      "marte": ["Ferro", "Rubi", "Urtiga", "Alho"],
+      "jupiter": ["Estanho", "Safira", "Sálvia", "Cedro"],
+      "saturno": ["Chumbo", "Ônix", "Cipreste", "Confrei"]
+    }
+  },
+  "avisos_seguranca": {
+    "calcinacao": "Usar proteção adequada, trabalhar em local ventilado",
+    "dissolucao": "Cuidado com vapores, usar recipientes adequados",
+    "sublimacao": "Controlar temperatura, evitar superaquecimento",
+    "putrefacao": "Trabalhar em ambiente controlado, cuidado com gases",
+    "destilacao": "Monitorar pressão, usar equipamento adequado",
+    "fermentacao": "Controlar contaminação, ambiente estéril",
+    "coagulacao": "Temperatura controlada, evitar choque térmico"
+  },
+  "configuracao": {
+    "mostrar_operacoes": true,
+    "alertar_timing": true,
+    "incluir_correspondencias": true,
+    "modo_seguranca": true
+  }
+}
+

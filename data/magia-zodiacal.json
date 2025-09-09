@@ -1,0 +1,263 @@
+{
+  "version": "1.0.0",
+  "description": "Sistema Completo de Magia Zodiacal - Signos, Decanos, Faces e Correspondências",
+  "fonte": "Tradições herméticas, árabes e medievais compiladas",
+  "signos": {
+    "aries": {
+      "nome": "Áries",
+      "simbolo": "♈",
+      "elemento": "Fogo",
+      "qualidade": "Cardeal",
+      "regente": "Marte",
+      "exaltacao": "Sol",
+      "detrimento": "Vênus",
+      "queda": "Saturno",
+      "graus": "0-30",
+      "natureza_magica": "Iniciação, coragem, liderança",
+      "correspondencias": {
+        "ervas": ["urtiga", "alecrim", "pimenta", "gengibre", "cardamomo"],
+        "pedras": ["rubi", "diamante", "hematita", "jaspe vermelho"],
+        "cores": ["#DC143C", "#FF4500", "#8B0000"],
+        "incensos": ["sangue de dragão", "canela", "cravo"],
+        "metais": ["ferro"],
+        "animais": ["carneiro", "falcão", "lobo"],
+        "deuses": ["Ares", "Marte", "Sekhmet", "Durga"]
+      },
+      "usos_magicos": [
+        "Rituais de coragem e força",
+        "Novos começos e iniciações",
+        "Proteção e defesa",
+        "Liderança e comando",
+        "Quebrar obstáculos"
+      ],
+      "decanos": {
+        "1": {
+          "graus": "0-10",
+          "regente": "Marte",
+          "face": "Marte",
+          "significado": "Força bruta, iniciação",
+          "imagem": "Homem negro de olhos vermelhos, vestido de branco, com machado na mão",
+          "poder": "Concede coragem e força física"
+        },
+        "2": {
+          "graus": "10-20", 
+          "regente": "Sol",
+          "face": "Sol",
+          "significado": "Liderança, nobreza",
+          "imagem": "Mulher vestida de verde e branco, com arco na mão",
+          "poder": "Concede liderança e honra"
+        },
+        "3": {
+          "graus": "20-30",
+          "regente": "Vênus", 
+          "face": "Vênus",
+          "significado": "Arte da guerra, estratégia",
+          "imagem": "Homem ruivo com machado de ouro",
+          "poder": "Concede habilidade em artes e ofícios"
+        }
+      },
+      "rituais_especificos": {
+        "iniciacao": "Ritual no primeiro decano para novos começos",
+        "lideranca": "Ritual no segundo decano para posições de comando",
+        "habilidade": "Ritual no terceiro decano para desenvolver talentos"
+      }
+    },
+    "touro": {
+      "nome": "Touro",
+      "simbolo": "♉",
+      "elemento": "Terra",
+      "qualidade": "Fixo",
+      "regente": "Vênus",
+      "exaltacao": "Lua",
+      "detrimento": "Marte",
+      "queda": "Urano",
+      "graus": "30-60",
+      "natureza_magica": "Estabilidade, prosperidade, sensualidade",
+      "correspondencias": {
+        "ervas": ["rosa", "verbena", "tomilho", "sálvia", "manjericão"],
+        "pedras": ["esmeralda", "quartzo rosa", "turmalina verde", "jade"],
+        "cores": ["#98FB98", "#90EE90", "#32CD32"],
+        "incensos": ["rosa", "sândalo", "benjoim"],
+        "metais": ["cobre"],
+        "animais": ["touro", "vaca", "pomba", "abelha"],
+        "deuses": ["Vênus", "Afrodite", "Deméter", "Ceres"]
+      },
+      "usos_magicos": [
+        "Rituais de prosperidade",
+        "Magia da terra e agricultura",
+        "Amor e sensualidade",
+        "Estabilidade financeira",
+        "Crescimento e fertilidade"
+      ],
+      "decanos": {
+        "1": {
+          "graus": "30-40",
+          "regente": "Mercúrio",
+          "face": "Mercúrio", 
+          "significado": "Trabalho, agricultura",
+          "imagem": "Homem plantando e arando a terra",
+          "poder": "Concede sucesso na agricultura e trabalho"
+        },
+        "2": {
+          "graus": "40-50",
+          "regente": "Lua",
+          "face": "Lua",
+          "significado": "Amor, beleza, arte",
+          "imagem": "Homem nu plantando e semeando",
+          "poder": "Concede amor e beleza"
+        },
+        "3": {
+          "graus": "50-60",
+          "regente": "Saturno",
+          "face": "Saturno",
+          "significado": "Construção, estrutura",
+          "imagem": "Homem com serpente na mão e bastão",
+          "poder": "Concede poder sobre serpentes e construção"
+        }
+      }
+    },
+    "gemeos": {
+      "nome": "Gêmeos",
+      "simbolo": "♊",
+      "elemento": "Ar",
+      "qualidade": "Mutável",
+      "regente": "Mercúrio",
+      "exaltacao": "Nodo Norte",
+      "detrimento": "Júpiter",
+      "queda": "Nodo Sul",
+      "graus": "60-90",
+      "natureza_magica": "Comunicação, versatilidade, conhecimento",
+      "correspondencias": {
+        "ervas": ["erva-doce", "tomilho", "salvia", "menta", "lavanda"],
+        "pedras": ["ágata", "citrino", "topázio", "cornalina"],
+        "cores": ["#FFD700", "#FF8C00", "#32CD32"],
+        "incensos": ["estoraque", "mástique", "copal"],
+        "metais": ["mercúrio", "prata"],
+        "animais": ["gêmeos", "macaco", "papagaio", "borboleta"],
+        "deuses": ["Hermes", "Mercúrio", "Thoth", "Saraswati"]
+      },
+      "usos_magicos": [
+        "Rituais de comunicação",
+        "Estudos e aprendizado",
+        "Viagens e movimento",
+        "Versatilidade mental",
+        "Conexões sociais"
+      ]
+    }
+  },
+  "faces_planetarias": {
+    "descricao": "Cada signo é dividido em 3 faces de 10 graus, cada uma regida por um planeta",
+    "sistema": "Caldeu - ordem planetária tradicional",
+    "ordem": ["Marte", "Sol", "Vênus", "Mercúrio", "Lua", "Saturno", "Júpiter"],
+    "ciclo": "A sequência se repete através dos signos"
+  },
+  "termos_egipcios": {
+    "descricao": "Divisões desiguais de cada signo baseadas no sistema egípcio",
+    "aries": {
+      "jupiter": "0-6°",
+      "venus": "6-12°", 
+      "mercurio": "12-20°",
+      "marte": "20-25°",
+      "saturno": "25-30°"
+    },
+    "touro": {
+      "venus": "0-8°",
+      "mercurio": "8-14°",
+      "jupiter": "14-22°",
+      "saturno": "22-27°",
+      "marte": "27-30°"
+    }
+  },
+  "partes_arabes": {
+    "descricao": "Pontos calculados baseados em posições planetárias",
+    "parte_da_fortuna": {
+      "formula_diurna": "Ascendente + Lua - Sol",
+      "formula_noturna": "Ascendente + Sol - Lua",
+      "significado": "Prosperidade material e bem-estar"
+    },
+    "parte_do_espirito": {
+      "formula_diurna": "Ascendente + Sol - Lua", 
+      "formula_noturna": "Ascendente + Lua - Sol",
+      "significado": "Desenvolvimento espiritual"
+    },
+    "parte_do_amor": {
+      "formula": "Ascendente + Vênus - Sol",
+      "significado": "Relacionamentos e amor"
+    },
+    "parte_da_magia": {
+      "formula": "Ascendente + Lua - Mercúrio",
+      "significado": "Habilidades mágicas e ocultas"
+    }
+  },
+  "eleicoes_zodiacais": {
+    "descricao": "Melhores momentos para rituais baseados em signos",
+    "fogo": {
+      "signos": ["Áries", "Leão", "Sagitário"],
+      "melhor_para": ["Coragem", "Liderança", "Iniciação", "Proteção"],
+      "evitar": ["Trabalhos de água", "Cura emocional", "Receptividade"]
+    },
+    "terra": {
+      "signos": ["Touro", "Virgem", "Capricórnio"],
+      "melhor_para": ["Prosperidade", "Crescimento", "Estabilidade", "Manifestação"],
+      "evitar": ["Mudanças rápidas", "Viagens", "Comunicação"]
+    },
+    "ar": {
+      "signos": ["Gêmeos", "Libra", "Aquário"],
+      "melhor_para": ["Comunicação", "Estudos", "Relacionamentos", "Ideias"],
+      "evitar": ["Trabalhos físicos", "Rituais de terra", "Estabilidade"]
+    },
+    "agua": {
+      "signos": ["Câncer", "Escorpião", "Peixes"],
+      "melhor_para": ["Cura", "Intuição", "Emoções", "Mistérios"],
+      "evitar": ["Ação direta", "Confronto", "Lógica pura"]
+    }
+  },
+  "rituais_zodiacais": {
+    "ritual_solar": {
+      "quando": "Sol no signo desejado",
+      "preparacao": "Velas da cor do signo, incenso correspondente",
+      "invocacao": "Pelo poder do Sol em [Signo], invoco as qualidades de [natureza do signo]"
+    },
+    "ritual_lunar": {
+      "quando": "Lua no signo desejado", 
+      "preparacao": "Água consagrada, cristais do signo",
+      "invocacao": "Pela luz da Lua em [Signo], desperto as energias de [qualidade do signo]"
+    },
+    "ritual_de_face": {
+      "quando": "Planeta regente da face em aspecto harmonioso",
+      "preparacao": "Imagem da face, oferendas planetárias",
+      "invocacao": "Espírito da [número] face de [Signo], concede-me [poder da face]"
+    }
+  },
+  "correspondencias_completas": {
+    "cores_zodiacais": {
+      "aries": "#DC143C",
+      "touro": "#98FB98", 
+      "gemeos": "#FFD700",
+      "cancer": "#E6E6FA",
+      "leao": "#FF8C00",
+      "virgem": "#8FBC8F",
+      "libra": "#FFB6C1",
+      "escorpiao": "#8B0000",
+      "sagitario": "#4169E1",
+      "capricornio": "#2F4F4F",
+      "aquario": "#00CED1",
+      "peixes": "#9370DB"
+    },
+    "pedras_zodiacais": {
+      "aries": ["Rubi", "Diamante", "Hematita"],
+      "touro": ["Esmeralda", "Quartzo Rosa", "Jade"],
+      "gemeos": ["Ágata", "Citrino", "Topázio"],
+      "cancer": ["Pérola", "Pedra da Lua", "Opala"],
+      "leao": ["Peridoto", "Olho de Tigre", "Âmbar"],
+      "virgem": ["Safira", "Cornalina", "Jaspe"],
+      "libra": ["Turmalina Rosa", "Lápis Lazúli", "Coral"],
+      "escorpiao": ["Obsidiana", "Granada", "Turmalina Negra"],
+      "sagitario": ["Turquesa", "Sodalita", "Ametista"],
+      "capricornio": ["Ônix", "Jet", "Quartzo Fumê"],
+      "aquario": ["Aquamarina", "Fluorita", "Ametista"],
+      "peixes": ["Ametista", "Água Marinha", "Jade"]
+    }
+  }
+}
+

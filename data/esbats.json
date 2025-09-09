@@ -1,0 +1,323 @@
+{
+  "hemisferio_norte": {
+    "janeiro": {
+      "nome": "Lua do Lobo",
+      "significado": "Introspecção, proteção, novos ciclos",
+      "usos_magicos": ["proteção", "introspecção", "novos começos", "força interior"],
+      "correspondencias": {
+        "ervas": ["Pinheiro", "Cedro", "Bétula", "Marjoram"],
+        "cristais": ["Granadas", "Ônix", "Hematita", "Quartzo Fumê"],
+        "cores": ["Branco", "Prata", "Cinza", "Preto"],
+        "elementos": ["Terra", "Ar"]
+      }
+    },
+    "fevereiro": {
+      "nome": "Lua da Neve",
+      "significado": "Purificação, clareza, cura",
+      "usos_magicos": ["purificação", "cura", "clareza mental", "limpeza energética"],
+      "correspondencias": {
+        "ervas": ["Sálvia Branca", "Alecrim", "Eucalipto", "Hortelã"],
+        "cristais": ["Quartzo Claro", "Selenita", "Ametista", "Fluorita"],
+        "cores": ["Branco", "Azul Claro", "Prata", "Violeta"],
+        "elementos": ["Água", "Ar"]
+      }
+    },
+    "marco": {
+      "nome": "Lua da Semente",
+      "significado": "Fertilidade, renovação, inícios",
+      "usos_magicos": ["fertilidade", "novos projetos", "crescimento", "renovação"],
+      "correspondencias": {
+        "ervas": ["Jasmim", "Narciso", "Violeta", "Dente-de-leão"],
+        "cristais": ["Quartzo Verde", "Aventurina", "Prehnita", "Amazonita"],
+        "cores": ["Verde Claro", "Rosa", "Amarelo", "Branco"],
+        "elementos": ["Terra", "Água"]
+      }
+    },
+    "abril": {
+      "nome": "Lua da Lebre",
+      "significado": "Vitalidade, paixão, crescimento",
+      "usos_magicos": ["vitalidade", "paixão", "fertilidade", "energia sexual"],
+      "correspondencias": {
+        "ervas": ["Damiana", "Rosa", "Canela", "Gengibre"],
+        "cristais": ["Cornalina", "Quartzo Rosa", "Granadas", "Jaspe Vermelho"],
+        "cores": ["Vermelho", "Rosa", "Verde", "Dourado"],
+        "elementos": ["Fogo", "Terra"]
+      }
+    },
+    "maio": {
+      "nome": "Lua das Flores",
+      "significado": "Amor, beleza, abundância",
+      "usos_magicos": ["amor", "beleza", "abundância", "harmonia"],
+      "correspondencias": {
+        "ervas": ["Rosa", "Lilás", "Lírio", "Espinheiro"],
+        "cristais": ["Quartzo Rosa", "Esmeralda", "Morganita", "Turmalina Rosa"],
+        "cores": ["Rosa", "Verde", "Branco", "Dourado"],
+        "elementos": ["Água", "Terra"]
+      }
+    },
+    "junho": {
+      "nome": "Lua do Mel",
+      "significado": "Uniões, prosperidade, alegria",
+      "usos_magicos": ["casamento", "união", "prosperidade", "alegria"],
+      "correspondencias": {
+        "ervas": ["Lavanda", "Verbena", "Erva-cidreira", "Camomila"],
+        "cristais": ["Citrino", "Peridoto", "Quartzo Dourado", "Topázio"],
+        "cores": ["Dourado", "Amarelo", "Verde", "Branco"],
+        "elementos": ["Fogo", "Ar"]
+      }
+    },
+    "julho": {
+      "nome": "Lua do Feno",
+      "significado": "Colheita inicial, gratidão, força",
+      "usos_magicos": ["gratidão", "força", "proteção", "abundância"],
+      "correspondencias": {
+        "ervas": ["Hipérico", "Verbasco", "Calêndula", "Camomila"],
+        "cristais": ["Âmbar", "Citrino", "Olho de Tigre", "Jaspe Amarelo"],
+        "cores": ["Dourado", "Amarelo", "Laranja", "Verde"],
+        "elementos": ["Fogo", "Terra"]
+      }
+    },
+    "agosto": {
+      "nome": "Lua do Grão",
+      "significado": "Fartura, prosperidade, partilha",
+      "usos_magicos": ["prosperidade", "abundância", "partilha", "gratidão"],
+      "correspondencias": {
+        "ervas": ["Trigo", "Milho", "Girassol", "Aveia"],
+        "cristais": ["Citrino", "Peridoto", "Aventurina", "Jaspe Verde"],
+        "cores": ["Dourado", "Verde", "Marrom", "Laranja"],
+        "elementos": ["Terra", "Fogo"]
+      }
+    },
+    "setembro": {
+      "nome": "Lua da Colheita",
+      "significado": "Gratidão, equilíbrio, cura",
+      "usos_magicos": ["equilíbrio", "cura", "gratidão", "sabedoria"],
+      "correspondencias": {
+        "ervas": ["Sálvia", "Maçã", "Uva", "Nogueira"],
+        "cristais": ["Ametista", "Lápis-lazúli", "Safira", "Sodalita"],
+        "cores": ["Azul", "Roxo", "Dourado", "Marrom"],
+        "elementos": ["Ar", "Terra"]
+      }
+    },
+    "outubro": {
+      "nome": "Lua do Caçador",
+      "significado": "Preparação, proteção, ancestrais",
+      "usos_magicos": ["proteção", "ancestrais", "preparação", "força"],
+      "correspondencias": {
+        "ervas": ["Artemísia", "Sálvia", "Carvalho", "Avelã"],
+        "cristais": ["Obsidiana", "Hematita", "Granadas", "Jaspe Vermelho"],
+        "cores": ["Vermelho", "Laranja", "Marrom", "Preto"],
+        "elementos": ["Fogo", "Terra"]
+      }
+    },
+    "novembro": {
+      "nome": "Lua do Nevoeiro",
+      "significado": "Introspecção, espiritualidade, desapego",
+      "usos_magicos": ["espiritualidade", "desapego", "comunicação com ancestrais", "mistérios"],
+      "correspondencias": {
+        "ervas": ["Artemísia", "Cipreste", "Pinheiro", "Zimbro"],
+        "cristais": ["Obsidiana", "Ametista", "Labradorita", "Quartzo Fumê"],
+        "cores": ["Preto", "Roxo", "Cinza", "Prata"],
+        "elementos": ["Água", "Terra"]
+      }
+    },
+    "dezembro": {
+      "nome": "Lua da Noite Longa",
+      "significado": "Renovação, renascimento da luz, silêncio",
+      "usos_magicos": ["renovação", "renascimento", "meditação", "silêncio sagrado"],
+      "correspondencias": {
+        "ervas": ["Azevinho", "Visco", "Pinheiro", "Canela"],
+        "cristais": ["Quartzo Claro", "Diamante", "Selenita", "Cristal de Rocha"],
+        "cores": ["Branco", "Prata", "Dourado", "Verde"],
+        "elementos": ["Terra", "Ar"]
+      }
+    }
+  },
+  "hemisferio_sul": {
+    "janeiro": {
+      "nome": "Lua da Colheita",
+      "significado": "Fim do verão, abundância, fartura",
+      "usos_magicos": ["abundância", "gratidão", "prosperidade", "partilha"],
+      "correspondencias": {
+        "ervas": ["Girassol", "Milho", "Uva", "Pêssego"],
+        "cristais": ["Citrino", "Âmbar", "Peridoto", "Jaspe Amarelo"],
+        "cores": ["Dourado", "Laranja", "Verde", "Marrom"],
+        "elementos": ["Terra", "Fogo"]
+      }
+    },
+    "fevereiro": {
+      "nome": "Lua da Tempestade",
+      "significado": "Chuvas, purificação, equilíbrio",
+      "usos_magicos": ["purificação", "limpeza", "equilíbrio", "renovação"],
+      "correspondencias": {
+        "ervas": ["Eucalipto", "Hortelã", "Capim-limão", "Erva-cidreira"],
+        "cristais": ["Quartzo Claro", "Ametista", "Fluorita", "Aquamarina"],
+        "cores": ["Azul", "Branco", "Prata", "Verde"],
+        "elementos": ["Água", "Ar"]
+      }
+    },
+    "marco": {
+      "nome": "Lua do Outono",
+      "significado": "Queda das folhas, introspecção, vinho",
+      "usos_magicos": ["introspecção", "sabedoria", "transformação", "equilíbrio"],
+      "correspondencias": {
+        "ervas": ["Uva", "Maçã", "Nogueira", "Castanha"],
+        "cristais": ["Ametista", "Granadas", "Jaspe Vermelho", "Cornalina"],
+        "cores": ["Roxo", "Vermelho", "Dourado", "Marrom"],
+        "elementos": ["Terra", "Água"]
+      }
+    },
+    "abril": {
+      "nome": "Lua do Caçador",
+      "significado": "Preparação para o inverno, proteção",
+      "usos_magicos": ["proteção", "preparação", "força", "resistência"],
+      "correspondencias": {
+        "ervas": ["Artemísia", "Sálvia", "Alecrim", "Louro"],
+        "cristais": ["Obsidiana", "Hematita", "Quartzo Fumê", "Turmalina Negra"],
+        "cores": ["Preto", "Marrom", "Vermelho", "Dourado"],
+        "elementos": ["Terra", "Fogo"]
+      }
+    },
+    "maio": {
+      "nome": "Lua do Nevoeiro",
+      "significado": "Ancestrais, interiorização, transição para o frio",
+      "usos_magicos": ["ancestrais", "espiritualidade", "mistérios", "comunicação espiritual"],
+      "correspondencias": {
+        "ervas": ["Artemísia", "Cipreste", "Zimbro", "Sálvia"],
+        "cristais": ["Labradorita", "Obsidiana", "Ametista", "Quartzo Fumê"],
+        "cores": ["Cinza", "Preto", "Roxo", "Prata"],
+        "elementos": ["Água", "Terra"]
+      }
+    },
+    "junho": {
+      "nome": "Lua da Noite Longa",
+      "significado": "Inverno profundo, renovação da luz",
+      "usos_magicos": ["renovação", "renascimento", "meditação", "silêncio"],
+      "correspondencias": {
+        "ervas": ["Pinheiro", "Cedro", "Canela", "Cravo"],
+        "cristais": ["Quartzo Claro", "Selenita", "Diamante", "Cristal de Rocha"],
+        "cores": ["Branco", "Prata", "Azul", "Dourado"],
+        "elementos": ["Ar", "Terra"]
+      }
+    },
+    "julho": {
+      "nome": "Lua do Lobo",
+      "significado": "Solidariedade, força, resistência",
+      "usos_magicos": ["força", "proteção", "solidariedade", "resistência"],
+      "correspondencias": {
+        "ervas": ["Pinheiro", "Cedro", "Bétula", "Carvalho"],
+        "cristais": ["Hematita", "Granadas", "Ônix", "Jaspe Vermelho"],
+        "cores": ["Vermelho", "Preto", "Cinza", "Branco"],
+        "elementos": ["Terra", "Fogo"]
+      }
+    },
+    "agosto": {
+      "nome": "Lua da Semente",
+      "significado": "Recomeço, fertilidade oculta",
+      "usos_magicos": ["novos começos", "fertilidade", "esperança", "crescimento"],
+      "correspondencias": {
+        "ervas": ["Jasmim", "Violeta", "Dente-de-leão", "Trevo"],
+        "cristais": ["Quartzo Verde", "Aventurina", "Prehnita", "Jade"],
+        "cores": ["Verde", "Rosa", "Branco", "Amarelo"],
+        "elementos": ["Terra", "Água"]
+      }
+    },
+    "setembro": {
+      "nome": "Lua da Primavera",
+      "significado": "Fertilidade, renovação",
+      "usos_magicos": ["renovação", "fertilidade", "crescimento", "vitalidade"],
+      "correspondencias": {
+        "ervas": ["Narciso", "Tulipa", "Jasmim", "Lírio"],
+        "cristais": ["Quartzo Rosa", "Amazonita", "Prehnita", "Morganita"],
+        "cores": ["Rosa", "Verde", "Amarelo", "Branco"],
+        "elementos": ["Água", "Terra"]
+      }
+    },
+    "outubro": {
+      "nome": "Lua da Lebre",
+      "significado": "Vitalidade, paixão, crescimento",
+      "usos_magicos": ["vitalidade", "paixão", "energia", "crescimento"],
+      "correspondencias": {
+        "ervas": ["Rosa", "Damiana", "Canela", "Gengibre"],
+        "cristais": ["Cornalina", "Quartzo Rosa", "Granadas", "Jaspe Vermelho"],
+        "cores": ["Vermelho", "Rosa", "Laranja", "Verde"],
+        "elementos": ["Fogo", "Terra"]
+      }
+    },
+    "novembro": {
+      "nome": "Lua do Mel",
+      "significado": "Amor, união, alegria do início do verão",
+      "usos_magicos": ["amor", "união", "alegria", "celebração"],
+      "correspondencias": {
+        "ervas": ["Lavanda", "Rosa", "Verbena", "Camomila"],
+        "cristais": ["Quartzo Rosa", "Citrino", "Morganita", "Topázio"],
+        "cores": ["Rosa", "Dourado", "Amarelo", "Verde"],
+        "elementos": ["Água", "Fogo"]
+      }
+    },
+    "dezembro": {
+      "nome": "Lua do Feno",
+      "significado": "Prosperidade, colheita de verão",
+      "usos_magicos": ["prosperidade", "abundância", "alegria", "celebração"],
+      "correspondencias": {
+        "ervas": ["Girassol", "Calêndula", "Hipérico", "Verbasco"],
+        "cristais": ["Citrino", "Âmbar", "Olho de Tigre", "Topázio"],
+        "cores": ["Dourado", "Amarelo", "Laranja", "Verde"],
+        "elementos": ["Fogo", "Terra"]
+      }
+    }
+  },
+  "lua_nova": {
+    "nome": "Esbat da Lua Nova",
+    "significado": "Introspecção, banimento, novos inícios",
+    "usos_magicos": ["introspecção", "banimento", "novos começos", "meditação"],
+    "correspondencias": {
+      "ervas": ["Artemísia", "Sálvia", "Mirra", "Cipreste"],
+      "cristais": ["Obsidiana", "Ônix", "Hematita", "Quartzo Fumê"],
+      "cores": ["Preto", "Cinza", "Prata", "Roxo Escuro"],
+      "elementos": ["Água", "Terra"]
+    }
+  },
+  "especiais": {
+    "eclipse_lunar": {
+      "nome": "Eclipse Lunar",
+      "significado": "Transformação e instabilidade",
+      "usos_magicos": ["transformação profunda", "liberação", "mudanças drásticas"],
+      "cuidados": "Magias comuns não recomendadas - energia muito intensa",
+      "recomendado": "Rituais de transformação pessoal, liberação de padrões antigos"
+    },
+    "eclipse_solar": {
+      "nome": "Eclipse Solar",
+      "significado": "Novos começos poderosos",
+      "usos_magicos": ["novos começos", "manifestação poderosa", "renovação"],
+      "cuidados": "Energia muito intensa - usar com experiência",
+      "recomendado": "Rituais de manifestação, novos projetos importantes"
+    },
+    "superlua": {
+      "nome": "Superlua",
+      "significado": "Amplificação da energia",
+      "usos_magicos": ["amplificação", "poder aumentado", "manifestação"],
+      "recomendado": "Todos os trabalhos lunares ficam mais potentes"
+    },
+    "blue_moon": {
+      "nome": "Blue Moon",
+      "significado": "Grandes pedidos e transformações",
+      "usos_magicos": ["grandes pedidos", "transformações importantes", "magia poderosa"],
+      "recomendado": "Rituais especiais, pedidos importantes, trabalhos de longo prazo"
+    },
+    "black_moon": {
+      "nome": "Black Moon",
+      "significado": "Trabalhos ocultos e silenciosos",
+      "usos_magicos": ["trabalhos ocultos", "mistérios", "magia sombria", "banimentos"],
+      "recomendado": "Trabalhos com sombra, banimentos profundos, mistérios"
+    }
+  },
+  "configuracao": {
+    "hemisferio_padrao": "sul",
+    "mostrar_ambos_hemisferios": false,
+    "incluir_lua_nova": true,
+    "incluir_especiais": true,
+    "alertar_eclipses": true
+  }
+}
+

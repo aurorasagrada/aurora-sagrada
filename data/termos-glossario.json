@@ -1,0 +1,113 @@
+{
+  "termos": {
+    "conjuncao": {
+      "nome": "Conjunção",
+      "simbolo": "☌",
+      "definicao": "Aspecto de 0° entre dois planetas, quando estão no mesmo grau zodiacal",
+      "significado": "União de energias, intensificação, novo começo",
+      "orbe_tradicional": "8-10°",
+      "natureza": "Neutra (depende dos planetas envolvidos)"
+    },
+    "sextil": {
+      "nome": "Sextil",
+      "simbolo": "⚹",
+      "definicao": "Aspecto de 60° entre dois planetas",
+      "significado": "Harmonia, oportunidade, facilidade, cooperação",
+      "orbe_tradicional": "4-6°",
+      "natureza": "Benéfico"
+    },
+    "quadratura": {
+      "nome": "Quadratura",
+      "simbolo": "□",
+      "definicao": "Aspecto de 90° entre dois planetas",
+      "significado": "Tensão, desafio, conflito, necessidade de ação",
+      "orbe_tradicional": "6-8°",
+      "natureza": "Maléfico"
+    },
+    "trigono": {
+      "nome": "Trígono",
+      "simbolo": "△",
+      "definicao": "Aspecto de 120° entre dois planetas",
+      "significado": "Harmonia, fluidez, talentos naturais, sorte",
+      "orbe_tradicional": "6-8°",
+      "natureza": "Benéfico"
+    },
+    "oposicao": {
+      "nome": "Oposição",
+      "simbolo": "☍",
+      "definicao": "Aspecto de 180° entre dois planetas",
+      "significado": "Polarização, tensão, necessidade de equilíbrio",
+      "orbe_tradicional": "8-10°",
+      "natureza": "Maléfico"
+    },
+    "retrogradacao": {
+      "nome": "Retrogradação",
+      "simbolo": "℞",
+      "definicao": "Movimento aparente de um planeta para trás no zodíaco",
+      "significado": "Revisão, introspecção, atrasos, necessidade de repensar",
+      "duracao": "Varia por planeta (Mercúrio: 3 semanas, Marte: 2 meses, etc.)",
+      "efeito_magico": "Energias voltadas para dentro, revisão de questões passadas"
+    },
+    "aplicativo": {
+      "nome": "Aspecto Aplicativo",
+      "definicao": "Quando um planeta mais rápido se aproxima de um aspecto exato com um planeta mais lento",
+      "significado": "Energia crescente, eventos se aproximando, influência aumentando",
+      "uso_magico": "Melhor momento para iniciar magias relacionadas ao aspecto"
+    },
+    "separativo": {
+      "nome": "Aspecto Separativo",
+      "definicao": "Quando um planeta mais rápido se afasta de um aspecto exato com um planeta mais lento",
+      "significado": "Energia diminuindo, eventos se concluindo, influência decrescente",
+      "uso_magico": "Momento de finalização e liberação de energias"
+    },
+    "orbe": {
+      "nome": "Orbe",
+      "definicao": "Margem de graus permitida para que um aspecto seja considerado válido",
+      "exemplo": "Se o orbe da conjunção é 8°, planetas até 8° de distância formam conjunção",
+      "variacao": "Varia por aspecto e por planeta (Sol e Lua têm orbes maiores)"
+    },
+    "mansao_lunar": {
+      "nome": "Mansão Lunar",
+      "definicao": "Divisão do zodíaco em 28 partes de aproximadamente 12°51' cada",
+      "origem": "Sistema árabe e indiano de astrologia",
+      "uso": "Cada mansão tem características específicas para magia e eleições",
+      "calculo": "Baseado na longitude eclíptica da Lua"
+    },
+    "esbat": {
+      "nome": "Esbat",
+      "definicao": "Celebração das fases lunares, especialmente da Lua Cheia",
+      "origem": "Tradição wiccana e neopagã",
+      "frequencia": "Mensalmente, a cada Lua Cheia",
+      "proposito": "Trabalhos mágicos, rituais de manifestação, conexão com a energia lunar"
+    },
+    "lua_vazia": {
+      "nome": "Lua Vazia de Curso",
+      "definicao": "Período em que a Lua não forma aspectos exatos antes de mudar de signo",
+      "significado": "Momento de pausa, reflexão, evitar decisões importantes",
+      "duracao": "Pode durar minutos ou dias",
+      "uso_magico": "Evitar iniciar novos projetos mágicos, bom para meditação"
+    },
+    "combustao": {
+      "nome": "Combustão",
+      "definicao": "Quando um planeta está muito próximo do Sol (geralmente dentro de 8°)",
+      "efeito": "Planeta 'queimado' pelo Sol, energia enfraquecida ou transformada",
+      "excecao": "Mercúrio e Vênus podem estar em combustão sem grandes problemas",
+      "uso_magico": "Energia do planeta combusto fica mais solar, transformativa"
+    },
+    "cazimi": {
+      "nome": "Cazimi",
+      "definicao": "Quando um planeta está exatamente conjunto ao Sol (dentro de 17 minutos)",
+      "significado": "Planeta no 'coração do Sol', energia purificada e fortalecida",
+      "raridade": "Muito raro, considerado extremamente benéfico",
+      "uso_magico": "Momento de grande poder para magias relacionadas ao planeta"
+    }
+  },
+  "categorias": {
+    "aspectos": ["conjuncao", "sextil", "quadratura", "trigono", "oposicao"],
+    "movimento": ["retrogradacao", "aplicativo", "separativo"],
+    "conceitos": ["orbe", "combustao", "cazimi"],
+    "lunar": ["mansao_lunar", "esbat", "lua_vazia"],
+    "magico": ["aplicativo", "separativo", "lua_vazia", "esbat"]
+  }
+}
+
