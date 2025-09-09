@@ -7,7 +7,7 @@ import RitualPage from './pages/RitualPage';
 import CalendarioPage from './pages/CalendarioPage';
 import EstudoPage from './pages/EstudoPage';
 import { OrphicHymns } from './components/OrphicHymns';
-import { ZodiacalMagic } from './components/ZodiacalMagic';
+import ZodiacalMagic from './components/ZodiacalMagic';
 
 type AppMode = 'ritual' | 'calendario' | 'estudo' | 'hinos' | 'zodiacal';
 
