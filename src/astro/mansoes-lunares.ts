@@ -430,3 +430,10 @@ export function getMansionRecommendations(moonLongitude: number): {
   };
 }
 
+/**
+ * Calcula a mansão lunar (alias para getLunarMansion)
+ */
+export function calcularMansaoLunar(moonLongitude: number): LunarMansion {
+  return getLunarMansion(moonLongitude);
+}
+

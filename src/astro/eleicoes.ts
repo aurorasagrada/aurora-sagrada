@@ -155,6 +155,7 @@ async function evaluatePlanet(planetName: string, position: any, date: Date): Pr
   }
   
   // Avalia dignidades simples (domicílio/exaltação)
+  if (!position) return 0;
   const dignityScore = evaluateDignity(planetName, position.longitude);
   score += dignityScore;
   
@@ -353,5 +354,30 @@ export async function getBestDatesForTheme(
   }
   
   return results.sort((a, b) => b.score.score - a.score.score);
+}
+
+/**
+ * Calcula eleições mágicas para múltiplos temas
+ */
+export async function calcularEleicoesMagicas(date: Date): Promise<Record<string, ElectionScore>> {
+  const themes = ['amor', 'trabalho', 'beleza', 'prosperidade', 'justica', 'contato'];
+  const results: Record<string, ElectionScore> = {};
+  
+  for (const theme of themes) {
+    try {
+      results[theme] = await calculateElectionScore(date, theme);
+    } catch (error) {
+      console.error(`Erro ao calcular eleição para ${theme}:`, error);
+      results[theme] = {
+        theme,
+        score: 50,
+        quality: 'neutro',
+        factors: [],
+        recommendations: []
+      };
+    }
+  }
+  
+  return results;
 }
 

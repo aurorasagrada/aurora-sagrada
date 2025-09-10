@@ -1,4 +1,4 @@
-import React, { useState, useMemo } from 'react';
+import React, { useState, useEffect, useMemo } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { 
   ChevronLeft, 
@@ -18,7 +18,11 @@ import {
 } from 'lucide-react';
 
 // Importar dados das mansões lunares expandidas
-// import mansoesLunaresData from '@/data/mansoes-lunares-expandido.json';
+import mansoesLunaresData from '../../data/mansoes-lunares-expandido.json';
+import eleicoesData from '../../data/eleicoes-magickas.json';
+import { calcularEleicoesMagicas } from '../astro/eleicoes';
+import { obterFaseLunar, calcularMansaoLunar } from '../astro/engine-efemerides';
+
 
 interface ElectionTheme {
   id: string;
@@ -142,19 +146,28 @@ const MagickCalendar: React.FC<MagickCalendarProps> = ({ hemisphere, compactMode
 
   // Função para calcular mansão lunar baseada na data
   const calculateLunarMansion = (date: Date): number => {
-    // Cálculo simplificado - em implementação real, usar efemérides
-    const dayOfYear = Math.floor((date.getTime() - new Date(date.getFullYear(), 0, 0).getTime()) / (1000 * 60 * 60 * 24));
-    return ((dayOfYear - 1) % 28) + 1;
+    try {
+      return calcularMansaoLunar(date);
+    } catch (error) {
+      // Fallback para cálculo simplificado
+      const dayOfYear = Math.floor((date.getTime() - new Date(date.getFullYear(), 0, 0).getTime()) / (1000 * 60 * 60 * 24));
+      return ((dayOfYear - 1) % 28) + 1;
+    }
   };
 
   // Função para calcular fase lunar
   const calculateLunarPhase = (date: Date): string => {
-    // Cálculo simplificado - em implementação real, usar efemérides
-    const dayOfMonth = date.getDate();
-    if (dayOfMonth <= 7) return 'nova';
-    if (dayOfMonth <= 14) return 'crescente';
-    if (dayOfMonth <= 21) return 'cheia';
-    return 'minguante';
+    try {
+      const faseData = obterFaseLunar(date);
+      return faseData.fase.toLowerCase();
+    } catch (error) {
+      // Fallback para cálculo simplificado
+      const dayOfMonth = date.getDate();
+      if (dayOfMonth <= 7) return 'nova';
+      if (dayOfMonth <= 14) return 'crescente';
+      if (dayOfMonth <= 21) return 'cheia';
+      return 'minguante';
+    }
   };
 
   // Função para calcular score de eleição baseado na mansão lunar
@@ -204,46 +217,57 @@ const MagickCalendar: React.FC<MagickCalendarProps> = ({ hemisphere, compactMode
     return Math.max(0, Math.min(100, score));
   };
 
-  // Gerar dados do calendário
-  const calendarData = useMemo(() => {
+  // Gerar dados do calendário para o mês atual
+  const [calendarData, setCalendarData] = useState({ days: [], startingDayOfWeek: 0 });
+
+  useEffect(() => {
+    const generateCalendarData = async () => {
     const year = currentDate.getFullYear();
     const month = currentDate.getMonth();
-    const firstDay = new Date(year, month, 1);
-    const lastDay = new Date(year, month + 1, 0);
-    const daysInMonth = lastDay.getDate();
-    const startingDayOfWeek = firstDay.getDay();
+    const daysInMonth = new Date(year, month + 1, 0).getDate();
+    const firstDayOfMonth = new Date(year, month, 1);
+    const startingDayOfWeek = firstDayOfMonth.getDay();
 
     const days: DayData[] = [];
 
     for (let day = 1; day <= daysInMonth; day++) {
       const date = new Date(year, month, day);
-      const lunarMansion = calculateLunarMansion(date);
-      const lunarMansionData = getLunarMansionData(lunarMansion);
+      const mansionNumber = calculateLunarMansion(date);
+      const mansionData = getLunarMansionData(mansionNumber);
       const lunarPhase = calculateLunarPhase(date);
-
-      const scores: Record<string, number> = {};
+      
+      // Calcular eleições mágicas usando dados reais
+      const elections: Record<string, number> = {};
       ELECTION_THEMES.forEach(theme => {
-        scores[theme.id] = lunarMansionData ? 
-          calculateElectionScore(lunarMansionData, theme.id) : 
-          Math.floor(Math.random() * 100);
+        try {
+          // Usar função real de cálculo de eleições
+          const electionData = calcularEleicoesMagicas(date, theme.id);
+          elections[theme.id] = electionData.score || calculateElectionScore(mansionData, theme.id);
+        } catch (error) {
+          elections[theme.id] = calculateElectionScore(mansionData, theme.id);
+        }
       });
 
+      const electionsData = await calcularEleicoesMagicas(date);
+
       days.push({
-        date,
-        score: scores,
-        highlights: lunarMansionData?.favoravel.slice(0, 3) || [],
-        warnings: lunarMansionData?.desfavoravel.slice(0, 2) || [],
+        date: day,
+        fullDate: date,
+        lunarMansion: mansionNumber,
         lunarPhase,
-        lunarMansion,
-        lunarMansionData,
-        aspects: ['Lua sextil Vênus', 'Sol trígono Júpiter'],
-        retrogrades: [],
-        voidOfCourse: Math.random() > 0.8,
-        eclipse: Math.random() > 0.95
+        score: electionsData,
+        mansion: mansionData,
+        aspects: [], // Será implementado com dados reais dos aspectos
+        retrogrades: [], // Será implementado com dados reais das retrogradações
+        voidOfCourse: false, // Será implementado com cálculo real
+        eclipse: false // Será implementado com detecção real de eclipses
       });
     }
 
-    return { days, startingDayOfWeek };
+    setCalendarData({ days, startingDayOfWeek });
+    };
+
+    generateCalendarData();
   }, [currentDate]);
 
   // Filtrar dias baseado nos filtros selecionados

@@ -3,7 +3,7 @@ import { motion } from 'framer-motion';
 import { Clock, TrendingUp, Moon, Sparkles, ChevronRight } from 'lucide-react';
 
 // Componentes
-import NowCard from '../components/NowCard';
+import NowCard from '../components/NowCard-simple';
 import ElectionChips from '../components/ElectionChips';
 import TransitBoard from '../components/TransitBoard';
 import LunarSection from '../components/LunarSection';

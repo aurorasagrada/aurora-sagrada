@@ -1,4 +1,15 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
+import { EfemeridesCompletas } from '../data/efemerides-completas-integrais-v2.js';
+
+// Carregar dados VSOP87
+import MERCURIO from '../data/vsop87/MERCURIO.json';
+import VENUS from '../data/vsop87/VENUS.json';
+import EARTH from '../data/vsop87/EARTH.json';
+import MARS from '../data/vsop87/MARS.json';
+import JUPITER from '../data/vsop87/JUPITER.json';
+import SATURN from '../data/vsop87/SATURN.json';
+import URANUS from '../data/vsop87/URANUS.json';
+import NEPTUNE from '../data/vsop87/NEPTUNE.json';
 import { motion, AnimatePresence } from 'framer-motion';
 import { Calendar, BookOpen, Sparkles, Settings, Sun, Moon } from 'lucide-react';
 
@@ -6,7 +17,7 @@ import { Calendar, BookOpen, Sparkles, Settings, Sun, Moon } from 'lucide-react'
 import RitualPage from './pages/RitualPage';
 import CalendarioPage from './pages/CalendarioPage';
 import EstudoPage from './pages/EstudoPage';
-import { OrphicHymns } from './components/OrphicHymns';
+import OrphicHymns from './components/OrphicHymns';
 import ZodiacalMagic from './components/ZodiacalMagic';
 
 type AppMode = 'ritual' | 'calendario' | 'estudo' | 'hinos' | 'zodiacal';
@@ -163,7 +174,7 @@ function App() {
             exit={{ opacity: 0, y: -20 }}
             transition={{ duration: 0.3 }}
           >
-            {renderActivePage()}
+            <div>TESTE</div>
           </motion.div>
         </AnimatePresence>
       </main>

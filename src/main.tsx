@@ -1,11 +1,11 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
-import AppWorking from './App-working.tsx'
+import App from './App.tsx'
 import './styles/aurora.css'
 
 ReactDOM.createRoot(document.getElementById('root')!).render(
   <React.StrictMode>
-    <AppWorking />
+    <App />
   </React.StrictMode>,
 )
 
