@@ -174,7 +174,11 @@ function App() {
             exit={{ opacity: 0, y: -20 }}
             transition={{ duration: 0.3 }}
           >
-            <div>TESTE</div>
+            {activeMode === 'ritual' && <RitualPage />}
+            {activeMode === 'calendario' && <CalendarioPage />}
+            {activeMode === 'estudo' && <EstudoPage />}
+            {activeMode === 'hinos' && <OrphicHymns />}
+            {activeMode === 'zodiacal' && <ZodiacalMagic />}
           </motion.div>
         </AnimatePresence>
       </main>

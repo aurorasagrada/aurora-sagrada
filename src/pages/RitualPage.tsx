@@ -8,6 +8,7 @@ import ElectionChips from '../components/ElectionChips';
 import TransitBoard from '../components/TransitBoard';
 import LunarSection from '../components/LunarSection';
 import DeusaDoDia from '../components/DeusaDoDia';
+import { InterpretacaoTransitos } from '../components/InterpretacaoTransitos';
 
 interface RitualPageProps {
   density: 'compacta' | 'confortavel';
@@ -107,6 +108,19 @@ export default function RitualPage({ density }: RitualPageProps) {
             />
           </motion.div>
         )}
+
+        {/* Linha 3.5: Interpretações Detalhadas dos Trânsitos */}
+        {/* Temporariamente removido para debug
+        {!essentialMode && (
+          <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.5, delay: 0.25 }}
+          >
+            <InterpretacaoTransitos />
+          </motion.div>
+        )}
+        */}
 
         {/* Linha 4: LunarSection */}
         <motion.div

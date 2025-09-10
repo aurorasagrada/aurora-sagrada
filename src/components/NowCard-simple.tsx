@@ -9,6 +9,7 @@ import { motion } from 'framer-motion';
 interface SimpleAstroData {
   sol: { signo: string; grau: number; };
   lua: { signo: string; grau: number; fase: string; iluminacao: number; };
+  planetas: { nome: string; simbolo: string; signo: string; grau: number; retrogrado?: boolean; }[];
   mansaoLunar: string;
   planetasRetrogrados: string[];
 }
@@ -18,8 +19,18 @@ const NowCard: React.FC = () => {
   const astroData: SimpleAstroData = {
     sol: { signo: 'Virgem', grau: 18 },
     lua: { signo: 'Peixes', grau: 23, fase: 'Crescente', iluminacao: 66 },
+    planetas: [
+      { nome: 'Mercúrio', simbolo: '☿', signo: 'Libra', grau: 5, retrogrado: false },
+      { nome: 'Vênus', simbolo: '♀', signo: 'Escorpião', grau: 12, retrogrado: false },
+      { nome: 'Marte', simbolo: '♂', signo: 'Câncer', grau: 28, retrogrado: false },
+      { nome: 'Júpiter', simbolo: '♃', signo: 'Gêmeos', grau: 15, retrogrado: false },
+      { nome: 'Saturno', simbolo: '♄', signo: 'Peixes', grau: 19, retrogrado: false },
+      { nome: 'Urano', simbolo: '♅', signo: 'Touro', grau: 27, retrogrado: true },
+      { nome: 'Netuno', simbolo: '♆', signo: 'Peixes', grau: 29, retrogrado: false },
+      { nome: 'Plutão', simbolo: '♇', signo: 'Aquário', grau: 1, retrogrado: false }
+    ],
     mansaoLunar: 'Al-Sharatain',
-    planetasRetrogrados: []
+    planetasRetrogrados: ['Urano']
   };
 
   const eleicoesMagicas = [
@@ -66,9 +77,9 @@ const NowCard: React.FC = () => {
         </div>
 
         {/* Informações Principais */}
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-          {/* Sol e Lua */}
-          <div className="space-y-4">
+        <div className="space-y-6">
+          {/* Sol e Lua - Destaque */}
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
             <div className="flex items-center justify-between p-3 bg-aurora-dark-primary/50 rounded-lg">
               <div className="flex items-center space-x-3">
                 <span className="text-2xl">☉</span>
@@ -99,8 +110,29 @@ const NowCard: React.FC = () => {
             </div>
           </div>
 
+          {/* Todos os Planetas */}
+          <div>
+            <h3 className="text-aurora-gold font-semibold mb-3">Posições Planetárias</h3>
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-3">
+              {astroData.planetas.map((planeta, index) => (
+                <div key={index} className="flex items-center justify-between p-2 bg-aurora-dark-primary/30 rounded-lg">
+                  <div className="flex items-center space-x-2">
+                    <span className="text-lg">{planeta.simbolo}</span>
+                    <div>
+                      <p className="text-aurora-silver font-medium text-sm">{planeta.nome}</p>
+                      <p className="text-aurora-copper text-xs">
+                        {planeta.grau}° {planeta.signo}
+                        {planeta.retrogrado && ' ℞'}
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              ))}
+            </div>
+          </div>
+
           {/* Status e Mansão */}
-          <div className="space-y-4">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
             <div className="p-3 bg-aurora-dark-primary/50 rounded-lg">
               <p className="text-aurora-gold font-semibold mb-2">Mansão Lunar</p>
               <p className="text-aurora-silver">{astroData.mansaoLunar}</p>

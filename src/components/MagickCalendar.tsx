@@ -21,7 +21,8 @@ import {
 import mansoesLunaresData from '../../data/mansoes-lunares-expandido.json';
 import eleicoesData from '../../data/eleicoes-magickas.json';
 import { calcularEleicoesMagicas } from '../astro/eleicoes';
-import { obterFaseLunar, calcularMansaoLunar } from '../astro/engine-efemerides';
+import { obterFaseLunar } from '../astro/engine-efemerides';
+import { calcularMansaoLunar } from '../astro/mansoes-lunares';
 
 
 interface ElectionTheme {
