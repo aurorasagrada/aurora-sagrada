@@ -7,9 +7,9 @@ import React from 'react';
 import { motion } from 'framer-motion';
 
 interface SimpleAstroData {
-  sol: { signo: string; grau: number; };
-  lua: { signo: string; grau: number; fase: string; iluminacao: number; };
-  planetas: { nome: string; simbolo: string; signo: string; grau: number; retrogrado?: boolean; }[];
+  sol: { signo: string; grau: number; interpretacao: string; };
+  lua: { signo: string; grau: number; fase: string; iluminacao: number; interpretacao: string; };
+  planetas: { nome: string; simbolo: string; signo: string; grau: number; retrogrado?: boolean; interpretacao: string; }[];
   mansaoLunar: string;
   planetasRetrogrados: string[];
 }
@@ -17,17 +17,73 @@ interface SimpleAstroData {
 const NowCard: React.FC = () => {
   // Dados simplificados para demonstração
   const astroData: SimpleAstroData = {
-    sol: { signo: 'Virgem', grau: 18 },
-    lua: { signo: 'Peixes', grau: 23, fase: 'Crescente', iluminacao: 66 },
+    sol: { signo: 'Virgem', grau: 18, interpretacao: 'Foco na organização e perfeição. Tempo de análise detalhada e melhoria pessoal.' },
+    lua: { signo: 'Peixes', grau: 23, fase: 'Crescente', iluminacao: 66, interpretacao: 'Intuição elevada e sensibilidade emocional. Conexão com o inconsciente.' },
     planetas: [
-      { nome: 'Mercúrio', simbolo: '☿', signo: 'Libra', grau: 5, retrogrado: false },
-      { nome: 'Vênus', simbolo: '♀', signo: 'Escorpião', grau: 12, retrogrado: false },
-      { nome: 'Marte', simbolo: '♂', signo: 'Câncer', grau: 28, retrogrado: false },
-      { nome: 'Júpiter', simbolo: '♃', signo: 'Gêmeos', grau: 15, retrogrado: false },
-      { nome: 'Saturno', simbolo: '♄', signo: 'Peixes', grau: 19, retrogrado: false },
-      { nome: 'Urano', simbolo: '♅', signo: 'Touro', grau: 27, retrogrado: true },
-      { nome: 'Netuno', simbolo: '♆', signo: 'Peixes', grau: 29, retrogrado: false },
-      { nome: 'Plutão', simbolo: '♇', signo: 'Aquário', grau: 1, retrogrado: false }
+      { 
+        nome: 'Mercúrio', 
+        simbolo: '☿', 
+        signo: 'Libra', 
+        grau: 5, 
+        retrogrado: false,
+        interpretacao: 'Comunicação equilibrada e diplomática. Bom momento para negociações.'
+      },
+      { 
+        nome: 'Vênus', 
+        simbolo: '♀', 
+        signo: 'Escorpião', 
+        grau: 12, 
+        retrogrado: false,
+        interpretacao: 'Amor intenso e transformador. Relacionamentos profundos em foco.'
+      },
+      { 
+        nome: 'Marte', 
+        simbolo: '♂', 
+        signo: 'Câncer', 
+        grau: 28, 
+        retrogrado: false,
+        interpretacao: 'Ação emocional e protetiva. Energia direcionada ao lar e família.'
+      },
+      { 
+        nome: 'Júpiter', 
+        simbolo: '♃', 
+        signo: 'Gêmeos', 
+        grau: 15, 
+        retrogrado: false,
+        interpretacao: 'Expansão através do conhecimento. Oportunidades em comunicação.'
+      },
+      { 
+        nome: 'Saturno', 
+        simbolo: '♄', 
+        signo: 'Peixes', 
+        grau: 19, 
+        retrogrado: false,
+        interpretacao: 'Disciplina espiritual. Estruturação de práticas místicas.'
+      },
+      { 
+        nome: 'Urano', 
+        simbolo: '♅', 
+        signo: 'Touro', 
+        grau: 27, 
+        retrogrado: true,
+        interpretacao: 'Revisão de valores materiais. Mudanças financeiras inesperadas.'
+      },
+      { 
+        nome: 'Netuno', 
+        simbolo: '♆', 
+        signo: 'Peixes', 
+        grau: 29, 
+        retrogrado: false,
+        interpretacao: 'Intuição elevada. Conexão espiritual intensificada.'
+      },
+      { 
+        nome: 'Plutão', 
+        simbolo: '♇', 
+        signo: 'Aquário', 
+        grau: 1, 
+        retrogrado: false,
+        interpretacao: 'Transformação coletiva. Renovação de ideais humanitários.'
+      }
     ],
     mansaoLunar: 'Al-Sharatain',
     planetasRetrogrados: ['Urano']
@@ -78,54 +134,63 @@ const NowCard: React.FC = () => {
 
         {/* Informações Principais */}
         <div className="space-y-6">
-          {/* Sol e Lua - Destaque */}
+          {/* Sol e Lua - Destaque com Interpretações */}
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-            <div className="flex items-center justify-between p-3 bg-aurora-dark-primary/50 rounded-lg">
-              <div className="flex items-center space-x-3">
-                <span className="text-2xl">☉</span>
+            <div className="p-4 bg-aurora-dark-primary/50 rounded-lg border border-aurora-gold/30">
+              <div className="flex items-center space-x-3 mb-2">
+                <span className="text-3xl">☉</span>
                 <div>
-                  <p className="text-aurora-gold font-semibold">Sol</p>
+                  <p className="text-aurora-gold font-bold">Sol</p>
                   <p className="text-aurora-silver text-sm">
                     {astroData.sol.grau}° {astroData.sol.signo}
                   </p>
                 </div>
+                <span className="text-aurora-copper text-xs ml-auto">Dignidade</span>
               </div>
-              <span className="text-aurora-copper text-sm">Dignidade</span>
+              <p className="text-aurora-copper text-sm italic leading-relaxed">
+                {astroData.sol.interpretacao}
+              </p>
             </div>
 
-            <div className="flex items-center justify-between p-3 bg-aurora-dark-primary/50 rounded-lg">
-              <div className="flex items-center space-x-3">
-                <span className="text-2xl">☽</span>
+            <div className="p-4 bg-aurora-dark-primary/50 rounded-lg border border-aurora-silver/30">
+              <div className="flex items-center space-x-3 mb-2">
+                <span className="text-3xl">☽</span>
                 <div>
-                  <p className="text-aurora-silver font-semibold">Lua</p>
+                  <p className="text-aurora-silver font-bold">Lua</p>
                   <p className="text-aurora-silver text-sm">
                     {astroData.lua.grau}° {astroData.lua.signo}
                   </p>
                 </div>
+                <div className="text-right ml-auto">
+                  <p className="text-aurora-copper text-xs">{astroData.lua.fase}</p>
+                  <p className="text-aurora-copper text-xs">{astroData.lua.iluminacao}%</p>
+                </div>
               </div>
-              <div className="text-right">
-                <p className="text-aurora-copper text-sm">{astroData.lua.fase}</p>
-                <p className="text-aurora-copper text-xs">{astroData.lua.iluminacao}%</p>
-              </div>
+              <p className="text-aurora-copper text-sm italic leading-relaxed">
+                {astroData.lua.interpretacao}
+              </p>
             </div>
           </div>
 
-          {/* Todos os Planetas */}
+          {/* Todos os Planetas com Interpretações */}
           <div>
-            <h3 className="text-aurora-gold font-semibold mb-3">Posições Planetárias</h3>
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-3">
+            <h3 className="text-aurora-gold font-semibold mb-3">Posições Planetárias & Interpretações</h3>
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
               {astroData.planetas.map((planeta, index) => (
-                <div key={index} className="flex items-center justify-between p-2 bg-aurora-dark-primary/30 rounded-lg">
-                  <div className="flex items-center space-x-2">
-                    <span className="text-lg">{planeta.simbolo}</span>
+                <div key={index} className="p-4 bg-aurora-dark-primary/30 rounded-lg border border-aurora-gold/20">
+                  <div className="flex items-center space-x-3 mb-2">
+                    <span className="text-2xl">{planeta.simbolo}</span>
                     <div>
-                      <p className="text-aurora-silver font-medium text-sm">{planeta.nome}</p>
-                      <p className="text-aurora-copper text-xs">
+                      <p className="text-aurora-gold font-semibold">{planeta.nome}</p>
+                      <p className="text-aurora-silver text-sm">
                         {planeta.grau}° {planeta.signo}
                         {planeta.retrogrado && ' ℞'}
                       </p>
                     </div>
                   </div>
+                  <p className="text-aurora-copper text-sm italic leading-relaxed">
+                    {planeta.interpretacao}
+                  </p>
                 </div>
               ))}
             </div>

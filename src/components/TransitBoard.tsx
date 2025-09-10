@@ -60,8 +60,8 @@ export default function TransitBoard({ limit = 5, compact = false, onShowAll }: 
           orb: 2.5,
           applying: true,
           significance: 'high',
-          description: 'Harmonia entre consciência e emoções',
-          effects: ['Equilíbrio emocional', 'Clareza mental', 'Boa para decisões']
+          description: 'Sol trígono Lua: Harmonia perfeita entre consciência e emoções. Este é um dos aspectos mais favoráveis, trazendo equilíbrio interno e clareza emocional.',
+          effects: ['Decisões equilibradas e sábias', 'Harmonia entre razão e intuição', 'Momento ideal para novos começos', 'Relacionamentos fluem naturalmente']
         },
         {
           id: '2',
@@ -73,8 +73,8 @@ export default function TransitBoard({ limit = 5, compact = false, onShowAll }: 
           orb: 1.8,
           applying: true,
           significance: 'medium',
-          description: 'Energia criativa e amorosa',
-          effects: ['Relacionamentos', 'Criatividade', 'Paixão equilibrada']
+          description: 'Vênus sextil Marte: Energia criativa e amorosa em perfeita sintonia. O amor e a paixão se equilibram, criando oportunidades românticas e artísticas.',
+          effects: ['Relacionamentos apaixonados mas equilibrados', 'Criatividade artística elevada', 'Magnetismo pessoal aumentado', 'Boa para encontros românticos']
         },
         {
           id: '3',
@@ -84,8 +84,8 @@ export default function TransitBoard({ limit = 5, compact = false, onShowAll }: 
           orb: 0,
           applying: false,
           significance: 'high',
-          description: 'Mercúrio retrógrado em Gêmeos',
-          effects: ['Revisão de comunicação', 'Cuidado com contratos', 'Reflexão']
+          description: 'Mercúrio Retrógrado: Período de revisão e reflexão sobre comunicação, contratos e tecnologia. Evite assinar documentos importantes.',
+          effects: ['Revisão de contratos e acordos', 'Problemas de comunicação possíveis', 'Reencontros com pessoas do passado', 'Tempo para reflexão profunda']
         },
         {
           id: '4',
@@ -97,8 +97,8 @@ export default function TransitBoard({ limit = 5, compact = false, onShowAll }: 
           orb: 3.2,
           applying: true,
           significance: 'medium',
-          description: 'Tensão entre expansão e limitação',
-          effects: ['Desafios estruturais', 'Crescimento através de obstáculos']
+          description: 'Júpiter quadratura Saturno: Tensão entre o desejo de expansão e a necessidade de estrutura. Crescimento através de desafios e limitações.',
+          effects: ['Desafios que levam ao crescimento', 'Necessidade de equilibrar sonhos e realidade', 'Lições importantes sobre responsabilidade', 'Paciência será recompensada']
         },
         {
           id: '5',
@@ -109,8 +109,8 @@ export default function TransitBoard({ limit = 5, compact = false, onShowAll }: 
           orb: 0,
           applying: true,
           significance: 'low',
-          description: 'Lua entra em Peixes',
-          effects: ['Intuição elevada', 'Sensibilidade', 'Espiritualidade']
+          description: 'Lua entra em Peixes: Período de 2,5 dias de alta sensibilidade emocional e intuição elevada. Conexão com o mundo espiritual intensificada.',
+          effects: ['Intuição e psiquismo elevados', 'Sensibilidade emocional aumentada', 'Conexão espiritual profunda', 'Ideal para meditação e rituais']
         },
         {
           id: '6',
