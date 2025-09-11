@@ -1,0 +1,243 @@
+{
+  "metadata": {
+    "title": "Hinos Órficos Completos",
+    "version": "2.0.0",
+    "description": "Coleção completa dos 87 Hinos Órficos com pronúncia, contexto ritualístico e correspondências mágicas",
+    "fonte": "Orphic Hymns - Tradição Helênica Antiga",
+    "tradutor": "Adaptação para prática mágica moderna",
+    "total_hinos": 87
+  },
+  "hinos": [
+    {
+      "numero": 1,
+      "titulo": "Para Hécate",
+      "titulo_grego": "Εἰς Ἑκάτην",
+      "pronuncia_titulo": "Eis Hekáten",
+      "invocacao": "Eu invoco Hécate das estradas, das encruzilhadas, celeste, terrestre e marinha, de túnica açafrão, sepulcral, que se regozija entre as almas dos mortos, Perséia, amante da solidão, que se alegra com os cervos, noturna, protetora dos cães, rainha invencível.",
+      "invocacao_grego": "Κλῄζω Ἑκάτην ὁδῖτιν, τριοδῖτιν, ἐραννήν, οὐρανίαν, χθονίαν τε καὶ εἰναλίαν, κροκόπεπλον, τυμβιδίαν, ψυχαῖς νεκύων μετὰ βακχεύουσαν, Περσείαν, φιλέρημον, ἀγαλλομένην ἐλάφοισι, νυκτερίαν, σκυλακῖτιν, ἀμαιμάκετον βασίλειαν.",
+      "pronuncia_invocacao": "Klízo Hekáten hodítin, triodítin, erannén, ouranían, khthonían te kai einalían, krokópeplon, tymbidían, psykhais nekýon metá bakkhéuousan, Perseían, philéremon, agalloménen eláphoisin, nykterian, skylakítin, amaimáketon basíleian.",
+      "hino": "Tu que tens as chaves de toda a terra e do mar infrutífero, e quantos tesouros Tártaro contém, subterrâneo, e do Éter, Hécate, tu que vais às sepulturas, tu que vagas com as almas dos mortos, Perséia, amante dos lugares desertos, que te alegras com os cervos, deusa da noite, protetora dos cães, rainha invencível, de forma variável, bela, libertadora, Tauropólos, portadora de chaves, de toda a natureza soberana, condutora, noiva, nutriz, Kourotrophos, montanhesa, suplicamos, ó donzela, que venhas propícia aos sagrados ritos, sempre com ânimo benévolo para o boukolos.",
+      "hino_grego": "ἣ κλῇδας ἔχεις ἁπάσης χθονὸς ἠδὲ θαλάσσης ἀκαρπίστου, καὶ ὅσσα Τάρταρος ἐντὸς ἔχει χθόνιος καὶ αἰθέριος· Ἑκάτη, τυμβιδία, ψυχαῖς νεκύων συνοπαδὲ πλανᾶσα, Περσεία, φιλέρημος, ἀγαλλομένη ἐλάφοισι, νυκτερία, σκυλακῖτις, ἀμαιμάκετος βασίλεια, μορφῆς ἀλλοπρόσαλλος, ἀρήκτη, λυσίζωνε, Ταυροπόλε, κληδοῦχε, παντὸς κόσμου ἡγεμονεύουσα, ἡγεμόνη, νύμφη, κουροτρόφε, ὀρεσιφοῖτι, λίσσομαι, κλῦθι, κόρη, τελεταῖς ὁσίαισι παροῦσα αἰεὶ εὐμενέουσα βουκόλῳ.",
+      "pronuncia_hino": "hé kléidas ékheis hapáses khthonós éde thalásses akarpístou, kai hóssa Tártaros entós ékhei khthónios kai aithérios; Hekáte, tymbidía, psykhais nekýon synopade planása, Perseía, philéremos, agalloméne eláphoisin, nyktería, skylakítis, amaimáketos basíleia, morphés alloprósllos, arékte, lysízone, Tauropóle, kledoúkhe, pantós kósmou hegemonéuousa, hegemóne, nýmphe, kourotrophe, oresiphoíti, líssomai, klúthi, kóre, teletaís hosíaisi paroúsa aieí eumenéousa boukólo.",
+      "pedido": "Vem, ó deusa, aos sagrados sacrifícios, e sempre sê propícia ao teu suplicante.",
+      "pedido_grego": "ἐλθέ, θεά, θυσίαις ἐπὶ τέρπνα καὶ αἰεὶ εὐμενέουσα τῷ σῷ ἱκέτῃ.",
+      "pronuncia_pedido": "elthé, theá, thysíais epí térpna kai aieí eumenéousa tó só hikéte.",
+      "correspondencias": {
+        "dia": "Sábado (Saturno) e Lua Nova",
+        "hora": "Meia-noite ou Hora de Saturno",
+        "incenso": "Mirra, Estoraque, Cipreste",
+        "cor": "Negro, Vermelho escuro, Prata",
+        "metal": "Ferro, Prata",
+        "pedra": "Obsidiana, Hematita, Pedra da lua negra",
+        "ervas": "Cipreste, Teixo, Mandrágora, Artemísia",
+        "oferendas": "Ovos, Mel, Alho, Peixe, Bolos de mel",
+        "local": "Encruzilhadas, cemitérios, lugares selvagens"
+      },
+      "contexto_ritualistico": {
+        "momento_ideal": "Lua nova, especialmente à meia-noite em encruzilhadas",
+        "preparacao": "Jejum de 24 horas, banho purificador com sal marinho e artemísia",
+        "vestimenta": "Túnica negra ou vermelha escura, pés descalços",
+        "altar": "Três velas (uma para cada aspecto: donzela, mãe, anciã), oferendas em três pratos",
+        "gestual": "Braços erguidos em forma de Y, voltado para o norte",
+        "respiracao": "Respiração profunda e lenta, exalando durante as invocações",
+        "visualizacao": "Hécate com três faces, segurando chaves, tochas e adagas",
+        "encerramento": "Deixar oferendas na encruzilhada, não olhar para trás ao sair"
+      },
+      "pronuncia_guia": {
+        "observacoes": "O grego antigo usa acentos tonais. Vogais longas são marcadas.",
+        "dicas": "η = ê longo, ω = ô longo, αι = ai, ει = ei, ου = ou",
+        "ritmo": "Recitar em ritmo solene, pausando nas vírgulas",
+        "entonacao": "Tom grave e reverente, crescendo nas invocações"
+      },
+      "categoria": "Divindades Ctônicas",
+      "elemento": "Terra/Água",
+      "planeta": "Saturno/Lua",
+      "id": "hecate"
+    },
+    {
+      "numero": 2,
+      "titulo": "Para Prothyraia",
+      "titulo_grego": "Εἰς Προθυραίαν",
+      "pronuncia_titulo": "Eis Prothyraían",
+      "invocacao": "Eu invoco Prothyraia, guardiã das portas, protetora dos umbrais, que vigias as entradas e saídas, deusa dos portões sagrados.",
+      "invocacao_grego": "Κλῄζω Προθυραίαν, πυλάων φύλακα, οὐδῶν προστάτιν, εἰσόδους τε καὶ ἐξόδους σκοπέουσαν, ἱερῶν πυλῶν θεάν.",
+      "pronuncia_invocacao": "Klízo Prothyraían, pylóon phýlaka, oudón prostátin, eisódous te kai exódous skopéousan, hierón pylón theán.",
+      "hino": "Tu que guardas os portões dos deuses e dos mortais, que abres e fechas as portas do destino, guardiã dos umbrais sagrados, protetora das passagens, tu que conheces os segredos das transições, das mudanças e das transformações. A ti recorremos quando precisamos atravessar de um estado para outro, de uma fase da vida para outra.",
+      "hino_grego": "ἣ φυλάσσεις πύλας θεῶν τε καὶ θνητῶν, ἣ ἀνοίγεις καὶ κλείεις θύρας μοίρας, ἱερῶν οὐδῶν φύλαξ, διαβάσεων προστάτις, ἣ οἶδας μυστήρια μεταβάσεων, μεταβολῶν τε καὶ μεταμορφώσεων. σοὶ καταφεύγομεν ὅταν δεῖ διαβῆναι ἐκ καταστάσεως εἰς ἄλλην, ἐκ φάσεως βίου εἰς ἄλλην.",
+      "pronuncia_hino": "hé phylásseis pýlas theón te kai thnetón, hé anoígeis kai kleíeis thýras moíras, hierón oudón phýlax, diabáseón prostátis, hé oídas mystéria metabáseón, metabolón te kai metamorphóseón. soí katapheúgomen hótan deí diabénai ek katastáseós eis állen, ek pháseós bíou eis állen.",
+      "pedido": "Abre para nós as portas da sabedoria e da prosperidade, e fecha as portas do mal e da desgraça.",
+      "pedido_grego": "ἄνοιξον ἡμῖν θύρας σοφίας καὶ εὐδαιμονίας, κλεῖσον δὲ θύρας κακοῦ καὶ δυστυχίας.",
+      "pronuncia_pedido": "ánoixon hemín thýras sophías kai eudaimonías, kleíson de thýras kakoú kai dystykhías.",
+      "correspondencias": {
+        "dia": "Quinta-feira (Júpiter)",
+        "hora": "Aurora ou Crepúsculo",
+        "incenso": "Olíbano, Benjoim, Sândalo",
+        "cor": "Dourado, Branco, Azul claro",
+        "metal": "Ouro, Bronze",
+        "pedra": "Topázio, Citrino, Quartzo claro",
+        "ervas": "Louro, Verbena, Artemísia",
+        "oferendas": "Chaves douradas, flores brancas, mel",
+        "local": "Portas, umbrais, entradas de templos"
+      },
+      "contexto_ritualistico": {
+        "momento_ideal": "Ao amanhecer ou anoitecer, momentos de transição",
+        "preparacao": "Limpeza energética do espaço, especialmente portas e janelas",
+        "vestimenta": "Roupas claras, preferencialmente brancas ou douradas",
+        "altar": "Colocado próximo à porta principal, com chaves como símbolos",
+        "gestual": "Abrir e fechar as mãos simbolicamente durante as invocações",
+        "respiracao": "Respiração ritmada, inspirando ao abrir, expirando ao fechar",
+        "visualizacao": "Portas douradas se abrindo, luz passando pelos umbrais",
+        "encerramento": "Tocar fisicamente a porta ou umbral após o ritual"
+      },
+      "pronuncia_guia": {
+        "observacoes": "Enfatizar as palavras relacionadas a portas e passagens",
+        "dicas": "υ = y francês, θ = th inglês, φ = ph",
+        "ritmo": "Ritmo de abertura e fechamento, como portas",
+        "entonacao": "Tom esperançoso e determinado"
+      },
+      "categoria": "Divindades Protetoras",
+      "elemento": "Ar",
+      "planeta": "Júpiter",
+      "id": "prothyraia"
+    },
+    {
+      "numero": 3,
+      "titulo": "Para a Noite",
+      "titulo_grego": "Εἰς Νύκτα",
+      "pronuncia_titulo": "Eis Nýkta",
+      "invocacao": "Eu canto a Noite, mãe dos deuses e dos homens, origem de todas as coisas, a quem chamamos Ciprís.",
+      "invocacao_grego": "ᾄδω Νύκτα, θεῶν γενέτειραν καὶ ἀνθρώπων, πάντων ἀρχήν, ἣν Κύπριν καλέομεν.",
+      "pronuncia_invocacao": "áido Nýkta, theón genétiran kai anthrópón, pántón arkhén, hén Kýprin kaléomen.",
+      "hino": "Escuta, deusa venerável, de negro manto estrelado, que trazes o repouso aos mortais e aos imortais, tu que és a mais antiga de todas as divindades, mãe do Sono e da Morte, nutriz dos sonhos e das visões. Tu que governas a metade da vida, quando as almas se libertam dos corpos e viajam pelos reinos invisíveis. Noite sagrada, que trazes paz aos cansados e revelações aos que buscam sabedoria.",
+      "hino_grego": "κλῦθι, θεὰ σεβάσμιε, μελάμπεπλε, ἀστερόεσσα, ἣ ἀνάπαυσιν φέρεις θνητοῖς τε καὶ ἀθανάτοις, ἣ πρεσβυτάτη πασῶν θεοτήτων, μήτηρ Ὕπνου καὶ Θανάτου, τροφὸς ὀνείρων καὶ ὁραμάτων. ἣ ἄρχεις ἡμίσεος βίου, ὅτε ψυχαὶ ἐλευθεροῦνται σωμάτων καὶ ὁδοιποροῦσιν ἀοράτοις βασιλείοις. Νὺξ ἱερά, ἣ εἰρήνην φέρεις κεκμηκόσι καὶ ἀποκαλύψεις τοῖς σοφίαν ζητοῦσιν.",
+      "pronuncia_hino": "klúthi, theá sebásmie, melámpeple, asteróessa, hé anápausin phéreis thnetoís te kai athanátois, hé presbytáte pasón theotétón, méter Hýpnou kai Thanátou, trophós oneírón kai horamátón. hé árkheis hemíseos bíou, hóte psykhaí eleutheróuntai somátón kai hodoiporoúsin aorátois basileíois. Nýx hierá, hé eirénen phéreis kekmekosin kai apokalýpseis toís sophían zetoúsin.",
+      "pedido": "Vem benévola, ó mãe de todos, e traz-nos sonhos proféticos e repouso sagrado.",
+      "pedido_grego": "ἐλθὲ εὐμενής, ὦ μῆτερ πάντων, καὶ φέρε ἡμῖν ὄνειρα μαντικὰ καὶ ἀνάπαυσιν ἱεράν.",
+      "pronuncia_pedido": "elthé eumenés, ó méter pántón, kai phére hemín óneira mantiká kai anápausin hierán.",
+      "correspondencias": {
+        "dia": "Sábado (Saturno)",
+        "hora": "Meia-noite até 3h da manhã",
+        "incenso": "Mirra, Sândalo negro, Patchouli",
+        "cor": "Negro, Azul escuro, Violeta",
+        "metal": "Prata, Chumbo",
+        "pedra": "Obsidiana, Ônix, Safira escura",
+        "ervas": "Papoula, Valeriana, Artemísia",
+        "oferendas": "Leite, mel negro, flores noturnas",
+        "local": "Quarto escuro, sob o céu estrelado"
+      },
+      "contexto_ritualistico": {
+        "momento_ideal": "Meia-noite, especialmente em noites sem lua",
+        "preparacao": "Escuridão total, apenas velas negras ou azuis",
+        "vestimenta": "Roupas escuras, preferencialmente negras",
+        "altar": "Coberto com tecido negro estrelado, espelhos escuros",
+        "gestual": "Braços abertos para o céu noturno",
+        "respiracao": "Respiração lenta e profunda, sincronizada com a escuridão",
+        "visualizacao": "Manto estrelado envolvendo o praticante",
+        "encerramento": "Permanecer em silêncio contemplativo por alguns minutos"
+      },
+      "pronuncia_guia": {
+        "observacoes": "Tom suave e sussurrante, como a própria noite",
+        "dicas": "ύ = y francês, αι = ai, ει = ei longo",
+        "ritmo": "Lento e hipnótico, como uma canção de ninar",
+        "entonacao": "Voz baixa e misteriosa"
+      },
+      "categoria": "Divindades Primordiais",
+      "elemento": "Água/Terra",
+      "planeta": "Saturno/Lua",
+      "id": "noite"
+    },
+    {
+      "numero": 4,
+      "titulo": "Para o Céu",
+      "titulo_grego": "Εἰς Οὐρανόν",
+      "pronuncia_titulo": "Eis Ouranón",
+      "invocacao": "Eu invoco o Céu, pai de todos, origem cósmica, fundamento eterno do universo.",
+      "invocacao_grego": "Κλῄζω Οὐρανόν, πάντων πατέρα, κοσμικὴν ἀρχήν, αἰώνιον θεμέλιον τοῦ παντός.",
+      "pronuncia_invocacao": "Klízo Ouranón, pántón patéra, kosmiké arkhén, aiónion theméliion toú pantós.",
+      "hino": "Ó Céu sagrado, abóbada estrelada que tudo abarca, tu que és o primeiro dos elementos, pai do tempo e do espaço, matriz de todas as constelações. Tu que giras eternamente, marcando os ciclos e as estações, tu que és o templo dos deuses e o livro dos destinos. Céu infinito, que conténs todos os mundos e todas as possibilidades.",
+      "hino_grego": "Ὦ Οὐρανὲ ἱερέ, ἀστερόεσσα καμάρα πάντα περιέχουσα, ὃς πρῶτος στοιχείων, πατὴρ χρόνου καὶ χώρου, μήτρα πασῶν συστάσεων. ὃς στρέφῃ αἰωνίως, σημαίνων κύκλους καὶ ὥρας, ὃς ναὸς θεῶν καὶ βίβλος μοιρῶν. Οὐρανὲ ἄπειρε, ὃς περιέχεις πάντας κόσμους καὶ πάσας δυνατότητας.",
+      "pronuncia_hino": "Ó Ourané hieré, asteróessa kamára pánta periékhousa, hós prótos stoikheíón, patér khrónου kai khórou, métra pasón systáseón. hós stréphei aiónios, semaínón kýklous kai hóras, hós naós theón kai bíblos moirón. Ourané ápeire, hós periékheis pántas kósmous kai pásas dynatótetas.",
+      "pedido": "Concede-nos, ó Céu divino, visão clara dos caminhos celestes e harmonia com os ritmos cósmicos.",
+      "pedido_grego": "δός ἡμῖν, ὦ Οὐρανὲ θεῖε, σαφῆ ὅρασιν οὐρανίων ὁδῶν καὶ ἁρμονίαν μετὰ κοσμικῶν ῥυθμῶν.",
+      "pronuncia_pedido": "dós hemín, ó Ourané theíe, saphé hórasin ouraníón hodón kai harmonían metá kosmiκón rhythmón.",
+      "correspondencias": {
+        "dia": "Quinta-feira (Júpiter)",
+        "hora": "Meio-dia ou meia-noite",
+        "incenso": "Olíbano, Copal, Benjoim",
+        "cor": "Azul celeste, Branco, Dourado",
+        "metal": "Ouro, Prata",
+        "pedra": "Safira, Lápis-lazúli, Quartzo claro",
+        "ervas": "Louro, Cedro, Junípero",
+        "oferendas": "Incenso, flores azuis, água pura",
+        "local": "Ao ar livre, sob o céu aberto"
+      },
+      "contexto_ritualistico": {
+        "momento_ideal": "Céu claro, especialmente ao meio-dia ou meia-noite",
+        "preparacao": "Ritual ao ar livre, preferencialmente em local elevado",
+        "vestimenta": "Roupas azuis ou brancas, símbolos celestes",
+        "altar": "Simples, com vista para o céu, espelhos para refletir a luz",
+        "gestual": "Braços erguidos para o céu, palmas abertas",
+        "respiracao": "Respiração profunda, imaginando inspirar o ar celeste",
+        "visualizacao": "Conexão com a vastidão infinita do cosmos",
+        "encerramento": "Contemplação silenciosa do céu por alguns minutos"
+      },
+      "pronuncia_guia": {
+        "observacoes": "Tom elevado e expansivo, como o próprio céu",
+        "dicas": "ου = ou, αι = ai, ει = ei",
+        "ritmo": "Amplo e majestoso, como os movimentos celestes",
+        "entonacao": "Voz clara e ressonante"
+      },
+      "categoria": "Divindades Primordiais",
+      "elemento": "Ar",
+      "planeta": "Júpiter/Urano",
+      "id": "ceu"
+    },
+    {
+      "numero": 5,
+      "titulo": "Para o Éter",
+      "titulo_grego": "Εἰς Αἰθέρα",
+      "pronuncia_titulo": "Eis Aithéra",
+      "invocacao": "Eu invoco o Éter, substância sutil que permeia todos os espaços, alma do cosmos, respiração dos deuses.",
+      "invocacao_grego": "Κλῄζω Αἰθέρα, λεπτὴν οὐσίαν πάντας τόπους διαπερῶσαν, ψυχὴν κόσμου, πνοὴν θεῶν.",
+      "pronuncia_invocacao": "Klízo Aithéra, leptén ousían pántas tópous diaperόsan, psykhén kósmou, pnoén theón.",
+      "hino": "Ó Éter luminoso, mais sutil que o ar, mais puro que a luz, tu que és o meio através do qual todas as influências celestes chegam até nós. Tu que és a substância dos corpos dos deuses, o veículo das almas, a matriz de todas as formas. Éter sagrado, que conectas o céu e a terra, o visível e o invisível, o mortal e o imortal.",
+      "hino_grego": "Ὦ Αἰθὴρ φαεινέ, ἀέρος λεπτότερε, φωτὸς καθαρώτερε, ὃς μέσον δι' οὗ πᾶσαι οὐράνιαι ἐπιρροαὶ ἀφικνοῦνται πρὸς ἡμᾶς. ὃς οὐσία σωμάτων θεῶν, ὄχημα ψυχῶν, μήτρα πασῶν μορφῶν. Αἰθὴρ ἱερέ, ὃς συνδέεις οὐρανὸν καὶ γῆν, ὁρατὸν καὶ ἀόρατον, θνητὸν καὶ ἀθάνατον.",
+      "pronuncia_hino": "Ó Aithér phaeiné, aéros leptótere, photós katharótere, hós méson di' hoú pásai ourániai epirroaí aphiknoúntai prós hemás. hós ousía somátón theón, ókhema psykhón, métra pasón morphón. Aithér hieré, hós syndéeis ouranón kai gén, horatón kai aóraton, thnetón kai athánaton.",
+      "pedido": "Purifica nossa percepção, ó Éter divino, para que possamos ver além do véu da matéria.",
+      "pedido_grego": "κάθαρον ἡμῶν τὴν αἴσθησιν, ὦ Αἰθὴρ θεῖε, ἵνα δυνώμεθα ὁρᾶν πέραν τοῦ καλύμματος τῆς ὕλης.",
+      "pronuncia_pedido": "kátharon hemón tén aísthesin, ó Aithér theíe, hína dynómetha horán péran toú kalýmmatos tés hýles.",
+      "correspondencias": {
+        "dia": "Quarta-feira (Mercúrio)",
+        "hora": "Aurora, quando o ar está mais puro",
+        "incenso": "Olíbano puro, Copal branco, Benjoim",
+        "cor": "Azul claro, Branco pérola, Violeta claro",
+        "metal": "Prata, Mercúrio",
+        "pedra": "Quartzo claro, Selenita, Fluorita",
+        "ervas": "Lavanda, Eucalipto, Menta",
+        "oferendas": "Incenso puro, cristais claros, água destilada",
+        "local": "Lugares altos, com ar puro e limpo"
+      },
+      "contexto_ritualistico": {
+        "momento_ideal": "Aurora, quando o ar está mais puro e sutil",
+        "preparacao": "Purificação do ar com incensos, ventilação do espaço",
+        "vestimenta": "Roupas leves e claras, tecidos naturais",
+        "altar": "Minimalista, com cristais claros e incensos puros",
+        "gestual": "Movimentos suaves e fluidos, como dança do ar",
+        "respiracao": "Respiração consciente e profunda, pranayama",
+        "visualizacao": "Luz dourada permeando todo o espaço",
+        "encerramento": "Respiração final profunda, absorvendo o éter"
+      },
+      "pronuncia_guia": {
+        "observacoes": "Tom etéreo e sutil, quase sussurrado",
+        "dicas": "αι = ai, ει = ei, ου = ou",
+        "ritmo": "Fluido como o próprio éter",
+        "entonacao": "Voz suave e penetrante"
+      },
+      "categoria": "Elementos Primordiais",
+      "elemento": "Éter/Akasha",
+      "planeta": "Mercúrio/Urano",
+      "id": "eter"
+    }
+  ]
+}
+

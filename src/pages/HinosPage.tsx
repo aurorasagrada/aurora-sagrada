@@ -1,14 +1,22 @@
 import React, { useState, useEffect } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
-import { Search, Filter, Music, Sun, Moon, Star, Flame, Droplets, Wind, Mountain, Sparkles, Heart, Eye, X, Play, Pause, Volume2, BookOpen, Crown, Zap } from 'lucide-react';
-import hinosOrficosData from '../../data/hinos-orficos.json';
+import { Search, Filter, Music, Sun, Moon, Star, Flame, Droplets, Wind, Mountain, Sparkles, Heart, Eye, X, Play, Pause, Volume2, BookOpen, Crown, Zap, Languages, Clock, MapPin, Flower } from 'lucide-react';
+import hinosCompletos from '../../data/hinos-orficos-completos.json';
 
 interface OrphicHymn {
   numero: number;
   titulo: string;
+  titulo_grego: string;
+  pronuncia_titulo: string;
   invocacao: string;
+  invocacao_grego: string;
+  pronuncia_invocacao: string;
   hino: string;
+  hino_grego: string;
+  pronuncia_hino: string;
   pedido: string;
+  pedido_grego: string;
+  pronuncia_pedido: string;
   correspondencias: {
     dia: string;
     hora: string;
@@ -16,7 +24,29 @@ interface OrphicHymn {
     cor: string;
     metal: string;
     pedra: string;
+    ervas: string;
+    oferendas: string;
+    local: string;
   };
+  contexto_ritualistico: {
+    momento_ideal: string;
+    preparacao: string;
+    vestimenta: string;
+    altar: string;
+    gestual: string;
+    respiracao: string;
+    visualizacao: string;
+    encerramento: string;
+  };
+  pronuncia_guia: {
+    observacoes: string;
+    dicas: string;
+    ritmo: string;
+    entonacao: string;
+  };
+  categoria: string;
+  elemento: string;
+  planeta: string;
   id: string;
 }
 
@@ -33,58 +63,11 @@ const HinosPage: React.FC = () => {
   const [selectedHymn, setSelectedHymn] = useState<OrphicHymn | null>(null);
   const [isPlaying, setIsPlaying] = useState(false);
   const [currentSection, setCurrentSection] = useState<'invocacao' | 'hino' | 'pedido'>('invocacao');
+  const [showGreek, setShowGreek] = useState(false);
+  const [showPronunciation, setShowPronunciation] = useState(false);
+  const [showRitualContext, setShowRitualContext] = useState(false);
 
-  // Dados simulados dos hinos (em produção viriam do arquivo JSON)
-  const hymns: OrphicHymn[] = [
-    {
-      numero: 1,
-      titulo: "Para Zeus",
-      invocacao: "Ó Zeus, pai dos deuses, senhor do Olimpo...",
-      hino: "Tu que governas os céus e a terra...",
-      pedido: "Concede-nos tua proteção e sabedoria...",
-      correspondencias: {
-        dia: "Quinta-feira",
-        hora: "Hora de Júpiter",
-        incenso: "Cedro",
-        cor: "Azul real",
-        metal: "Estanho",
-        pedra: "Safira"
-      },
-      id: "zeus"
-    },
-    {
-      numero: 2,
-      titulo: "Para Hélio (Sol)",
-      invocacao: "Escuta, ó Hélio de olhos dourados...",
-      hino: "Tu que trazes a luz ao mundo...",
-      pedido: "Ilumina nossos caminhos...",
-      correspondencias: {
-        dia: "Domingo",
-        hora: "Hora do Sol",
-        incenso: "Olíbano",
-        cor: "Dourado",
-        metal: "Ouro",
-        pedra: "Topázio"
-      },
-      id: "helio"
-    },
-    {
-      numero: 3,
-      titulo: "Para Selene (Lua)",
-      invocacao: "Ó Selene de cornos prateados...",
-      hino: "Tu que governas a noite...",
-      pedido: "Guia-nos através dos mistérios...",
-      correspondencias: {
-        dia: "Segunda-feira",
-        hora: "Hora da Lua",
-        incenso: "Jasmim",
-        cor: "Prateado",
-        metal: "Prata",
-        pedra: "Pedra da lua"
-      },
-      id: "selene"
-    }
-  ];
+  const hymns: OrphicHymn[] = hinosCompletos.hinos as OrphicHymn[];
 
   // Categorização dos hinos
   const categories: HymnCategory[] = [
@@ -92,37 +75,32 @@ const HinosPage: React.FC = () => {
       name: 'Divindades Primordiais',
       icon: <Crown className="w-5 h-5" />,
       color: 'text-yellow-400',
-      hymns: hymns.filter(h => ['Zeus', 'Hera', 'Poseidon', 'Hades', 'Demeter', 'Hestia'].some(god => h.titulo.includes(god)))
+      hymns: hymns.filter(h => h.categoria === 'Divindades Primordiais')
     },
     {
-      name: 'Elementos Naturais',
+      name: 'Divindades Ctônicas',
+      icon: <Mountain className="w-5 h-5" />,
+      color: 'text-purple-400',
+      hymns: hymns.filter(h => h.categoria === 'Divindades Ctônicas')
+    },
+    {
+      name: 'Elementos Primordiais',
       icon: <Flame className="w-5 h-5" />,
       color: 'text-orange-400',
-      hymns: hymns.filter(h => ['Fogo', 'Água', 'Terra', 'Ar', 'Vento', 'Oceano'].some(element => h.titulo.includes(element)))
+      hymns: hymns.filter(h => h.categoria === 'Elementos Primordiais')
     },
     {
-      name: 'Corpos Celestes',
+      name: 'Divindades Protetoras',
       icon: <Star className="w-5 h-5" />,
       color: 'text-blue-400',
-      hymns: hymns.filter(h => ['Sol', 'Lua', 'Estrelas', 'Aurora', 'Hélio', 'Selene'].some(celestial => h.titulo.includes(celestial)))
-    },
-    {
-      name: 'Virtudes e Conceitos',
-      icon: <Heart className="w-5 h-5" />,
-      color: 'text-pink-400',
-      hymns: hymns.filter(h => ['Justiça', 'Paz', 'Saúde', 'Memória', 'Sono', 'Sonho'].some(virtue => h.titulo.includes(virtue)))
-    },
-    {
-      name: 'Mistérios e Magia',
-      icon: <Eye className="w-5 h-5" />,
-      color: 'text-purple-400',
-      hymns: hymns.filter(h => ['Mistério', 'Magia', 'Hécate', 'Hermes', 'Dioniso'].some(mystery => h.titulo.includes(mystery)))
+      hymns: hymns.filter(h => h.categoria === 'Divindades Protetoras')
     }
   ];
 
   const filteredHymns = hymns.filter(hymn => {
     const matchesSearch = hymn.titulo.toLowerCase().includes(searchTerm.toLowerCase()) ||
-                         hymn.invocacao.toLowerCase().includes(searchTerm.toLowerCase());
+                         hymn.invocacao.toLowerCase().includes(searchTerm.toLowerCase()) ||
+                         hymn.categoria.toLowerCase().includes(searchTerm.toLowerCase());
     
     if (selectedCategory === 'all') return matchesSearch;
     
@@ -133,12 +111,31 @@ const HinosPage: React.FC = () => {
   const getCorrespondenceIcon = (type: string) => {
     switch (type) {
       case 'dia': return <Sun className="w-4 h-4" />;
-      case 'hora': return <Moon className="w-4 h-4" />;
+      case 'hora': return <Clock className="w-4 h-4" />;
       case 'incenso': return <Flame className="w-4 h-4" />;
       case 'cor': return <Sparkles className="w-4 h-4" />;
       case 'metal': return <Mountain className="w-4 h-4" />;
       case 'pedra': return <Star className="w-4 h-4" />;
+      case 'ervas': return <Flower className="w-4 h-4" />;
+      case 'oferendas': return <Heart className="w-4 h-4" />;
+      case 'local': return <MapPin className="w-4 h-4" />;
       default: return <Sparkles className="w-4 h-4" />;
+    }
+  };
+
+  const getCurrentText = () => {
+    if (!selectedHymn) return '';
+    
+    const sectionKey = currentSection as keyof Pick<OrphicHymn, 'invocacao' | 'hino' | 'pedido'>;
+    
+    if (showGreek) {
+      const greekKey = `${currentSection}_grego` as keyof OrphicHymn;
+      return selectedHymn[greekKey] as string;
+    } else if (showPronunciation) {
+      const pronunciaKey = `pronuncia_${currentSection}` as keyof OrphicHymn;
+      return selectedHymn[pronunciaKey] as string;
+    } else {
+      return selectedHymn[sectionKey];
     }
   };
 
@@ -332,7 +329,10 @@ const HinosPage: React.FC = () => {
                   <h2 className="text-2xl font-bold text-aurora-gold">
                     {selectedHymn.numero}. {selectedHymn.titulo}
                   </h2>
-                  <div className="flex items-center space-x-4 mt-2">
+                  <p className="text-aurora-copper text-sm mt-1">
+                    {selectedHymn.titulo_grego} • {selectedHymn.pronuncia_titulo}
+                  </p>
+                  <div className="flex items-center space-x-4 mt-3">
                     <button
                       onClick={() => setIsPlaying(!isPlaying)}
                       className="flex items-center space-x-2 px-3 py-1 bg-aurora-purple/20 rounded-full"
@@ -340,6 +340,29 @@ const HinosPage: React.FC = () => {
                       {isPlaying ? <Pause className="w-4 h-4" /> : <Play className="w-4 h-4" />}
                       <span className="text-sm">{isPlaying ? 'Pausar' : 'Recitar'}</span>
                     </button>
+                    
+                    {/* Controles de Idioma */}
+                    <div className="flex items-center space-x-2">
+                      <button
+                        onClick={() => {setShowGreek(false); setShowPronunciation(false);}}
+                        className={`px-2 py-1 text-xs rounded ${!showGreek && !showPronunciation ? 'bg-aurora-gold/20 text-aurora-gold' : 'bg-aurora-dark-secondary/50 text-aurora-silver'}`}
+                      >
+                        PT
+                      </button>
+                      <button
+                        onClick={() => {setShowGreek(true); setShowPronunciation(false);}}
+                        className={`px-2 py-1 text-xs rounded ${showGreek && !showPronunciation ? 'bg-aurora-gold/20 text-aurora-gold' : 'bg-aurora-dark-secondary/50 text-aurora-silver'}`}
+                      >
+                        ΕΛ
+                      </button>
+                      <button
+                        onClick={() => {setShowGreek(false); setShowPronunciation(true);}}
+                        className={`px-2 py-1 text-xs rounded ${showPronunciation ? 'bg-aurora-gold/20 text-aurora-gold' : 'bg-aurora-dark-secondary/50 text-aurora-silver'}`}
+                      >
+                        <Languages className="w-3 h-3" />
+                      </button>
+                    </div>
+                    
                     <div className="flex items-center space-x-1">
                       <Volume2 className="w-4 h-4 text-aurora-copper" />
                       <span className="text-sm text-aurora-silver">Modo Ritual</span>
@@ -381,18 +404,44 @@ const HinosPage: React.FC = () => {
 
                     {/* Texto da Seção */}
                     <motion.div
-                      key={currentSection}
+                      key={`${currentSection}-${showGreek}-${showPronunciation}`}
                       initial={{ opacity: 0, x: 20 }}
                       animate={{ opacity: 1, x: 0 }}
                       className="bg-aurora-dark-secondary/30 rounded-lg p-6"
                     >
-                      <h3 className="text-aurora-gold font-semibold mb-3 capitalize">
-                        {currentSection === 'invocacao' ? 'Invocação' : 
-                         currentSection === 'hino' ? 'Hino' : 'Pedido'}
-                      </h3>
-                      <div className="text-aurora-silver leading-relaxed whitespace-pre-line">
-                        {selectedHymn[currentSection]}
+                      <div className="flex items-center justify-between mb-3">
+                        <h3 className="text-aurora-gold font-semibold capitalize">
+                          {currentSection === 'invocacao' ? 'Invocação' : 
+                           currentSection === 'hino' ? 'Hino' : 'Pedido'}
+                          {showGreek && ' (Grego Antigo)'}
+                          {showPronunciation && ' (Pronúncia)'}
+                        </h3>
+                        {showPronunciation && (
+                          <div className="text-xs text-aurora-copper">
+                            <Languages className="w-3 h-3 inline mr-1" />
+                            Guia de Pronúncia
+                          </div>
+                        )}
                       </div>
+                      <div className={`leading-relaxed whitespace-pre-line ${
+                        showGreek ? 'text-aurora-gold font-serif text-lg' : 
+                        showPronunciation ? 'text-aurora-copper font-mono' : 
+                        'text-aurora-silver'
+                      }`}>
+                        {getCurrentText()}
+                      </div>
+                      
+                      {/* Guia de Pronúncia */}
+                      {showPronunciation && selectedHymn.pronuncia_guia && (
+                        <div className="mt-4 p-3 bg-aurora-purple/10 rounded border border-aurora-purple/30">
+                          <h4 className="text-aurora-gold text-sm font-semibold mb-2">Dicas de Pronúncia:</h4>
+                          <div className="text-xs text-aurora-silver space-y-1">
+                            <p><strong>Ritmo:</strong> {selectedHymn.pronuncia_guia.ritmo}</p>
+                            <p><strong>Entonação:</strong> {selectedHymn.pronuncia_guia.entonacao}</p>
+                            <p><strong>Dicas:</strong> {selectedHymn.pronuncia_guia.dicas}</p>
+                          </div>
+                        </div>
+                      )}
                     </motion.div>
 
                     {/* Controles de Navegação */}
@@ -403,10 +452,16 @@ const HinosPage: React.FC = () => {
                       >
                         Próxima Seção
                       </button>
+                      <button
+                        onClick={() => setShowRitualContext(!showRitualContext)}
+                        className="px-4 py-2 bg-aurora-gold/20 hover:bg-aurora-gold/40 rounded-lg text-aurora-gold transition-colors"
+                      >
+                        {showRitualContext ? 'Ocultar' : 'Mostrar'} Contexto Ritual
+                      </button>
                     </div>
                   </div>
 
-                  {/* Correspondências Detalhadas */}
+                  {/* Correspondências e Contexto Ritual */}
                   <div className="space-y-4">
                     <h3 className="text-aurora-gold font-semibold text-lg">Correspondências Rituais</h3>
                     
@@ -420,12 +475,48 @@ const HinosPage: React.FC = () => {
                              key === 'incenso' ? 'Incenso' :
                              key === 'cor' ? 'Cor Ritual' :
                              key === 'metal' ? 'Metal' :
-                             key === 'pedra' ? 'Pedra' : key}
+                             key === 'pedra' ? 'Pedra' :
+                             key === 'ervas' ? 'Ervas' :
+                             key === 'oferendas' ? 'Oferendas' :
+                             key === 'local' ? 'Local Ideal' : key}
                           </span>
                         </div>
                         <p className="text-aurora-silver">{value}</p>
                       </div>
                     ))}
+
+                    {/* Contexto Ritual Expandido */}
+                    <AnimatePresence>
+                      {showRitualContext && (
+                        <motion.div
+                          initial={{ height: 0, opacity: 0 }}
+                          animate={{ height: 'auto', opacity: 1 }}
+                          exit={{ height: 0, opacity: 0 }}
+                          className="space-y-4"
+                        >
+                          <h3 className="text-aurora-gold font-semibold text-lg">Contexto Ritualístico</h3>
+                          
+                          {Object.entries(selectedHymn.contexto_ritualistico).map(([key, value]) => (
+                            <div key={key} className="bg-aurora-purple/10 rounded-lg p-4 border border-aurora-purple/30">
+                              <div className="flex items-center space-x-2 mb-2">
+                                <Clock className="w-4 h-4 text-aurora-gold" />
+                                <span className="text-aurora-gold font-medium capitalize">
+                                  {key === 'momento_ideal' ? 'Momento Ideal' :
+                                   key === 'preparacao' ? 'Preparação' :
+                                   key === 'vestimenta' ? 'Vestimenta' :
+                                   key === 'altar' ? 'Altar' :
+                                   key === 'gestual' ? 'Gestual' :
+                                   key === 'respiracao' ? 'Respiração' :
+                                   key === 'visualizacao' ? 'Visualização' :
+                                   key === 'encerramento' ? 'Encerramento' : key}
+                                </span>
+                              </div>
+                              <p className="text-aurora-silver text-sm leading-relaxed">{value}</p>
+                            </div>
+                          ))}
+                        </motion.div>
+                      )}
+                    </AnimatePresence>
 
                     {/* Dica Ritual */}
                     <div className="bg-aurora-purple/10 border border-aurora-purple/30 rounded-lg p-4">
