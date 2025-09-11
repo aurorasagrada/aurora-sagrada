@@ -7,9 +7,50 @@ import React from 'react';
 import { motion } from 'framer-motion';
 
 interface SimpleAstroData {
-  sol: { signo: string; grau: number; interpretacao: string; };
-  lua: { signo: string; grau: number; fase: string; iluminacao: number; interpretacao: string; };
-  planetas: { nome: string; simbolo: string; signo: string; grau: number; retrogrado?: boolean; interpretacao: string; }[];
+  sol: { 
+    signo: string; 
+    grau: number; 
+    interpretacao: string;
+    correspondencias: {
+      ervas: string[];
+      cristais: string[];
+      cores: string[];
+      incensos: string[];
+    };
+    usosFavoraveis: string[];
+    usosDesfavoraveis: string[];
+  };
+  lua: { 
+    signo: string; 
+    grau: number; 
+    fase: string; 
+    iluminacao: number; 
+    interpretacao: string;
+    correspondencias: {
+      ervas: string[];
+      cristais: string[];
+      cores: string[];
+      incensos: string[];
+    };
+    usosFavoraveis: string[];
+    usosDesfavoraveis: string[];
+  };
+  planetas: { 
+    nome: string; 
+    simbolo: string; 
+    signo: string; 
+    grau: number; 
+    retrogrado?: boolean; 
+    interpretacao: string;
+    correspondencias: {
+      ervas: string[];
+      cristais: string[];
+      cores: string[];
+      incensos: string[];
+    };
+    usosFavoraveis: string[];
+    usosDesfavoraveis: string[];
+  }[];
   mansaoLunar: string;
   planetasRetrogrados: string[];
 }
@@ -20,14 +61,54 @@ const NowCard: React.FC = () => {
     sol: { 
       signo: 'Virgem', 
       grau: 18, 
-      interpretacao: 'O Sol em Virgem no segundo decano (10°-20°) ativa as energias de Capricórnio e Saturno, trazendo disciplina meticulosa e perfecionismo construtivo. Este é um período de análise profunda, organização sistemática e refinamento de habilidades práticas. A energia virginiana busca a perfeição através do serviço dedicado e da atenção aos detalhes. É tempo de purificação, tanto física quanto espiritual, onde cada pequeno ajuste contribui para um resultado maior. A influência saturnina deste decano favorece o trabalho árduo, a paciência e a construção de bases sólidas para o futuro. Use este período para organizar sua vida, cuidar da saúde e desenvolver competências técnicas que servirão como ferramentas valiosas em sua jornada.' 
+      interpretacao: 'O Sol em Virgem no segundo decano (10°-20°) ativa as energias de Capricórnio e Saturno, trazendo disciplina meticulosa e perfecionismo construtivo. Este é um período de análise profunda, organização sistemática e refinamento de habilidades práticas. A energia virginiana busca a perfeição através do serviço dedicado e da atenção aos detalhes. É tempo de purificação, tanto física quanto espiritual, onde cada pequeno ajuste contribui para um resultado maior. A influência saturnina deste decano favorece o trabalho árduo, a paciência e a construção de bases sólidas para o futuro. Use este período para organizar sua vida, cuidar da saúde e desenvolver competências técnicas que servirão como ferramentas valiosas em sua jornada.',
+      correspondencias: {
+        ervas: ['Lavanda', 'Erva-cidreira', 'Camomila', 'Alecrim', 'Sálvia', 'Hortelã'],
+        cristais: ['Amazonita', 'Sodalita', 'Fluorita', 'Ágata musgosa', 'Jaspe verde'],
+        cores: ['Verde terra', 'Azul marinho', 'Marrom', 'Bege natural'],
+        incensos: ['Sândalo', 'Cedro', 'Patchouli', 'Vetiver']
+      },
+      usosFavoraveis: [
+        'Organização e limpeza profunda',
+        'Estudos técnicos e análise detalhada',
+        'Cuidados com a saúde e dieta',
+        'Trabalhos de precisão e artesanato',
+        'Rituais de purificação',
+        'Planejamento financeiro'
+      ],
+      usosDesfavoraveis: [
+        'Decisões impulsivas sem análise',
+        'Projetos grandiosos sem base sólida',
+        'Negligenciar detalhes importantes',
+        'Excessos alimentares ou vícios'
+      ]
     },
     lua: { 
       signo: 'Peixes', 
       grau: 23, 
       fase: 'Crescente', 
       iluminacao: 66, 
-      interpretacao: 'A Lua Crescente em Peixes no terceiro decano (20°-30°) desperta as profundezas do inconsciente coletivo e ativa dons psíquicos latentes. Regida por Marte neste decano, esta posição combina a sensibilidade pisciana com uma força interior surpreendente. É um período de intuições poderosas, sonhos proféticos e conexões espirituais intensas. A água de Peixes dissolve as barreiras entre os mundos, permitindo acesso a dimensões superiores de consciência. Esta fase lunar favorece práticas meditativas, trabalhos de cura energética e rituais de purificação emocional. A crescente iluminação lunar (66%) amplifica a capacidade de manifestação através da visualização criativa e da fé inabalável. Confie em sua intuição, pois ela está especialmente aguçada neste momento.' 
+      interpretacao: 'A Lua Crescente em Peixes no terceiro decano (20°-30°) desperta as profundezas do inconsciente coletivo e ativa dons psíquicos latentes. Regida por Marte neste decano, esta posição combina a sensibilidade pisciana com uma força interior surpreendente. É um período de intuições poderosas, sonhos proféticos e conexões espirituais intensas. A água de Peixes dissolve as barreiras entre os mundos, permitindo acesso a dimensões superiores de consciência. Esta fase lunar favorece práticas meditativas, trabalhos de cura energética e rituais de purificação emocional. A crescente iluminação lunar (66%) amplifica a capacidade de manifestação através da visualização criativa e da fé inabalável. Confie em sua intuição, pois ela está especialmente aguçada neste momento.',
+      correspondencias: {
+        ervas: ['Jasmim', 'Lótus', 'Mirra', 'Eucalipto', 'Violeta', 'Lírio'],
+        cristais: ['Ametista', 'Pedra da lua', 'Aquamarina', 'Fluorita roxa', 'Labradorita'],
+        cores: ['Azul oceano', 'Violeta', 'Prata', 'Verde água', 'Branco pérola'],
+        incensos: ['Sândalo branco', 'Jasmim', 'Mirra', 'Copal', 'Benjoim']
+      },
+      usosFavoraveis: [
+        'Meditação e práticas espirituais',
+        'Trabalhos de cura energética',
+        'Desenvolvimento da intuição',
+        'Rituais de purificação emocional',
+        'Arte e expressão criativa',
+        'Sonhos lúcidos e divinação'
+      ],
+      usosDesfavoraveis: [
+        'Decisões baseadas apenas na lógica',
+        'Ignorar sinais intuitivos',
+        'Ambientes muito racionais ou frios',
+        'Críticas excessivas ou julgamentos'
+      ]
     },
     planetas: [
       { 
@@ -36,7 +117,27 @@ const NowCard: React.FC = () => {
         signo: 'Libra', 
         grau: 5, 
         retrogrado: false,
-        interpretacao: 'Mercúrio em Libra no primeiro decano (0°-10°) harmoniza a mente com os princípios de justiça, beleza e equilíbrio. Regido por Vênus neste decano, o planeta da comunicação adquire refinamento estético e diplomacia natural. Este posicionamento favorece negociações elegantes, contratos justos e comunicações que buscam a harmonia entre as partes. A mente mercurial em Libra pesa cuidadosamente todas as opções antes de decidir, buscando sempre o ponto de equilíbrio perfeito. É um período excelente para mediações, trabalhos artísticos que envolvem comunicação, e para desenvolver relacionamentos baseados em compreensão mútua e respeito intelectual.'
+        interpretacao: 'Mercúrio em Libra no primeiro decano (0°-10°) harmoniza a mente com os princípios de justiça, beleza e equilíbrio. Regido por Vênus neste decano, o planeta da comunicação adquire refinamento estético e diplomacia natural. Este posicionamento favorece negociações elegantes, contratos justos e comunicações que buscam a harmonia entre as partes. A mente mercurial em Libra pesa cuidadosamente todas as opções antes de decidir, buscando sempre o ponto de equilíbrio perfeito. É um período excelente para mediações, trabalhos artísticos que envolvem comunicação, e para desenvolver relacionamentos baseados em compreensão mútua e respeito intelectual.',
+        correspondencias: {
+          ervas: ['Lavanda', 'Erva-doce', 'Menta', 'Eucalipto', 'Tomilho', 'Manjericão'],
+          cristais: ['Citrino', 'Ágata', 'Topázio', 'Calcita amarela', 'Fluorita'],
+          cores: ['Amarelo claro', 'Laranja suave', 'Verde menta', 'Azul claro'],
+          incensos: ['Lavanda', 'Erva-doce', 'Menta', 'Eucalipto']
+        },
+        usosFavoraveis: [
+          'Negociações e contratos',
+          'Estudos e aprendizado',
+          'Comunicação diplomática',
+          'Viagens e deslocamentos',
+          'Trabalhos intelectuais',
+          'Mediação de conflitos'
+        ],
+        usosDesfavoraveis: [
+          'Decisões precipitadas',
+          'Comunicação agressiva',
+          'Ignorar diferentes perspectivas',
+          'Documentos mal elaborados'
+        ]
       },
       { 
         nome: 'Vênus', 
@@ -44,7 +145,27 @@ const NowCard: React.FC = () => {
         signo: 'Escorpião', 
         grau: 12, 
         retrogrado: false,
-        interpretacao: 'Vênus em Escorpião no segundo decano (10°-20°) mergulha nas profundezas da paixão transformadora. Sob a regência de Netuno neste decano, o amor venusiano transcende o físico e alcança dimensões místicas e espirituais. Esta posição intensifica todos os relacionamentos, trazendo à tona verdades ocultas e promovendo transformações profundas através do amor. A beleza escorpiana não é superficial, mas sim magnética e hipnótica, capaz de curar ou destruir. É um período de regeneração emocional, onde relacionamentos superficiais são eliminados e conexões autênticas são fortalecidas. O poder de atração está no auge, mas deve ser usado com sabedoria e responsabilidade.'
+        interpretacao: 'Vênus em Escorpião no segundo decano (10°-20°) mergulha nas profundezas da paixão transformadora. Sob a regência de Netuno neste decano, o amor venusiano transcende o físico e alcança dimensões místicas e espirituais. Esta posição intensifica todos os relacionamentos, trazendo à tona verdades ocultas e promovendo transformações profundas através do amor. A beleza escorpiana não é superficial, mas sim magnética e hipnótica, capaz de curar ou destruir. É um período de regeneração emocional, onde relacionamentos superficiais são eliminados e conexões autênticas são fortalecidas. O poder de atração está no auge, mas deve ser usado com sabedoria e responsabilidade.',
+        correspondencias: {
+          ervas: ['Rosa vermelha', 'Jasmim', 'Ylang-ylang', 'Patchouli', 'Damiana', 'Hibisco'],
+          cristais: ['Quartzo rosa', 'Esmeralda', 'Rodocrosita', 'Turmalina rosa', 'Jade verde'],
+          cores: ['Rosa profundo', 'Verde esmeralda', 'Vermelho bordô', 'Dourado suave'],
+          incensos: ['Rosa', 'Jasmim', 'Ylang-ylang', 'Sândalo rosa']
+        },
+        usosFavoraveis: [
+          'Rituais de amor e relacionamentos',
+          'Trabalhos de beleza e estética',
+          'Arte e expressão criativa',
+          'Harmonização de ambientes',
+          'Cura emocional e do coração',
+          'Atração e magnetismo pessoal'
+        ],
+        usosDesfavoraveis: [
+          'Manipulação emocional',
+          'Relacionamentos superficiais',
+          'Vaidade excessiva',
+          'Gastos impulsivos com luxo'
+        ]
       },
       { 
         nome: 'Marte', 
@@ -157,9 +278,31 @@ const NowCard: React.FC = () => {
                 </div>
                 <span className="text-aurora-copper text-xs ml-auto">Dignidade</span>
               </div>
-              <p className="text-aurora-copper text-base italic leading-relaxed">
+              <p className="text-aurora-copper text-base italic leading-relaxed mb-3">
                 {astroData.sol.interpretacao}
               </p>
+              
+              {/* Correspondências do Sol */}
+              <div className="space-y-2 border-t border-aurora-gold/20 pt-3">
+                <div className="grid grid-cols-2 gap-2 text-xs">
+                  <div>
+                    <span className="text-aurora-gold font-semibold">Ervas:</span>
+                    <p className="text-aurora-silver">{astroData.sol.correspondencias.ervas.slice(0, 3).join(', ')}</p>
+                  </div>
+                  <div>
+                    <span className="text-aurora-gold font-semibold">Cristais:</span>
+                    <p className="text-aurora-silver">{astroData.sol.correspondencias.cristais.slice(0, 3).join(', ')}</p>
+                  </div>
+                </div>
+                <div>
+                  <span className="text-aurora-gold font-semibold text-xs">Favorável:</span>
+                  <p className="text-aurora-silver text-xs">{astroData.sol.usosFavoraveis.slice(0, 3).join(' • ')}</p>
+                </div>
+                <div>
+                  <span className="text-aurora-copper font-semibold text-xs">Evitar:</span>
+                  <p className="text-aurora-copper text-xs">{astroData.sol.usosDesfavoraveis.slice(0, 2).join(' • ')}</p>
+                </div>
+              </div>
             </div>
 
             <div className="p-4 bg-aurora-dark-primary/50 rounded-lg border border-aurora-silver/30">
@@ -176,9 +319,31 @@ const NowCard: React.FC = () => {
                   <p className="text-aurora-copper text-xs">{astroData.lua.iluminacao}%</p>
                 </div>
               </div>
-              <p className="text-aurora-copper text-base italic leading-relaxed">
+              <p className="text-aurora-copper text-base italic leading-relaxed mb-3">
                 {astroData.lua.interpretacao}
               </p>
+              
+              {/* Correspondências da Lua */}
+              <div className="space-y-2 border-t border-aurora-silver/20 pt-3">
+                <div className="grid grid-cols-2 gap-2 text-xs">
+                  <div>
+                    <span className="text-aurora-silver font-semibold">Ervas:</span>
+                    <p className="text-aurora-silver">{astroData.lua.correspondencias.ervas.slice(0, 3).join(', ')}</p>
+                  </div>
+                  <div>
+                    <span className="text-aurora-silver font-semibold">Cristais:</span>
+                    <p className="text-aurora-silver">{astroData.lua.correspondencias.cristais.slice(0, 3).join(', ')}</p>
+                  </div>
+                </div>
+                <div>
+                  <span className="text-aurora-silver font-semibold text-xs">Favorável:</span>
+                  <p className="text-aurora-silver text-xs">{astroData.lua.usosFavoraveis.slice(0, 3).join(' • ')}</p>
+                </div>
+                <div>
+                  <span className="text-aurora-copper font-semibold text-xs">Evitar:</span>
+                  <p className="text-aurora-copper text-xs">{astroData.lua.usosDesfavoraveis.slice(0, 2).join(' • ')}</p>
+                </div>
+              </div>
             </div>
           </div>
 
@@ -198,9 +363,29 @@ const NowCard: React.FC = () => {
                       </p>
                     </div>
                   </div>
-                  <p className="text-aurora-copper text-base italic leading-relaxed">
+                  <p className="text-aurora-copper text-base italic leading-relaxed mb-3">
                     {planeta.interpretacao}
                   </p>
+                  
+                  {/* Correspondências dos Planetas (apenas para Mercúrio e Vênus que têm dados) */}
+                  {planeta.correspondencias && (
+                    <div className="space-y-2 border-t border-aurora-gold/20 pt-3">
+                      <div className="grid grid-cols-2 gap-2 text-xs">
+                        <div>
+                          <span className="text-aurora-gold font-semibold">Ervas:</span>
+                          <p className="text-aurora-silver">{planeta.correspondencias.ervas.slice(0, 2).join(', ')}</p>
+                        </div>
+                        <div>
+                          <span className="text-aurora-gold font-semibold">Cristais:</span>
+                          <p className="text-aurora-silver">{planeta.correspondencias.cristais.slice(0, 2).join(', ')}</p>
+                        </div>
+                      </div>
+                      <div>
+                        <span className="text-aurora-gold font-semibold text-xs">Favorável:</span>
+                        <p className="text-aurora-silver text-xs">{planeta.usosFavoraveis.slice(0, 2).join(' • ')}</p>
+                      </div>
+                    </div>
+                  )}
                 </div>
               ))}
             </div>
