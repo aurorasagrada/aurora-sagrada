@@ -17,8 +17,8 @@ import { Calendar, BookOpen, Sparkles, Settings, Sun, Moon } from 'lucide-react'
 import RitualPage from './pages/RitualPage';
 import CalendarioPage from './pages/CalendarioPage';
 import EstudoPage from './pages/EstudoPage';
-import OrphicHymns from './components/OrphicHymns';
-import ZodiacalMagic from './components/ZodiacalMagic';
+import HinosPage from './pages/HinosPage';
+import ZodiacalPage from './pages/ZodiacalPage';
 
 type AppMode = 'ritual' | 'calendario' | 'estudo' | 'hinos' | 'zodiacal';
 
@@ -77,9 +77,9 @@ function App() {
       case 'estudo':
         return <EstudoPage />;
       case 'hinos':
-        return <OrphicHymns />;
+        return <HinosPage />;
       case 'zodiacal':
-        return <ZodiacalMagic />;
+        return <ZodiacalPage />;
       default:
         return <RitualPage density={density} />;
     }
