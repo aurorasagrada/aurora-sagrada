@@ -3,7 +3,7 @@ import { motion } from 'framer-motion';
 import { Filter, Calendar, Globe } from 'lucide-react';
 
 // Componentes
-import CalendarioSimples from '../components/CalendarioSimples';
+import CalendarioFuncional from '../components/CalendarioFuncional';
 
 interface CalendarioPageProps {
   hemisphere: 'norte' | 'sul';
@@ -30,10 +30,7 @@ export default function CalendarioPage({ hemisphere }: CalendarioPageProps) {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.5 }}
         >
-          <CalendarioSimples 
-            hemisphere={hemisphere}
-            compactMode={false}
-          />
+          <CalendarioFuncional />
         </motion.div>
       </div>
     </div>

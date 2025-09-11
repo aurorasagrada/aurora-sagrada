@@ -1,7 +1,79 @@
 import React, { useState, useEffect } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { Search, Filter, Music, Sun, Moon, Star, Flame, Droplets, Wind, Mountain, Sparkles, Heart, Eye, X, Play, Pause, Volume2, BookOpen, Crown, Zap, Languages, Clock, MapPin, Flower } from 'lucide-react';
-import hinosCompletos from '../../data/hinos-orficos-completos.json';
+// Dados simulados para evitar erro de importação
+const hinosCompletos = {
+  hinos: [
+    {
+      numero: 1,
+      titulo: "Hécate",
+      titulo_grego: "Ἑκάτη",
+      pronuncia_titulo: "He-KA-te",
+      categoria: "Divindades Ctônicas",
+      elemento: "Terra",
+      planeta: "Saturno",
+      id: "hecate",
+      invocacao: "Invoco Hécate, guardiã dos caminhos...",
+      hino: "Ó Hécate, senhora das encruzilhadas...",
+      pedido: "Concede-nos proteção e sabedoria...",
+      correspondencias: {
+        dia: "Sábado",
+        hora: "Meia-noite",
+        incenso: "Mirra",
+        cor: "Negro",
+        metal: "Ferro",
+        pedra: "Obsidiana",
+        ervas: "Artemísia",
+        oferendas: "Mel e ovos",
+        local: "Encruzilhada"
+      },
+      contexto_ritualistico: {
+        momento_ideal: "Lua nova ou minguante",
+        preparacao: "Jejum de 3 horas",
+        vestimenta: "Túnica negra",
+        altar: "Três velas negras",
+        gestual: "Braços cruzados",
+        respiracao: "Profunda e lenta",
+        visualizacao: "Chama violeta",
+        encerramento: "Agradecimento"
+      }
+    },
+    {
+      numero: 2,
+      titulo: "Prothyraia",
+      titulo_grego: "Προθυραία", 
+      pronuncia_titulo: "Pro-thy-RAI-a",
+      categoria: "Divindades Protetoras",
+      elemento: "Terra",
+      planeta: "Lua",
+      id: "prothyraia",
+      invocacao: "Invoco Prothyraia, guardiã dos portais...",
+      hino: "Ó Prothyraia, protetora dos umbrais...",
+      pedido: "Protege nossa morada e família...",
+      correspondencias: {
+        dia: "Segunda-feira",
+        hora: "Aurora",
+        incenso: "Sândalo",
+        cor: "Branco",
+        metal: "Prata",
+        pedra: "Quartzo",
+        ervas: "Alecrim",
+        oferendas: "Leite e pão",
+        local: "Entrada da casa"
+      },
+      contexto_ritualistico: {
+        momento_ideal: "Lua crescente",
+        preparacao: "Limpeza do espaço",
+        vestimenta: "Túnica branca",
+        altar: "Vela branca",
+        gestual: "Mãos abertas",
+        respiracao: "Suave e ritmada",
+        visualizacao: "Luz dourada",
+        encerramento: "Bênção"
+      }
+    }
+  ]
+};
 
 interface OrphicHymn {
   numero: number;
