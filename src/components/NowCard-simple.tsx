@@ -15,10 +15,20 @@ interface SimpleAstroData {
 }
 
 const NowCard: React.FC = () => {
-  // Dados simplificados para demonstração
+  // Dados simplificados para demonstração com interpretações expandidas da base de dados
   const astroData: SimpleAstroData = {
-    sol: { signo: 'Virgem', grau: 18, interpretacao: 'Foco na organização e perfeição. Tempo de análise detalhada e melhoria pessoal.' },
-    lua: { signo: 'Peixes', grau: 23, fase: 'Crescente', iluminacao: 66, interpretacao: 'Intuição elevada e sensibilidade emocional. Conexão com o inconsciente.' },
+    sol: { 
+      signo: 'Virgem', 
+      grau: 18, 
+      interpretacao: 'O Sol em Virgem no segundo decano (10°-20°) ativa as energias de Capricórnio e Saturno, trazendo disciplina meticulosa e perfecionismo construtivo. Este é um período de análise profunda, organização sistemática e refinamento de habilidades práticas. A energia virginiana busca a perfeição através do serviço dedicado e da atenção aos detalhes. É tempo de purificação, tanto física quanto espiritual, onde cada pequeno ajuste contribui para um resultado maior. A influência saturnina deste decano favorece o trabalho árduo, a paciência e a construção de bases sólidas para o futuro. Use este período para organizar sua vida, cuidar da saúde e desenvolver competências técnicas que servirão como ferramentas valiosas em sua jornada.' 
+    },
+    lua: { 
+      signo: 'Peixes', 
+      grau: 23, 
+      fase: 'Crescente', 
+      iluminacao: 66, 
+      interpretacao: 'A Lua Crescente em Peixes no terceiro decano (20°-30°) desperta as profundezas do inconsciente coletivo e ativa dons psíquicos latentes. Regida por Marte neste decano, esta posição combina a sensibilidade pisciana com uma força interior surpreendente. É um período de intuições poderosas, sonhos proféticos e conexões espirituais intensas. A água de Peixes dissolve as barreiras entre os mundos, permitindo acesso a dimensões superiores de consciência. Esta fase lunar favorece práticas meditativas, trabalhos de cura energética e rituais de purificação emocional. A crescente iluminação lunar (66%) amplifica a capacidade de manifestação através da visualização criativa e da fé inabalável. Confie em sua intuição, pois ela está especialmente aguçada neste momento.' 
+    },
     planetas: [
       { 
         nome: 'Mercúrio', 
@@ -26,7 +36,7 @@ const NowCard: React.FC = () => {
         signo: 'Libra', 
         grau: 5, 
         retrogrado: false,
-        interpretacao: 'Comunicação equilibrada e diplomática. Bom momento para negociações.'
+        interpretacao: 'Mercúrio em Libra no primeiro decano (0°-10°) harmoniza a mente com os princípios de justiça, beleza e equilíbrio. Regido por Vênus neste decano, o planeta da comunicação adquire refinamento estético e diplomacia natural. Este posicionamento favorece negociações elegantes, contratos justos e comunicações que buscam a harmonia entre as partes. A mente mercurial em Libra pesa cuidadosamente todas as opções antes de decidir, buscando sempre o ponto de equilíbrio perfeito. É um período excelente para mediações, trabalhos artísticos que envolvem comunicação, e para desenvolver relacionamentos baseados em compreensão mútua e respeito intelectual.'
       },
       { 
         nome: 'Vênus', 
@@ -34,7 +44,7 @@ const NowCard: React.FC = () => {
         signo: 'Escorpião', 
         grau: 12, 
         retrogrado: false,
-        interpretacao: 'Amor intenso e transformador. Relacionamentos profundos em foco.'
+        interpretacao: 'Vênus em Escorpião no segundo decano (10°-20°) mergulha nas profundezas da paixão transformadora. Sob a regência de Netuno neste decano, o amor venusiano transcende o físico e alcança dimensões místicas e espirituais. Esta posição intensifica todos os relacionamentos, trazendo à tona verdades ocultas e promovendo transformações profundas através do amor. A beleza escorpiana não é superficial, mas sim magnética e hipnótica, capaz de curar ou destruir. É um período de regeneração emocional, onde relacionamentos superficiais são eliminados e conexões autênticas são fortalecidas. O poder de atração está no auge, mas deve ser usado com sabedoria e responsabilidade.'
       },
       { 
         nome: 'Marte', 
@@ -42,7 +52,7 @@ const NowCard: React.FC = () => {
         signo: 'Câncer', 
         grau: 28, 
         retrogrado: false,
-        interpretacao: 'Ação emocional e protetiva. Energia direcionada ao lar e família.'
+        interpretacao: 'Marte em Câncer no terceiro decano (20°-30°) canaliza a energia guerreira através da proteção emocional e do cuidado familiar. Regido por Júpiter neste decano, a ação marcial se expande em generosidade protetiva e defesa dos vulneráveis. Esta posição transforma a agressividade em nutrição ativa, onde a força é usada para criar segurança e estabilidade emocional. O guerreiro canceriano luta pelo lar, pela família e pelas tradições ancestrais. É um período onde a intuição guia a ação, e onde a sensibilidade emocional se torna uma força poderosa para a transformação positiva do ambiente doméstico e das relações íntimas.'
       },
       { 
         nome: 'Júpiter', 
@@ -50,7 +60,7 @@ const NowCard: React.FC = () => {
         signo: 'Gêmeos', 
         grau: 15, 
         retrogrado: false,
-        interpretacao: 'Expansão através do conhecimento. Oportunidades em comunicação.'
+        interpretacao: 'Júpiter em Gêmeos no segundo decano (10°-20°) expande a mente através da diversidade de conhecimentos e experiências. Sob a regência de Vênus neste decano, a sabedoria jupiteriana se manifesta através da comunicação harmoniosa e do ensino inspirador. Este posicionamento favorece o aprendizado múltiplo, a curiosidade intelectual e a capacidade de conectar ideias aparentemente díspares em sínteses brilhantes. É um período de crescimento através da educação, viagens mentais e intercâmbios culturais. A expansão jupiteriana em Gêmeos democratiza o conhecimento, tornando a sabedoria acessível através de múltiplos canais de comunicação e formas criativas de expressão.'
       },
       { 
         nome: 'Saturno', 
@@ -58,7 +68,7 @@ const NowCard: React.FC = () => {
         signo: 'Peixes', 
         grau: 19, 
         retrogrado: false,
-        interpretacao: 'Disciplina espiritual. Estruturação de práticas místicas.'
+        interpretacao: 'Saturno em Peixes no segundo decano (10°-20°) estrutura a espiritualidade através da disciplina compassiva e da sabedoria emocional madura. Regido pela Lua neste decano, o planeta da responsabilidade aprende a trabalhar com as marés emocionais e os ciclos naturais da alma. Esta posição ensina que a verdadeira força vem da vulnerabilidade consciente e da capacidade de estabelecer limites saudáveis sem perder a sensibilidade. É um período de maturação espiritual, onde antigas feridas emocionais são curadas através da aceitação e do perdão. A disciplina saturnina em Peixes se manifesta através de práticas espirituais regulares e do desenvolvimento da compaixão estruturada.'
       },
       { 
         nome: 'Urano', 
@@ -66,7 +76,7 @@ const NowCard: React.FC = () => {
         signo: 'Touro', 
         grau: 27, 
         retrogrado: true,
-        interpretacao: 'Revisão de valores materiais. Mudanças financeiras inesperadas.'
+        interpretacao: 'Urano Retrógrado em Touro no terceiro decano (20°-30°) promove uma revolução interior nos valores materiais e na relação com a segurança física. Sob a regência de Saturno neste decano, as mudanças uranianas são estruturadas e duradouras, não apenas disruptivas. O movimento retrógrado intensifica a necessidade de reavaliar completamente o que consideramos valioso e estável. É um período de libertação gradual de padrões materiais obsoletos e de descoberta de novas formas de segurança baseadas na autenticidade pessoal. A revolução taurina é lenta mas profunda, transformando fundamentalmente nossa relação com o mundo físico e os recursos naturais.'
       },
       { 
         nome: 'Netuno', 
@@ -74,7 +84,7 @@ const NowCard: React.FC = () => {
         signo: 'Peixes', 
         grau: 29, 
         retrogrado: false,
-        interpretacao: 'Intuição elevada. Conexão espiritual intensificada.'
+        interpretacao: 'Netuno em Peixes no terceiro decano (20°-30°) atinge o ápice de sua expressão espiritual, dissolvendo completamente as barreiras entre o eu e o cosmos. Regido por Marte neste decano, a transcendência neptuniana ganha força ativa e capacidade de manifestação no mundo físico. Esta posição representa o místico guerreiro, aquele que luta pela elevação da consciência coletiva através da compaixão universal. É um período de revelações espirituais profundas, onde a intuição se torna uma força transformadora capaz de curar não apenas o indivíduo, mas toda a humanidade. A proximidade do final do signo intensifica a urgência da missão espiritual.'
       },
       { 
         nome: 'Plutão', 
@@ -82,7 +92,7 @@ const NowCard: React.FC = () => {
         signo: 'Aquário', 
         grau: 1, 
         retrogrado: false,
-        interpretacao: 'Transformação coletiva. Renovação de ideais humanitários.'
+        interpretacao: 'Plutão em Aquário no primeiro decano (0°-10°) inicia uma era de transformação coletiva através da revolução tecnológica e da renovação dos ideais humanitários. Regido por Urano neste decano, o poder plutoniano se manifesta através de mudanças súbitas e inovações que transformam fundamentalmente a estrutura social. Esta posição marca o início de uma nova era onde a tecnologia serve à evolução espiritual da humanidade. É um período de morte e renascimento dos sistemas coletivos, onde antigas hierarquias são dissolvidas para dar lugar a redes horizontais de cooperação. A transformação aquariana é democrática e inclusiva, buscando o bem comum através da inovação consciente.'
       }
     ],
     mansaoLunar: 'Al-Sharatain',
@@ -147,7 +157,7 @@ const NowCard: React.FC = () => {
                 </div>
                 <span className="text-aurora-copper text-xs ml-auto">Dignidade</span>
               </div>
-              <p className="text-aurora-copper text-sm italic leading-relaxed">
+              <p className="text-aurora-copper text-base italic leading-relaxed">
                 {astroData.sol.interpretacao}
               </p>
             </div>
@@ -166,7 +176,7 @@ const NowCard: React.FC = () => {
                   <p className="text-aurora-copper text-xs">{astroData.lua.iluminacao}%</p>
                 </div>
               </div>
-              <p className="text-aurora-copper text-sm italic leading-relaxed">
+              <p className="text-aurora-copper text-base italic leading-relaxed">
                 {astroData.lua.interpretacao}
               </p>
             </div>
@@ -188,7 +198,7 @@ const NowCard: React.FC = () => {
                       </p>
                     </div>
                   </div>
-                  <p className="text-aurora-copper text-sm italic leading-relaxed">
+                  <p className="text-aurora-copper text-base italic leading-relaxed">
                     {planeta.interpretacao}
                   </p>
                 </div>
