@@ -8,6 +8,8 @@ import ElectionChips from '../components/ElectionChips';
 import TransitBoard from '../components/TransitBoard';
 import LunarSection from '../components/LunarSection';
 import DeusaDoDia from '../components/DeusaDoDia';
+import AspectosHoje from '../components/AspectosHoje';
+import ProximosEsbats from '../components/ProximosEsbats';
 import { InterpretacaoTransitos } from '../components/InterpretacaoTransitos';
 
 interface RitualPageProps {
@@ -122,11 +124,22 @@ export default function RitualPage({ density }: RitualPageProps) {
         )}
         */}
 
-        {/* Linha 4: LunarSection */}
+        {/* Linha 4: Aspectos de Hoje */}
+        {!essentialMode && (
+          <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.5, delay: 0.3 }}
+          >
+            <AspectosHoje />
+          </motion.div>
+        )}
+
+        {/* Linha 5: LunarSection */}
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.5, delay: 0.3 }}
+          transition={{ duration: 0.5, delay: 0.35 }}
         >
           <LunarSection 
             mode={essentialMode ? 'summary' : 'detailed'}
@@ -134,11 +147,22 @@ export default function RitualPage({ density }: RitualPageProps) {
           />
         </motion.div>
 
+        {/* Linha 6: Próximos Esbats */}
+        {!essentialMode && (
+          <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.5, delay: 0.4 }}
+          >
+            <ProximosEsbats />
+          </motion.div>
+        )}
+
         {/* Rodapé: Deusa do Dia */}
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.5, delay: 0.4 }}
+          transition={{ duration: 0.5, delay: 0.45 }}
         >
           <DeusaDoDia 
             showCorrespondences={!essentialMode}
