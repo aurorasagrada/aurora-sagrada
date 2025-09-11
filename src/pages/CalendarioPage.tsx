@@ -3,7 +3,7 @@ import { motion } from 'framer-motion';
 import { Filter, Calendar, Globe } from 'lucide-react';
 
 // Componentes
-import CalendarioCompleto from '../components/CalendarioCompleto';
+import CalendarioSimples from '../components/CalendarioSimples';
 
 interface CalendarioPageProps {
   hemisphere: 'norte' | 'sul';
@@ -15,7 +15,7 @@ export default function CalendarioPage({ hemisphere }: CalendarioPageProps) {
       {/* Header */}
       <div className="flex items-center justify-between mb-6">
         <div className="flex items-center space-x-4">
-          <h2 className="aurora-title text-2xl">Calendário Astromágico Completo</h2>
+          <h2 className="aurora-title text-2xl">Calendário Astromágico</h2>
           <div className="flex items-center space-x-2 text-sm aurora-text-muted">
             <Globe className="w-4 h-4" />
             <span>Hemisfério {hemisphere === 'norte' ? 'Norte' : 'Sul'}</span>
@@ -30,7 +30,7 @@ export default function CalendarioPage({ hemisphere }: CalendarioPageProps) {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.5 }}
         >
-          <CalendarioCompleto 
+          <CalendarioSimples 
             hemisphere={hemisphere}
             compactMode={false}
           />

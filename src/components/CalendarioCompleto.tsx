@@ -329,15 +329,73 @@ const CalendarioCompleto: React.FC<CalendarioCompletoProps> = ({ hemisphere, com
       const firstDayOfMonth = new Date(year, month, 1);
       const startingDayOfWeek = firstDayOfMonth.getDay();
 
-      const days: DayCompleteData[] = [];
-
+      // Primeiro, criar estrutura básica das datas para exibição imediata
+      const basicDays: DayCompleteData[] = [];
+      
       for (let day = 1; day <= daysInMonth; day++) {
         const date = new Date(year, month, day);
-        const dayData = await generateDayData(date);
-        days.push(dayData);
+        const dayOfYear = Math.floor((date.getTime() - new Date(date.getFullYear(), 0, 0).getTime()) / (1000 * 60 * 60 * 24));
+        
+        // Dados básicos para exibição imediata
+        const runaIndex = dayOfYear % RUNAS.length;
+        const runa = RUNAS[runaIndex];
+        
+        const basicDayData: DayCompleteData = {
+          date,
+          dayNumber: day,
+          lunarPhase: 'nova',
+          lunarMansion: 1,
+          lunarMansionData: { nome: 'Carregando...' },
+          electionScores: {
+            amor: 50,
+            trabalho: 50,
+            beleza: 50,
+            prosperidade: 50,
+            justica: 50,
+            contato: 50
+          },
+          mantra: 'Om Mani Padme Hum',
+          runa,
+          tarot: TAROT_ARCANOS[dayOfYear % TAROT_ARCANOS.length],
+          ervas: ['Sálvia', 'Alecrim'],
+          cristais: ['Quartzo', 'Ametista'],
+          cores: ['Branco', 'Dourado'],
+          incensos: ['Sândalo', 'Mirra'],
+          elementos: [runa.elemento],
+          planetasEmDestaque: ['Sol', 'Lua'],
+          aspectosImportantes: ['Configuração harmoniosa'],
+          transitosAtivos: ['Energia favorável'],
+          retrogradacoes: [],
+          favoravel: ['Meditação', 'Reflexão'],
+          desfavoravel: ['Decisões impulsivas'],
+          ritualRecomendado: 'Ritual de harmonização',
+          voidOfCourse: false,
+          eclipse: false,
+          esbat: false
+        };
+        
+        basicDays.push(basicDayData);
       }
 
-      setCalendarData({ days, startingDayOfWeek });
+      // Definir dados básicos imediatamente
+      setCalendarData({ days: basicDays, startingDayOfWeek });
+
+      // Depois, calcular dados completos em segundo plano
+      const completeDays: DayCompleteData[] = [];
+      
+      for (let day = 1; day <= daysInMonth; day++) {
+        const date = new Date(year, month, day);
+        try {
+          const dayData = await generateDayData(date);
+          completeDays.push(dayData);
+        } catch (error) {
+          console.warn(`Erro ao gerar dados para ${day}/${month + 1}:`, error);
+          completeDays.push(basicDays[day - 1]); // Usar dados básicos como fallback
+        }
+      }
+
+      // Atualizar com dados completos
+      setCalendarData({ days: completeDays, startingDayOfWeek });
     };
 
     generateCalendarData();
